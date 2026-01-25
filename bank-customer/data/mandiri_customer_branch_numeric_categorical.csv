@@ -1,0 +1,121 @@
+Customer_ID,Customer_Name,Gender,Customer_Segment,Account_Type,Account_Balance,Branch_ID,Branch_Name,Branch_Type,Province,City,Relationship_Manager
+CUST0001,Nasabah 1,M,Priority,Tabungan Mandiri,-1000000,BR018,KCP Mandiri Bandung,Retail,Jawa Barat,Bandung,RM 10
+CUST0002,Nasabah 2,F,Mass Affluent,Tabungan Mandiri,151181041,BR006,KCP Mandiri Surabaya,Retail,Jawa Timur,Surabaya,RM 4
+CUST0003,Nasabah 3,F,Mass,Tabungan Mandiri,-1000000,BR003,KCP Mandiri Surabaya,Retail,Jawa Timur,Surabaya,RM 10
+CUST0004,Nasabah 4,M,Priority,Tabungan Mandiri,1200000000,BR015,KCP Mandiri Surabaya,Retail,Jawa Timur,Surabaya,RM 5
+CUST0005,Nasabah 5,M,Mass,Tabungan Mandiri,1200000000,BR019,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 4
+CUST0006,Nasabah 6,M,Priority,Tabungan Mandiri,-1000000,BR008,KCP Mandiri Surabaya,Retail,Jawa Timur,Surabaya,RM 11
+CUST0007,Nasabah 7,F,mass,Tabungan Mandiri,1200000000,BR012,KCP Mandiri Surabaya,Retail,Jawa Timur,Surabaya,RM 11
+CUST0008,Nasabah 8,M,mass,Tabungan Mandiri,-1000000,BR020,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 7
+CUST0009,Nasabah 9,M,mass,Tabungan Mandiri,-1000000,BR011,KCP Mandiri Surabaya,Retail,Jawa Timur,Surabaya,RM 7
+CUST0010,Nasabah 10,F,mass,Tabungan Mandiri,-1000000,BR007,KCP Mandiri Surabaya,Retail,Jawa Timur,Surabaya,RM 11
+CUST0011,Nasabah 11,M,mass,Tabungan Mandiri,-1000000,BR009,KCP Mandiri Semarang,Retail,Jawa Tengah,Semarang,RM 12
+CUST0012,Nasabah 12,F,Mass Affluent,Tabungan Mandiri,119746935,BR019,KCP Mandiri Medan,Retail,Sumut,Medan,RM 9
+CUST0013,Nasabah 13,M,mass,Tabungan Mandiri,1200000000,BR002,KCP Mandiri Semarang,Retail,Jawa Tengah,Semarang,RM 7
+CUST0014,Nasabah 14,F,Priority,Tabungan Mandiri,-1000000,BR013,KCP Mandiri Medan,Retail,Sumatera Utara,Medan,RM 9
+CUST0015,Nasabah 15,F,Mass Affluent,Tabungan Mandiri,-1000000,BR018,KCP Mandiri Jakarta Selatan,Retail,DKI Jakarta,Jakarta Selatan,RM 7
+CUST0016,Nasabah 16,F,mass,Tabungan Mandiri,274559523,BR001,KCP Mandiri Bandung,Retail,Jabar,Bandung,RM 11
+CUST0017,Nasabah 17,F,mass,Tabungan Mandiri,1200000000,BR005,KCP Mandiri Surabaya,Retail,Jawa Timur,Surabaya,RM 1
+CUST0018,Nasabah 18,M,Mass,Tabungan Mandiri,-1000000,BR016,KCP Mandiri Medan,Retail,Sumut,Medan,RM 4
+CUST0019,Nasabah 19,M,Mass,Tabungan Mandiri,262914140,BR019,KCP Mandiri Jakarta Selatan,Retail,DKI Jakarta,Jakarta Selatan,RM 9
+CUST0020,Nasabah 20,M,Mass Affluent,Tabungan Mandiri,1200000000,BR016,KCP Mandiri Bandung,Retail,Jawa Barat,Bandung,RM 7
+CUST0021,Nasabah 21,F,Mass Affluent,Tabungan Mandiri,1200000000,BR010,KCP Mandiri Bandung,Retail,Jawa Barat,Bandung,RM 8
+CUST0022,Nasabah 22,M,Mass Affluent,Tabungan Mandiri,1200000000,BR008,KCP Mandiri Jakarta Selatan,Retail,DKI Jakarta,Jakarta Selatan,RM 9
+CUST0023,Nasabah 23,M,Mass,Tabungan Mandiri,124912186,BR001,KCP Mandiri Bandung,Retail,Jawa Barat,Bandung,RM 1
+CUST0024,Nasabah 24,M,Mass Affluent,Tabungan Mandiri,262604924,BR017,KCP Mandiri Surabaya,Retail,Jawa Timur,Surabaya,RM 9
+CUST0025,Nasabah 25,F,Priority,Tabungan Mandiri,104225547,BR008,KCP Mandiri Bandung,Retail,Jabar,Bandung,RM 2
+CUST0026,Nasabah 26,F,Priority,Tabungan Mandiri,1200000000,BR012,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 1
+CUST0027,Nasabah 27,F,Mass Affluent,Tabungan Mandiri,60663364,BR002,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 4
+CUST0028,Nasabah 28,F,mass,Tabungan Mandiri,-1000000,BR005,KCP Mandiri Bandung,Retail,Jabar,Bandung,RM 4
+CUST0029,Nasabah 29,M,Mass,Tabungan Mandiri,292225936,BR018,KCP Mandiri Jakarta Selatan,Retail,DKI JKT,Jakarta Selatan,RM 2
+CUST0030,Nasabah 30,F,Priority,Tabungan Mandiri,-1000000,BR014,KCP Mandiri Bandung,Retail,Jawa Barat,Bandung,RM 1
+CUST0031,Nasabah 31,F,Mass Affluent,Tabungan Mandiri,-1000000,BR001,KCP Mandiri Bandung,Retail,Jabar,Bandung,RM 7
+CUST0032,Nasabah 32,M,Mass Affluent,Tabungan Mandiri,118877277,BR005,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 10
+CUST0033,Nasabah 33,M,Mass,Tabungan Mandiri,1200000000,BR011,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 9
+CUST0034,Nasabah 34,M,mass,Tabungan Mandiri,1200000000,BR017,KCP Mandiri Bandung,Retail,Jawa Barat,Bandung,RM 2
+CUST0035,Nasabah 35,M,mass,Tabungan Mandiri,1200000000,BR013,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 2
+CUST0036,Nasabah 36,M,Mass Affluent,Tabungan Mandiri,-1000000,BR009,KCP Mandiri Semarang,Retail,Jateng,Semarang,RM 7
+CUST0037,Nasabah 37,F,Mass,Tabungan Mandiri,-1000000,BR015,KCP Mandiri Bandung,Retail,Jabar,Bandung,RM 10
+CUST0038,Nasabah 38,M,Mass Affluent,Tabungan Mandiri,-1000000,BR003,KCP Mandiri Medan,Retail,Sumatera Utara,Medan,RM 2
+CUST0039,Nasabah 39,M,Priority,Tabungan Mandiri,1200000000,BR010,KCP Mandiri Bandung,Retail,Jabar,Bandung,RM 5
+CUST0040,Nasabah 40,F,Mass,Tabungan Mandiri,-1000000,BR018,KCP Mandiri Medan,Retail,Sumatera Utara,Medan,RM 2
+CUST0041,Nasabah 41,F,mass,Tabungan Mandiri,186082453,BR009,KCP Mandiri Jakarta Selatan,Retail,DKI Jakarta,Jakarta Selatan,RM 11
+CUST0042,Nasabah 42,F,Mass Affluent,Tabungan Mandiri,29272449,BR017,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 11
+CUST0043,Nasabah 43,M,Mass Affluent,Tabungan Mandiri,1200000000,BR002,KCP Mandiri Semarang,Retail,Jateng,Semarang,RM 5
+CUST0044,Nasabah 44,F,Mass,Tabungan Mandiri,62061833,BR018,KCP Mandiri Bandung,Retail,Jabar,Bandung,RM 12
+CUST0045,Nasabah 45,M,Priority,Tabungan Mandiri,70421792,BR012,KCP Mandiri Bandung,Retail,Jawa Barat,Bandung,RM 5
+CUST0046,Nasabah 46,M,mass,Tabungan Mandiri,-1000000,BR012,KCP Mandiri Surabaya,Retail,Jawa Timur,Surabaya,RM 9
+CUST0047,Nasabah 47,M,mass,Tabungan Mandiri,223348877,BR008,KCP Mandiri Semarang,Retail,Jawa Tengah,Semarang,RM 3
+CUST0048,Nasabah 48,M,Mass Affluent,Tabungan Mandiri,1200000000,BR014,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 2
+CUST0049,Nasabah 49,M,mass,Tabungan Mandiri,-1000000,BR016,KCP Mandiri Semarang,Retail,Jawa Tengah,Semarang,RM 5
+CUST0050,Nasabah 50,M,Priority,Tabungan Mandiri,-1000000,BR001,KCP Mandiri Bandung,Retail,Jawa Barat,Bandung,RM 2
+CUST0051,Nasabah 51,F,Mass Affluent,Tabungan Mandiri,16817926,BR017,KCP Mandiri Surabaya,Retail,Jatim,Surabaya,RM 5
+CUST0052,Nasabah 52,M,Priority,Tabungan Mandiri,1200000000,BR002,KCP Mandiri Bandung,Retail,Jabar,Bandung,RM 6
+CUST0053,Nasabah 53,M,Mass Affluent,Tabungan Mandiri,1200000000,BR013,KCP Mandiri Semarang,Retail,Jawa Tengah,Semarang,RM 7
+CUST0054,Nasabah 54,F,Mass,Tabungan Mandiri,1200000000,BR012,KCP Mandiri Jakarta Selatan,Retail,DKI Jakarta,Jakarta Selatan,RM 6
+CUST0055,Nasabah 55,F,Priority,Tabungan Mandiri,-1000000,BR010,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 12
+CUST0056,Nasabah 56,F,Priority,Tabungan Mandiri,1200000000,BR007,KCP Mandiri Surabaya,Retail,Jawa Timur,Surabaya,RM 10
+CUST0057,Nasabah 57,M,Mass Affluent,Tabungan Mandiri,156035629,BR018,KCP Mandiri Surabaya,Retail,Jatim,Surabaya,RM 7
+CUST0058,Nasabah 58,F,Priority,Tabungan Mandiri,1200000000,BR015,KCP Mandiri Medan,Retail,Sumut,Medan,RM 8
+CUST0059,Nasabah 59,F,Mass Affluent,Tabungan Mandiri,52136869,BR003,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 11
+CUST0060,Nasabah 60,M,Mass,Tabungan Mandiri,26810802,BR007,KCP Mandiri Surabaya,Retail,Jawa Timur,Surabaya,RM 8
+CUST0061,Nasabah 61,F,mass,Tabungan Mandiri,-1000000,BR015,KCP Mandiri Medan,Retail,Sumatera Utara,Medan,RM 7
+CUST0062,Nasabah 62,M,Priority,Tabungan Mandiri,119489440,BR001,KCP Mandiri Bandung,Retail,Jawa Barat,Bandung,RM 12
+CUST0063,Nasabah 63,M,Mass,Tabungan Mandiri,247061079,BR002,KCP Mandiri Medan,Retail,Sumut,Medan,RM 8
+CUST0064,Nasabah 64,F,Priority,Tabungan Mandiri,1200000000,BR015,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 8
+CUST0065,Nasabah 65,F,Priority,Tabungan Mandiri,-1000000,BR008,KCP Mandiri Semarang,Retail,Jateng,Semarang,RM 8
+CUST0066,Nasabah 66,F,Mass Affluent,Tabungan Mandiri,1200000000,BR008,KCP Mandiri Jakarta Selatan,Retail,DKI JKT,Jakarta Selatan,RM 2
+CUST0067,Nasabah 67,F,mass,Tabungan Mandiri,116865077,BR008,KCP Mandiri Bandung,Retail,Jawa Barat,Bandung,RM 7
+CUST0068,Nasabah 68,F,Priority,Tabungan Mandiri,35428651,BR018,KCP Mandiri Semarang,Retail,Jateng,Semarang,RM 7
+CUST0069,Nasabah 69,F,Priority,Tabungan Mandiri,-1000000,BR019,KCP Mandiri Semarang,Retail,Jawa Tengah,Semarang,RM 5
+CUST0070,Nasabah 70,M,Priority,Tabungan Mandiri,-1000000,BR018,KCP Mandiri Semarang,Retail,Jateng,Semarang,RM 7
+CUST0071,Nasabah 71,F,Priority,Tabungan Mandiri,-1000000,BR013,KCP Mandiri Semarang,Retail,Jawa Tengah,Semarang,RM 3
+CUST0072,Nasabah 72,M,Mass,Tabungan Mandiri,232109728,BR013,KCP Mandiri Medan,Retail,Sumatera Utara,Medan,RM 8
+CUST0073,Nasabah 73,F,Mass Affluent,Tabungan Mandiri,-1000000,BR009,KCP Mandiri Bandung,Retail,Jawa Barat,Bandung,RM 6
+CUST0074,Nasabah 74,F,Mass Affluent,Tabungan Mandiri,-1000000,BR009,KCP Mandiri Surabaya,Retail,Jatim,Surabaya,RM 1
+CUST0075,Nasabah 75,M,Mass,Tabungan Mandiri,23613422,BR012,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 4
+CUST0076,Nasabah 76,M,mass,Tabungan Mandiri,-1000000,BR020,KCP Mandiri Bandung,Retail,Jawa Barat,Bandung,RM 11
+CUST0077,Nasabah 77,F,Mass Affluent,Tabungan Mandiri,1200000000,BR015,KCP Mandiri Jakarta Selatan,Retail,DKI Jakarta,Jakarta Selatan,RM 10
+CUST0078,Nasabah 78,F,Mass,Tabungan Mandiri,-1000000,BR006,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 10
+CUST0079,Nasabah 79,M,Mass,Tabungan Mandiri,132378770,BR013,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 12
+CUST0080,Nasabah 80,M,Mass Affluent,Tabungan Mandiri,-1000000,BR019,KCP Mandiri Surabaya,Retail,Jawa Timur,Surabaya,RM 11
+CUST0081,Nasabah 81,F,Mass,Tabungan Mandiri,-1000000,BR017,KCP Mandiri Surabaya,Retail,Jawa Timur,Surabaya,RM 2
+CUST0082,Nasabah 82,M,Priority,Tabungan Mandiri,1200000000,BR015,KCP Mandiri Semarang,Retail,Jateng,Semarang,RM 9
+CUST0083,Nasabah 83,F,Priority,Tabungan Mandiri,1200000000,BR020,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 10
+CUST0084,Nasabah 84,M,Mass Affluent,Tabungan Mandiri,244022481,BR008,KCP Mandiri Surabaya,Retail,Jatim,Surabaya,RM 8
+CUST0085,Nasabah 85,M,Priority,Tabungan Mandiri,176490652,BR011,KCP Mandiri Medan,Retail,Sumut,Medan,RM 8
+CUST0086,Nasabah 86,F,Mass Affluent,Tabungan Mandiri,1200000000,BR009,KCP Mandiri Bandung,Retail,Jabar,Bandung,RM 1
+CUST0087,Nasabah 87,M,Priority,Tabungan Mandiri,1200000000,BR003,KCP Mandiri Medan,Retail,Sumatera Utara,Medan,RM 4
+CUST0088,Nasabah 88,F,Mass,Tabungan Mandiri,-1000000,BR016,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 4
+CUST0089,Nasabah 89,F,Priority,Tabungan Mandiri,1200000000,BR010,KCP Mandiri Semarang,Retail,Jawa Tengah,Semarang,RM 6
+CUST0090,Nasabah 90,F,Mass Affluent,Tabungan Mandiri,-1000000,BR012,KCP Mandiri Semarang,Retail,Jateng,Semarang,RM 4
+CUST0091,Nasabah 91,M,mass,Tabungan Mandiri,104832777,BR011,KCP Mandiri Jakarta Selatan,Retail,DKI Jakarta,Jakarta Selatan,RM 12
+CUST0092,Nasabah 92,F,Mass,Tabungan Mandiri,-1000000,BR019,KCP Mandiri Semarang,Retail,Jateng,Semarang,RM 4
+CUST0093,Nasabah 93,M,mass,Tabungan Mandiri,149269775,BR010,KCP Mandiri Surabaya,Retail,Jawa Timur,Surabaya,RM 1
+CUST0094,Nasabah 94,F,Mass,Tabungan Mandiri,1200000000,BR005,KCP Mandiri Medan,Retail,Sumut,Medan,RM 5
+CUST0095,Nasabah 95,F,mass,Tabungan Mandiri,-1000000,BR015,KCP Mandiri Semarang,Retail,Jateng,Semarang,RM 8
+CUST0096,Nasabah 96,F,Mass,Tabungan Mandiri,30781152,BR013,KCP Mandiri Jakarta Selatan,Retail,DKI Jakarta,Jakarta Selatan,RM 3
+CUST0097,Nasabah 97,M,Mass,Tabungan Mandiri,1200000000,BR003,KCP Mandiri Medan,Retail,Sumut,Medan,RM 10
+CUST0098,Nasabah 98,F,Priority,Tabungan Mandiri,-1000000,BR017,KCP Mandiri Medan,Retail,Sumatera Utara,Medan,RM 10
+CUST0099,Nasabah 99,M,Mass,Tabungan Mandiri,1200000000,BR019,KCP Mandiri Semarang,Retail,Jateng,Semarang,RM 4
+CUST0100,Nasabah 100,M,mass,Tabungan Mandiri,298348580,BR006,KCP Mandiri Surabaya,Retail,Jawa Timur,Surabaya,RM 3
+CUST0101,Nasabah 101,F,Mass Affluent,Tabungan Mandiri,19523391,BR015,KCP Mandiri Jakarta Selatan,Retail,DKI JKT,Jakarta Selatan,RM 5
+CUST0102,Nasabah 102,M,mass,Tabungan Mandiri,1200000000,BR015,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 10
+CUST0103,Nasabah 103,M,mass,Tabungan Mandiri,-1000000,BR014,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 3
+CUST0104,Nasabah 104,F,Mass Affluent,Tabungan Mandiri,237768714,BR006,KCP Mandiri Jakarta Selatan,Retail,DKI Jakarta,Jakarta Selatan,RM 8
+CUST0105,Nasabah 105,F,Priority,Tabungan Mandiri,237020003,BR013,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 10
+CUST0106,Nasabah 106,F,Mass,Tabungan Mandiri,51030749,BR011,KCP Mandiri Jakarta Selatan,Retail,DKI JKT,Jakarta Selatan,RM 11
+CUST0107,Nasabah 107,M,mass,Tabungan Mandiri,1200000000,BR009,KCP Mandiri Medan,Retail,Sumatera Utara,Medan,RM 11
+CUST0108,Nasabah 108,F,Priority,Tabungan Mandiri,-1000000,BR006,KCP Mandiri Semarang,Retail,Jateng,Semarang,RM 6
+CUST0109,Nasabah 109,M,mass,Tabungan Mandiri,-1000000,BR011,KCP Mandiri Semarang,Retail,Jateng,Semarang,RM 12
+CUST0110,Nasabah 110,M,Priority,Tabungan Mandiri,-1000000,BR013,KCP Mandiri Semarang,Retail,Jateng,Semarang,RM 5
+CUST0111,Nasabah 111,M,Priority,Tabungan Mandiri,223860602,BR013,KCP Mandiri Surabaya,Retail,Jawa Timur,Surabaya,RM 4
+CUST0112,Nasabah 112,F,Priority,Tabungan Mandiri,29708863,BR020,KCP Mandiri Medan,Retail,Sumut,Medan,RM 5
+CUST0113,Nasabah 113,F,Priority,Tabungan Mandiri,67190134,BR010,KCP Mandiri Medan,Retail,Sumatera Utara,Medan,RM 11
+CUST0114,Nasabah 114,F,Mass,Tabungan Mandiri,-1000000,BR006,KCP Mandiri Medan,Retail,Sumatera Utara,Medan,RM 2
+CUST0115,Nasabah 115,M,mass,Tabungan Mandiri,1200000000,BR015,KCP Mandiri Bandung,Retail,Jawa Barat,Bandung,RM 5
+CUST0116,Nasabah 116,F,Priority,Tabungan Mandiri,-1000000,BR014,KCP Mandiri Medan,Retail,Sumut,Medan,RM 9
+CUST0117,Nasabah 117,M,Mass,Tabungan Mandiri,-1000000,BR007,KCP Mandiri Bandung,Retail,Jabar,Bandung,RM 6
+CUST0118,Nasabah 118,F,Mass Affluent,Tabungan Mandiri,264873656,BR001,KCP Mandiri Medan,Retail,Sumut,Medan,RM 8
+CUST0119,Nasabah 119,F,Priority,Tabungan Mandiri,-1000000,BR012,KCP Mandiri Medan,Retail,Sumut,Medan,RM 4
+CUST0120,Nasabah 120,F,mass,Tabungan Mandiri,222533202,BR019,KCP Mandiri Denpasar,Retail,Bali,Denpasar,RM 6

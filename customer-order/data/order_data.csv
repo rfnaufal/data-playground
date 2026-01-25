@@ -1,0 +1,301 @@
+order_id,customer_id,order_date,product_category,quantity,price_per_unit,payment_method
+5001,1123,2024-06-11,Electronics,3,141396,Transfer
+5002,1029,2024-01-05,Furniture,3,492882,credit card
+5003,1137,2024-06-16,Home Decor,4,350931,E-Wallet
+5004,1195,2024-06-12,Furniture,2,294839,Transfer
+5005,1226,2024-02-14,Furniture,2,71727,E-Wallet
+5006,1170,2024-05-30,Home Decor,3,289423,credit card
+5007,1009,2024-02-16,Home Decor,1,145081,E-Wallet
+5008,1040,2024-01-31,Kitchen,1,434865,E-Wallet
+5009,1025,2024-05-18,Kitchen,2,291130,Credit Card
+5010,1261,2024-01-10,Electronics,1,118056,credit card
+5011,1226,2024-04-27,Home Decor,2,184153,credit card
+5012,1124,2024-01-14,Kitchen,3,215268,E-Wallet
+5013,1038,2024-03-20,Electronics,2,217807,Credit Card
+5014,1251,2024-04-02,Electronics,2,285821,credit card
+5015,1176,2024-01-10,Electronics,3,130102,Transfer
+5016,1090,2024-03-16,Kitchen,1,206570,E-Wallet
+5017,1037,2024-04-03,Home Decor,2,126865,credit card
+5018,1176,2024-04-14,Furniture,2,212728,Transfer
+5019,1284,2024-01-01,Electronics,3,117695,credit card
+5020,1081,2024-05-12,Kitchen,1,481116,Transfer
+5021,1114,2024-01-20,Kitchen,2,167235,E-Wallet
+5022,1040,2024-01-08,Furniture,3,490917,credit card
+5023,1224,2024-06-19,Furniture,2,158777,credit card
+5024,1115,2024-01-01,Kitchen,4,69033,Credit Card
+5025,1186,2024-02-26,Home Decor,3,191877,E-Wallet
+5026,1056,2024-03-04,Furniture,1,216923,Transfer
+5027,1040,2024-04-27,Kitchen,1,76832,credit card
+5028,1040,2024-01-28,Furniture,1,244509,credit card
+5029,1237,2024-04-30,Home Decor,1,427869,Transfer
+5030,1289,2024-04-16,Electronics,2,195016,E-Wallet
+5031,1262,2024-06-13,Furniture,2,332017,Credit Card
+5032,1216,2024-06-23,Home Decor,1,90372,Credit Card
+5033,1147,2024-06-13,Kitchen,1,139464,credit card
+5034,1168,2024-02-18,Furniture,1,196451,Transfer
+5035,1092,2024-04-29,Furniture,2,167322,credit card
+5036,1059,2024-02-13,Kitchen,1,217823,Transfer
+5037,1059,2024-02-25,Electronics,1,412226,Credit Card
+5038,1169,2024-06-04,Kitchen,4,270894,E-Wallet
+5039,1269,2024-04-20,Furniture,4,317254,Transfer
+5040,1045,2024-05-13,Kitchen,1,497557,Credit Card
+5041,1181,2024-04-17,Home Decor,3,324231,credit card
+5042,1170,2024-05-27,Kitchen,1,466978,Transfer
+5043,1191,2024-04-23,Furniture,4,394761,E-Wallet
+5044,1155,2024-03-18,Kitchen,3,150483,credit card
+5045,1188,2024-05-09,Electronics,3,59596,credit card
+5046,1007,2024-02-06,Kitchen,1,284627,Credit Card
+5047,1133,2024-01-20,Electronics,4,157539,Transfer
+5048,1235,2024-01-26,Home Decor,4,68313,credit card
+5049,1045,2024-01-29,Electronics,3,425319,E-Wallet
+5050,1249,2024-01-01,Kitchen,1,247621,Transfer
+5051,1031,2024-04-28,Furniture,2,164914,E-Wallet
+5052,1023,2024-02-04,Electronics,2,73705,credit card
+5053,1160,2024-02-28,Home Decor,4,248436,E-Wallet
+5054,1158,2024-03-09,Electronics,2,385589,Credit Card
+5055,1039,2024-06-09,Electronics,4,153892,E-Wallet
+5056,1082,2024-06-27,Electronics,4,259717,Transfer
+5057,1258,2024-01-12,Home Decor,4,314167,E-Wallet
+5058,1206,2024-01-20,Kitchen,2,169654,E-Wallet
+5059,1077,2024-02-12,Electronics,4,240868,Credit Card
+5060,1012,2024-05-05,Electronics,3,130073,E-Wallet
+5061,1295,2024-02-19,Furniture,1,404341,E-Wallet
+5062,1224,2024-01-29,Home Decor,1,114429,credit card
+5063,1013,2024-02-08,Electronics,4,154195,
+5064,1046,2024-06-19,Home Decor,1,242699,Transfer
+5065,1155,2024-06-26,Electronics,2,83848,credit card
+5066,1113,2024-05-30,Kitchen,2,481020,credit card
+5067,1233,2024-06-20,Kitchen,1,458595,credit card
+5068,1017,2024-02-07,Electronics,2,339910,credit card
+5069,1223,2024-03-24,Kitchen,1,118099,Credit Card
+5070,1188,2024-05-30,Electronics,1,479276,credit card
+5071,1163,2024-05-07,Kitchen,1,119122,Credit Card
+5072,1074,2024-05-05,Furniture,4,197159,Credit Card
+5073,1233,2024-02-14,Furniture,1,98868,
+5074,1224,2024-02-21,Furniture,4,169119,E-Wallet
+5075,1060,2024-03-20,Home Decor,1,466441,Credit Card
+5076,1222,2024-06-26,Home Decor,1,407430,E-Wallet
+5077,1037,2024-05-03,Furniture,1,318787,E-Wallet
+5078,1278,2024-04-28,Home Decor,2,348871,credit card
+5079,1196,2024-01-08,Kitchen,4,454221,Transfer
+5080,1242,2024-03-25,Electronics,4,159079,credit card
+5081,1219,2024-05-08,Electronics,1,377841,Transfer
+5082,1192,2024-01-08,Electronics,1,66029,Transfer
+5083,1017,2024-06-05,Furniture,2,296353,credit card
+5084,1012,2024-04-05,Home Decor,2,457442,credit card
+5085,1193,2024-04-11,Kitchen,2,244718,Transfer
+5086,1022,2024-01-05,Kitchen,4,471947,credit card
+5087,1120,2024-03-26,Furniture,4,421602,Transfer
+5088,1210,2024-06-23,Kitchen,4,422528,E-Wallet
+5089,1270,2024-02-03,Kitchen,1,118926,
+5090,1192,2024-02-24,Kitchen,4,187069,E-Wallet
+5091,1175,2024-04-28,Kitchen,3,367650,Credit Card
+5092,1285,2024-06-19,Home Decor,3,390373,E-Wallet
+5093,1204,2024-06-06,Kitchen,2,493031,E-Wallet
+5094,1164,2024-04-23,Electronics,4,92092,Transfer
+5095,1251,2024-05-24,Furniture,3,374683,E-Wallet
+5096,1227,2024-01-26,Home Decor,2,202889,credit card
+5097,1007,2024-05-15,Kitchen,4,218933,Transfer
+5098,1029,2024-02-16,Home Decor,1,63428,Credit Card
+5099,1033,2024-04-22,Kitchen,3,225006,credit card
+5100,1134,2024-03-16,Electronics,1,296627,Credit Card
+5101,1079,2024-03-12,Furniture,4,295439,E-Wallet
+5102,1058,2024-03-29,Kitchen,3,191330,credit card
+5103,1026,2024-02-15,Kitchen,4,107775,credit card
+5104,1226,2024-02-02,Kitchen,1,262652,Credit Card
+5105,1285,2024-01-01,Kitchen,3,317613,credit card
+5106,1004,2024-05-26,Furniture,1,340998,credit card
+5107,1099,2024-01-31,Furniture,4,187328,credit card
+5108,1039,2024-05-21,Electronics,4,305158,E-Wallet
+5109,1271,2024-02-22,Furniture,1,126256,Credit Card
+5110,1285,2024-02-17,Kitchen,3,477153,credit card
+5111,1157,2024-03-09,Electronics,1,411278,Transfer
+5112,1075,2024-04-14,Electronics,4,182723,Transfer
+5113,1288,2024-03-30,Electronics,1,231360,Transfer
+5114,1130,2024-03-03,Kitchen,4,396874,Transfer
+5115,1175,2024-03-13,Home Decor,1,468267,E-Wallet
+5116,1084,2024-06-09,Kitchen,3,339530,credit card
+5117,1022,2024-06-17,Furniture,3,292634,Credit Card
+5118,1027,2024-03-29,Furniture,1,459400,credit card
+5119,1195,2024-06-24,Kitchen,1,83787,E-Wallet
+5120,1236,2024-01-13,Kitchen,3,71621,
+5121,1092,2024-03-13,Electronics,4,127984,
+5122,1021,2024-03-17,Kitchen,3,488469,credit card
+5123,1084,2024-06-07,Electronics,4,346195,Credit Card
+5124,1262,2024-03-08,Furniture,1,361955,
+5125,1147,2024-04-07,Electronics,1,80447,Credit Card
+5126,1257,2024-05-04,Kitchen,4,178046,E-Wallet
+5127,1058,2024-04-11,Furniture,1,265002,Credit Card
+5128,1015,2024-05-11,Home Decor,4,211326,Credit Card
+5129,1162,2024-04-11,Electronics,2,396189,Transfer
+5130,1163,2024-01-19,Furniture,3,166859,Credit Card
+5131,1281,2024-03-22,Electronics,2,238490,Transfer
+5132,1280,2024-05-20,Furniture,4,457688,credit card
+5133,1012,2024-01-23,Furniture,3,53471,credit card
+5134,1274,2024-03-23,Electronics,4,288404,Transfer
+5135,1271,2024-04-18,Home Decor,3,170312,Transfer
+5136,1208,2024-03-15,Furniture,3,276876,E-Wallet
+5137,1027,2024-05-08,Furniture,3,189401,E-Wallet
+5138,1072,2024-03-28,Furniture,3,215937,E-Wallet
+5139,1060,2024-02-23,Home Decor,4,96850,credit card
+5140,1145,2024-03-29,Home Decor,3,366364,E-Wallet
+5141,1093,2024-05-22,Kitchen,3,293306,Credit Card
+5142,1008,2024-03-05,Electronics,2,143808,Credit Card
+5143,1079,2024-03-16,Home Decor,1,187469,E-Wallet
+5144,1027,2024-05-22,Electronics,1,278981,Credit Card
+5145,1174,2024-05-28,Kitchen,2,216597,credit card
+5146,1050,2024-05-26,Electronics,2,103072,Credit Card
+5147,1199,2024-02-29,Home Decor,4,271178,credit card
+5148,1181,2024-04-02,Electronics,4,133820,Transfer
+5149,1024,2024-06-09,Home Decor,4,73284,Transfer
+5150,1046,2024-02-18,Electronics,2,133369,Transfer
+5151,1015,2024-02-04,Home Decor,2,337266,Transfer
+5152,1153,2024-06-20,Home Decor,3,442493,Credit Card
+5153,1222,2024-04-11,Electronics,4,382697,E-Wallet
+5154,1206,2024-01-11,Kitchen,4,262978,Credit Card
+5155,1273,2024-04-08,Furniture,4,406932,credit card
+5156,1236,2024-04-19,Kitchen,1,112812,Credit Card
+5157,1228,2024-03-14,Electronics,3,320143,Credit Card
+5158,1009,2024-06-22,Kitchen,4,334580,credit card
+5159,1166,2024-01-09,Home Decor,4,355107,Transfer
+5160,1214,2024-01-03,Furniture,4,183168,Transfer
+5161,1117,2024-03-25,Electronics,1,294809,
+5162,1072,2024-01-26,Electronics,1,468495,E-Wallet
+5163,1064,2024-03-12,Electronics,2,302164,credit card
+5164,1205,2024-02-17,Furniture,3,421043,
+5165,1209,2024-06-04,Home Decor,2,295317,Credit Card
+5166,1072,2024-04-26,Electronics,3,338345,E-Wallet
+5167,1277,2024-06-02,Kitchen,1,200787,Transfer
+5168,1274,2024-06-01,Electronics,4,210381,E-Wallet
+5169,1095,2024-01-12,Electronics,2,196150,credit card
+5170,1166,2024-05-12,Electronics,4,499830,credit card
+5171,1032,2024-02-17,Electronics,2,55105,Credit Card
+5172,1011,2024-02-06,Home Decor,1,429810,Credit Card
+5173,1217,2024-02-13,Kitchen,1,406992,
+5174,1289,2024-01-15,Home Decor,1,314983,Transfer
+5175,1102,2024-02-12,Kitchen,2,118920,Transfer
+5176,1267,2024-06-24,Electronics,3,355763,E-Wallet
+5177,1214,2024-03-27,Furniture,2,92821,credit card
+5178,1179,2024-03-10,Home Decor,3,175736,credit card
+5179,1088,2024-02-15,Furniture,2,456709,Transfer
+5180,1041,2024-04-17,Home Decor,2,67069,Transfer
+5181,1076,2024-05-02,Electronics,1,57531,credit card
+5182,1046,2024-06-19,Home Decor,4,480267,Credit Card
+5183,1160,2024-01-21,Electronics,4,188808,credit card
+5184,1080,2024-05-30,Home Decor,3,188782,credit card
+5185,1086,2024-04-16,Electronics,4,117155,Transfer
+5186,1092,2024-03-20,Electronics,2,457191,Transfer
+5187,1148,2024-02-16,Kitchen,2,112424,Credit Card
+5188,1161,2024-04-26,Electronics,1,357747,Credit Card
+5189,1202,2024-05-03,Kitchen,1,466468,E-Wallet
+5190,1242,2024-05-22,Electronics,4,182503,credit card
+5191,1002,2024-01-25,Furniture,3,255675,Transfer
+5192,1225,2024-02-05,Electronics,4,218553,Credit Card
+5193,1289,2024-02-20,Furniture,4,404717,E-Wallet
+5194,1233,2024-01-15,Furniture,4,190629,E-Wallet
+5195,1077,2024-03-08,Electronics,4,415446,Transfer
+5196,1116,2024-01-21,Furniture,2,181234,Transfer
+5197,1154,2024-05-20,Kitchen,3,477958,E-Wallet
+5198,1103,2024-01-19,Home Decor,2,69675,Credit Card
+5199,1194,2024-02-03,Electronics,3,123997,E-Wallet
+5200,1166,2024-03-18,Furniture,1,198087,credit card
+5201,1090,2024-05-04,Electronics,4,493273,credit card
+5202,1174,2024-04-26,Kitchen,2,475807,Transfer
+5203,1122,2024-02-21,Electronics,3,281390,Credit Card
+5204,1143,2024-01-27,Electronics,1,190905,Credit Card
+5205,1106,2024-06-05,Furniture,1,320040,credit card
+5206,1123,2024-06-04,Kitchen,4,476188,
+5207,1009,2024-02-04,Home Decor,3,361877,Transfer
+5208,1262,2024-05-15,Home Decor,2,301435,E-Wallet
+5209,1073,2024-05-23,Furniture,4,91800,E-Wallet
+5210,1223,2024-04-15,Electronics,2,146044,E-Wallet
+5211,1041,2024-06-12,Furniture,1,317491,Credit Card
+5212,1204,2024-06-06,Furniture,2,240135,credit card
+5213,1264,2024-05-25,Furniture,2,183715,Credit Card
+5214,1178,2024-01-02,Electronics,4,352929,credit card
+5215,1084,2024-06-25,Kitchen,2,330825,Transfer
+5216,1111,2024-03-17,Furniture,4,493242,Transfer
+5217,1251,2024-05-11,Electronics,1,416008,E-Wallet
+5218,1007,2024-03-30,Kitchen,4,459108,credit card
+5219,1084,2024-03-29,Furniture,4,359443,credit card
+5220,1208,2024-04-03,Home Decor,3,67073,credit card
+5221,1022,2024-01-07,Kitchen,2,414448,E-Wallet
+5222,1003,2024-04-04,Furniture,1,80682,E-Wallet
+5223,1127,2024-04-17,Kitchen,4,278870,Transfer
+5224,1297,2024-03-14,Kitchen,1,277966,Credit Card
+5225,1188,2024-02-08,Kitchen,3,436446,credit card
+5226,1014,2024-05-20,Kitchen,2,457505,credit card
+5227,1012,2024-06-07,Kitchen,4,165359,Credit Card
+5228,1087,2024-03-11,Kitchen,2,451143,credit card
+5229,1012,2024-02-25,Furniture,3,491546,E-Wallet
+5230,1025,2024-06-18,Home Decor,3,116707,E-Wallet
+5231,1243,2024-02-11,Electronics,1,301351,credit card
+5232,1122,2024-02-05,Kitchen,4,288511,E-Wallet
+5233,1147,2024-03-24,Electronics,1,285718,E-Wallet
+5234,1055,2024-04-27,Furniture,3,115428,credit card
+5235,1238,2024-01-07,Kitchen,2,100601,Transfer
+5236,1173,2024-02-23,Home Decor,1,445755,Credit Card
+5237,1221,2024-05-08,Electronics,1,161487,E-Wallet
+5238,1119,2024-06-20,Kitchen,2,203741,Transfer
+5239,1183,2024-04-29,Furniture,1,463860,E-Wallet
+5240,1288,2024-06-21,Home Decor,2,461961,E-Wallet
+5241,1300,2024-04-15,Electronics,4,301924,Credit Card
+5242,1082,2024-02-16,Electronics,2,309153,E-Wallet
+5243,1211,2024-05-02,Kitchen,4,340372,Credit Card
+5244,1150,2024-05-20,Home Decor,2,299430,Credit Card
+5245,1037,2024-04-28,Home Decor,3,477737,Credit Card
+5246,1059,2024-05-29,Home Decor,3,172788,Transfer
+5247,1131,2024-04-27,Home Decor,4,147239,credit card
+5248,1202,2024-01-21,Furniture,4,76928,Transfer
+5249,1243,2024-05-16,Home Decor,3,330466,credit card
+5250,1035,2024-01-26,Electronics,4,400040,credit card
+5251,1093,2024-01-09,Electronics,2,112292,
+5252,1207,2024-01-15,Furniture,2,79055,E-Wallet
+5253,1213,2024-01-10,Electronics,3,355035,Credit Card
+5254,1159,2024-05-01,Electronics,1,131912,E-Wallet
+5255,1024,2024-04-30,Home Decor,2,187660,credit card
+5256,1293,2024-05-04,Electronics,4,402680,Credit Card
+5257,1004,2024-06-18,Furniture,1,318448,E-Wallet
+5258,1220,2024-03-12,Home Decor,1,57345,Transfer
+5259,1020,2024-05-31,Kitchen,2,210372,E-Wallet
+5260,1152,2024-02-18,Home Decor,2,467475,Credit Card
+5261,1050,2024-06-02,Furniture,1,141006,Transfer
+5262,1177,2024-03-31,Home Decor,1,458568,E-Wallet
+5263,1096,2024-02-06,Home Decor,3,179350,E-Wallet
+5264,1105,2024-03-08,Furniture,4,214437,E-Wallet
+5265,1250,2024-02-19,Home Decor,3,331590,
+5266,1117,2024-05-31,Furniture,2,314480,E-Wallet
+5267,1228,2024-01-19,Furniture,3,374176,Transfer
+5268,1066,2024-04-09,Kitchen,3,256487,credit card
+5269,1262,2024-02-29,Electronics,3,147852,Transfer
+5270,1295,2024-06-15,Electronics,3,188593,Transfer
+5271,1243,2024-03-29,Home Decor,4,252779,Transfer
+5272,1186,2024-05-25,Home Decor,4,204553,credit card
+5273,1246,2024-05-26,Kitchen,1,330618,Credit Card
+5274,1125,2024-06-12,Kitchen,2,227832,credit card
+5275,1268,2024-03-09,Kitchen,3,367862,
+5276,1131,2024-06-23,Furniture,1,356773,E-Wallet
+5277,1237,2024-02-18,Kitchen,1,95232,E-Wallet
+5278,1018,2024-04-17,Kitchen,1,398688,Transfer
+5279,1040,2024-06-09,Home Decor,4,309013,E-Wallet
+5280,1021,2024-04-28,Kitchen,3,362813,Transfer
+5281,1225,2024-05-28,Furniture,3,259093,E-Wallet
+5282,1282,2024-05-29,Furniture,2,381328,credit card
+5283,1008,2024-06-24,Home Decor,3,229017,Credit Card
+5284,1100,2024-02-06,Kitchen,3,63140,
+5285,1240,2024-05-22,Kitchen,1,438612,credit card
+5286,1087,2024-06-11,Furniture,2,133457,
+5287,1298,2024-06-08,Kitchen,3,64357,Transfer
+5288,1014,2024-01-11,Kitchen,4,161672,Transfer
+5289,1002,2024-05-17,Kitchen,3,380817,Transfer
+5290,1293,2024-03-18,Electronics,1,171673,E-Wallet
+5291,1041,2024-03-17,Home Decor,4,115633,Transfer
+5292,1111,2024-06-01,Electronics,1,258015,credit card
+5293,1014,2024-01-02,Home Decor,3,146111,Credit Card
+5294,1231,2024-03-04,Furniture,4,390402,E-Wallet
+5295,1084,2024-02-04,Kitchen,2,456140,Transfer
+5296,1130,2024-01-07,Home Decor,2,119286,E-Wallet
+5297,1231,2024-03-25,Electronics,4,143269,E-Wallet
+5298,1145,2024-05-25,Kitchen,4,308635,Transfer
+5299,1028,2024-03-07,Furniture,1,124071,E-Wallet
+5300,1066,2024-02-11,Home Decor,4,271095,Credit Card

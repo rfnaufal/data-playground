@@ -1,0 +1,301 @@
+customer_id,customer_name,gender,age,city,registration_date,email
+1001,Customer_1,male,50,Jakarta,2023-11-15,user1@mail.com
+1002,Customer_2,female,18,Surabaya,2023-02-17,user2@mail.com
+1003,Customer_3,Male,36,Jakarta,2023-03-02,user3@mail.com
+1004,Customer_4,male,19,Surabaya,2023-12-03,user4@mail.com
+1005,Customer_5,male,43,Medan,2023-01-26,user5@mail.com
+1006,Customer_6,female,49,Bandung,2023-10-19,user6@mail.com
+1007,Customer_7,Male,23,Jakarta,2023-09-14,user7@mail.com
+1008,Customer_8,Male,49,Jakarta ,2023-01-08,user8@mail.com
+1009,Customer_9,male,21,Medan,2023-04-23,user9@mail.com
+1010,Customer_10,Female,28,Jakarta,2023-12-21,user10@mail.com
+1011,Customer_11,male,34,Jakarta ,2023-09-10,user11@mail.com
+1012,Customer_12,male,55,Jakarta,2023-06-29,user12@mail.com
+1013,Customer_13,male,41,Surabaya,2023-07-26,user13@mail.com
+1014,Customer_14,male,22,Jakarta,2023-10-30,
+1015,Customer_15,female,51,Jakarta,2023-05-07,user15@mail.com
+1016,Customer_16,Male,23,Jakarta,2023-02-25,user16@mail.com
+1017,Customer_17,female,39,Medan,2023-08-02,user17@mail.com
+1018,Customer_18,female,28,Jakarta,2023-01-14,user18@mail.com
+1019,Customer_19,female,33,Jakarta ,2023-01-28,
+1020,Customer_20,male,50,Surabaya,2023-03-19,user20@mail.com
+1021,Customer_21,Female,26,Surabaya,2023-08-04,user21@mail.com
+1022,Customer_22,Male,23,Jakarta,2023-12-31,user22@mail.com
+1023,Customer_23,Female,33,Medan,2023-06-03,user23@mail.com
+1024,Customer_24,female,46,Medan,2023-01-14,user24@mail.com
+1025,Customer_25,female,20,Jakarta ,2023-07-06,user25@mail.com
+1026,Customer_26,Female,37,Jakarta,2023-11-08,user26@mail.com
+1027,Customer_27,Female,53,Surabaya,2023-01-07,user27@mail.com
+1028,Customer_28,Female,36,Medan,2023-01-03,user28@mail.com
+1029,Customer_29,female,43,Jakarta,2023-04-21,user29@mail.com
+1030,Customer_30,female,20,Medan,2023-08-26,user30@mail.com
+1031,Customer_31,Male,36,Medan,2023-12-29,user31@mail.com
+1032,Customer_32,Male,37,Surabaya,2023-08-27,user32@mail.com
+1033,Customer_33,female,49,Bandung,2023-10-01,user33@mail.com
+1034,Customer_34,Female,24,Jakarta ,2023-10-21,user34@mail.com
+1035,Customer_35,Female,58,Jakarta ,2023-08-15,user35@mail.com
+1036,Customer_36,Male,50,Surabaya,2023-01-15,user36@mail.com
+1037,Customer_37,female,57,Medan,2023-07-11,user37@mail.com
+1038,Customer_38,Male,56,Jakarta,2023-04-29,user38@mail.com
+1039,Customer_39,Male,35,Medan,2023-01-28,user39@mail.com
+1040,Customer_40,male,57,Surabaya,2023-07-21,user40@mail.com
+1041,Customer_41,male,18,Jakarta ,2023-02-08,user41@mail.com
+1042,Customer_42,male,28,Medan,2023-09-30,user42@mail.com
+1043,Customer_43,Female,45,Jakarta ,2023-08-19,user43@mail.com
+1044,Customer_44,female,42,Jakarta,2023-03-27,user44@mail.com
+1045,Customer_45,female,40,Jakarta ,2023-05-06,user45@mail.com
+1046,Customer_46,female,48,Jakarta ,2023-10-27,user46@mail.com
+1047,Customer_47,female,47,Bandung,2023-01-25,user47@mail.com
+1048,Customer_48,male,59,Bandung,2023-05-25,user48@mail.com
+1049,Customer_49,Female,52,Bandung,2023-01-13,user49@mail.com
+1050,Customer_50,Female,24,Jakarta ,2023-07-31,user50@mail.com
+1051,Customer_51,male,33,Surabaya,2023-01-25,user51@mail.com
+1052,Customer_52,Female,43,Jakarta ,2023-03-09,user52@mail.com
+1053,Customer_53,male,19,Surabaya,2023-03-08,user53@mail.com
+1054,Customer_54,female,18,Surabaya,2023-08-21,user54@mail.com
+1055,Customer_55,male,29,Bandung,2023-04-19,user55@mail.com
+1056,Customer_56,female,22,Medan,2023-05-26,user56@mail.com
+1057,Customer_57,female,54,Jakarta,2023-04-21,user57@mail.com
+1058,Customer_58,Male,49,Bandung,2023-08-16,user58@mail.com
+1059,Customer_59,male,26,Bandung,2023-04-21,user59@mail.com
+1060,Customer_60,Male,58,Medan,2023-02-03,user60@mail.com
+1061,Customer_61,male,52,Jakarta,2023-04-21,user61@mail.com
+1062,Customer_62,male,36,Jakarta ,2023-09-21,user62@mail.com
+1063,Customer_63,Male,33,Jakarta ,2023-08-24,user63@mail.com
+1064,Customer_64,Male,20,Bandung,2023-03-24,user64@mail.com
+1065,Customer_65,male,37,Jakarta,2023-02-11,user65@mail.com
+1066,Customer_66,Female,41,Bandung,2023-04-11,user66@mail.com
+1067,Customer_67,female,50,Surabaya,2023-01-06,user67@mail.com
+1068,Customer_68,Male,41,Bandung,2023-06-29,user68@mail.com
+1069,Customer_69,female,28,Bandung,2023-10-09,user69@mail.com
+1070,Customer_70,Female,25,Jakarta ,2023-11-16,user70@mail.com
+1071,Customer_71,Female,53,Jakarta ,2023-08-14,user71@mail.com
+1072,Customer_72,Female,55,Jakarta ,2023-11-11,user72@mail.com
+1073,Customer_73,Male,57,Surabaya,2023-12-31,user73@mail.com
+1074,Customer_74,Female,37,Jakarta ,2023-08-17,user74@mail.com
+1075,Customer_75,Male,52,Jakarta,2023-10-16,user75@mail.com
+1076,Customer_76,Female,42,Medan,2023-05-30,user76@mail.com
+1077,Customer_77,female,52,Jakarta,2023-10-04,user77@mail.com
+1078,Customer_78,female,42,Jakarta,2023-07-17,user78@mail.com
+1079,Customer_79,male,46,Jakarta ,2023-03-11,user79@mail.com
+1080,Customer_80,female,35,Medan,2023-04-22,user80@mail.com
+1081,Customer_81,male,35,Medan,2023-01-04,user81@mail.com
+1082,Customer_82,female,19,Medan,2023-12-16,user82@mail.com
+1083,Customer_83,Male,52,Surabaya,2023-11-27,user83@mail.com
+1084,Customer_84,female,33,Jakarta ,2023-11-14,user84@mail.com
+1085,Customer_85,male,58,Medan,2023-12-16,user85@mail.com
+1086,Customer_86,male,53,Surabaya,2023-04-05,user86@mail.com
+1087,Customer_87,Female,50,Bandung,2023-06-01,user87@mail.com
+1088,Customer_88,Male,21,Bandung,2023-11-07,user88@mail.com
+1089,Customer_89,female,50,Surabaya,2023-05-17,user89@mail.com
+1090,Customer_90,Female,31,Surabaya,2023-09-04,user90@mail.com
+1091,Customer_91,female,38,Jakarta ,2023-08-31,user91@mail.com
+1092,Customer_92,female,37,Jakarta ,2023-01-31,user92@mail.com
+1093,Customer_93,Female,25,Bandung,2023-02-09,user93@mail.com
+1094,Customer_94,Female,24,Medan,2023-08-17,
+1095,Customer_95,Female,20,Bandung,2023-02-05,user95@mail.com
+1096,Customer_96,Female,34,Medan,2023-08-11,user96@mail.com
+1097,Customer_97,Female,50,Medan,2023-01-06,user97@mail.com
+1098,Customer_98,female,29,Jakarta ,2023-11-18,user98@mail.com
+1099,Customer_99,Female,39,Jakarta,2023-08-08,user99@mail.com
+1100,Customer_100,Male,39,Jakarta,2023-03-16,user100@mail.com
+1101,Customer_101,male,47,Surabaya,2023-01-04,user101@mail.com
+1102,Customer_102,Female,55,Jakarta ,2023-12-01,user102@mail.com
+1103,Customer_103,Female,55,Medan,2023-05-14,user103@mail.com
+1104,Customer_104,female,25,Jakarta,2023-04-28,user104@mail.com
+1105,Customer_105,Female,44,Medan,2023-04-04,user105@mail.com
+1106,Customer_106,Female,44,Jakarta,2023-03-03,user106@mail.com
+1107,Customer_107,Female,51,Jakarta,2023-07-13,user107@mail.com
+1108,Customer_108,female,38,Jakarta,2023-12-01,user108@mail.com
+1109,Customer_109,Female,47,Jakarta ,2023-07-22,user109@mail.com
+1110,Customer_110,male,50,Bandung,2023-01-26,user110@mail.com
+1111,Customer_111,female,45,Medan,2023-06-22,user111@mail.com
+1112,Customer_112,male,50,Jakarta ,2023-10-27,user112@mail.com
+1113,Customer_113,female,22,Jakarta ,2023-05-13,user113@mail.com
+1114,Customer_114,Female,36,Jakarta ,2023-11-22,user114@mail.com
+1115,Customer_115,male,21,Jakarta ,2023-04-28,user115@mail.com
+1116,Customer_116,female,52,Jakarta ,2023-11-20,user116@mail.com
+1117,Customer_117,Male,34,Surabaya,2023-10-02,user117@mail.com
+1118,Customer_118,Female,45,Medan,2023-07-31,user118@mail.com
+1119,Customer_119,female,47,Jakarta ,2023-08-13,user119@mail.com
+1120,Customer_120,Male,46,Medan,2023-01-20,user120@mail.com
+1121,Customer_121,female,23,Surabaya,2023-04-23,user121@mail.com
+1122,Customer_122,Male,52,Surabaya,2023-05-20,user122@mail.com
+1123,Customer_123,Female,58,Medan,2023-02-16,user123@mail.com
+1124,Customer_124,male,54,Jakarta,2023-01-01,user124@mail.com
+1125,Customer_125,Male,41,Bandung,2023-03-31,user125@mail.com
+1126,Customer_126,female,46,Jakarta,2023-05-22,user126@mail.com
+1127,Customer_127,Female,48,Jakarta,2023-11-16,user127@mail.com
+1128,Customer_128,Male,52,Jakarta,2023-02-07,user128@mail.com
+1129,Customer_129,female,50,Jakarta ,2023-10-20,user129@mail.com
+1130,Customer_130,female,38,Surabaya,2023-05-19,user130@mail.com
+1131,Customer_131,female,49,Jakarta,2023-12-22,user131@mail.com
+1132,Customer_132,Male,40,Surabaya,2023-11-29,user132@mail.com
+1133,Customer_133,Male,50,Medan,2023-09-16,user133@mail.com
+1134,Customer_134,Male,20,Bandung,2023-06-10,user134@mail.com
+1135,Customer_135,male,35,Medan,2023-06-27,user135@mail.com
+1136,Customer_136,Male,42,Medan,2023-01-10,user136@mail.com
+1137,Customer_137,Male,59,Jakarta ,2023-09-18,user137@mail.com
+1138,Customer_138,Male,48,Bandung,2023-05-18,user138@mail.com
+1139,Customer_139,male,20,Medan,2023-06-21,user139@mail.com
+1140,Customer_140,Male,57,Medan,2023-01-13,user140@mail.com
+1141,Customer_141,female,41,Bandung,2023-06-17,user141@mail.com
+1142,Customer_142,Male,49,Bandung,2023-05-10,user142@mail.com
+1143,Customer_143,female,39,Medan,2023-03-25,user143@mail.com
+1144,Customer_144,female,40,Bandung,2023-11-17,user144@mail.com
+1145,Customer_145,female,19,Medan,2023-11-15,user145@mail.com
+1146,Customer_146,male,44,Medan,2023-04-11,user146@mail.com
+1147,Customer_147,male,59,Jakarta ,2023-11-25,user147@mail.com
+1148,Customer_148,male,19,Jakarta,2023-09-30,user148@mail.com
+1149,Customer_149,Male,43,Medan,2023-09-22,user149@mail.com
+1150,Customer_150,female,34,Surabaya,2023-02-07,user150@mail.com
+1151,Customer_151,male,57,Jakarta,2023-04-04,user151@mail.com
+1152,Customer_152,male,50,Jakarta,2023-04-05,user152@mail.com
+1153,Customer_153,Male,26,Jakarta,2023-11-01,user153@mail.com
+1154,Customer_154,male,56,Jakarta ,2023-03-10,user154@mail.com
+1155,Customer_155,Male,46,Medan,2023-11-14,user155@mail.com
+1156,Customer_156,Female,59,Jakarta ,2023-08-24,user156@mail.com
+1157,Customer_157,male,43,Medan,2023-11-30,user157@mail.com
+1158,Customer_158,Female,52,Jakarta ,2023-05-17,user158@mail.com
+1159,Customer_159,Male,42,Jakarta ,2023-03-17,user159@mail.com
+1160,Customer_160,female,41,Surabaya,2023-02-04,user160@mail.com
+1161,Customer_161,male,30,Jakarta ,2023-01-01,user161@mail.com
+1162,Customer_162,Male,24,Bandung,2023-10-23,user162@mail.com
+1163,Customer_163,female,53,Surabaya,2023-11-16,user163@mail.com
+1164,Customer_164,female,37,Jakarta ,2023-03-01,user164@mail.com
+1165,Customer_165,Female,18,Jakarta,2023-11-16,user165@mail.com
+1166,Customer_166,Male,25,Bandung,2023-12-15,user166@mail.com
+1167,Customer_167,female,33,Bandung,2023-11-24,user167@mail.com
+1168,Customer_168,male,31,Bandung,2023-09-24,user168@mail.com
+1169,Customer_169,male,29,Surabaya,2023-12-27,user169@mail.com
+1170,Customer_170,Female,40,Jakarta ,2023-08-17,user170@mail.com
+1171,Customer_171,female,32,Jakarta ,2023-09-27,user171@mail.com
+1172,Customer_172,Male,45,Jakarta,2023-11-12,user172@mail.com
+1173,Customer_173,male,51,Jakarta,2023-10-13,user173@mail.com
+1174,Customer_174,female,19,Bandung,2023-10-18,
+1175,Customer_175,female,49,Jakarta,2023-08-01,user175@mail.com
+1176,Customer_176,Female,40,Surabaya,2023-06-14,
+1177,Customer_177,male,39,Jakarta ,2023-01-05,user177@mail.com
+1178,Customer_178,male,42,Bandung,2023-12-05,user178@mail.com
+1179,Customer_179,Male,39,Jakarta,2023-03-19,user179@mail.com
+1180,Customer_180,male,39,Surabaya,2023-03-03,user180@mail.com
+1181,Customer_181,Male,59,Surabaya,2023-05-12,user181@mail.com
+1182,Customer_182,male,23,Jakarta,2023-03-30,user182@mail.com
+1183,Customer_183,Female,32,Jakarta ,2023-08-25,user183@mail.com
+1184,Customer_184,male,54,Jakarta,2023-02-11,user184@mail.com
+1185,Customer_185,Male,50,Bandung,2023-03-30,user185@mail.com
+1186,Customer_186,Male,25,Jakarta,2023-10-23,user186@mail.com
+1187,Customer_187,Female,22,Surabaya,2023-11-24,user187@mail.com
+1188,Customer_188,male,56,Jakarta,2023-10-22,user188@mail.com
+1189,Customer_189,male,21,Jakarta ,2023-04-14,user189@mail.com
+1190,Customer_190,Female,23,Medan,2023-01-14,user190@mail.com
+1191,Customer_191,male,49,Jakarta,2023-10-15,user191@mail.com
+1192,Customer_192,male,47,Jakarta ,2023-06-28,user192@mail.com
+1193,Customer_193,Male,52,Jakarta ,2023-05-05,user193@mail.com
+1194,Customer_194,male,57,Surabaya,2023-12-19,user194@mail.com
+1195,Customer_195,male,33,Jakarta ,2023-01-23,user195@mail.com
+1196,Customer_196,Female,30,Jakarta ,2023-03-04,user196@mail.com
+1197,Customer_197,Female,59,Jakarta ,2023-05-23,
+1198,Customer_198,female,47,Jakarta ,2023-06-02,user198@mail.com
+1199,Customer_199,Male,36,Bandung,2023-05-25,user199@mail.com
+1200,Customer_200,male,34,Bandung,2023-08-13,user200@mail.com
+1201,Customer_201,male,36,Surabaya,2023-11-05,user201@mail.com
+1202,Customer_202,female,45,Jakarta,2023-04-14,user202@mail.com
+1203,Customer_203,male,43,Jakarta ,2023-04-14,user203@mail.com
+1204,Customer_204,Male,54,Jakarta,2023-02-08,user204@mail.com
+1205,Customer_205,female,43,Jakarta,2023-07-17,user205@mail.com
+1206,Customer_206,Male,40,Surabaya,2023-05-14,user206@mail.com
+1207,Customer_207,female,26,Jakarta ,2023-03-08,user207@mail.com
+1208,Customer_208,female,29,Jakarta ,2023-06-28,user208@mail.com
+1209,Customer_209,Female,18,Medan,2023-02-11,user209@mail.com
+1210,Customer_210,Male,18,Jakarta,2023-01-15,user210@mail.com
+1211,Customer_211,male,51,Jakarta,2023-04-21,user211@mail.com
+1212,Customer_212,male,49,Bandung,2023-06-06,user212@mail.com
+1213,Customer_213,Male,42,Medan,2023-10-16,user213@mail.com
+1214,Customer_214,male,57,Bandung,2023-08-19,user214@mail.com
+1215,Customer_215,male,18,Bandung,2023-06-06,user215@mail.com
+1216,Customer_216,Male,33,Bandung,2023-02-07,user216@mail.com
+1217,Customer_217,female,56,Surabaya,2023-04-07,user217@mail.com
+1218,Customer_218,Male,22,Surabaya,2023-10-16,user218@mail.com
+1219,Customer_219,female,39,Bandung,2023-09-11,user219@mail.com
+1220,Customer_220,male,46,Medan,2023-07-15,user220@mail.com
+1221,Customer_221,male,20,Jakarta,2023-03-27,user221@mail.com
+1222,Customer_222,male,29,Medan,2023-11-18,user222@mail.com
+1223,Customer_223,Female,43,Jakarta ,2023-01-10,user223@mail.com
+1224,Customer_224,female,33,Surabaya,2023-01-05,user224@mail.com
+1225,Customer_225,Female,54,Jakarta,2023-05-03,user225@mail.com
+1226,Customer_226,Female,39,Jakarta,2023-11-26,user226@mail.com
+1227,Customer_227,Male,46,Jakarta ,2023-12-19,user227@mail.com
+1228,Customer_228,Female,31,Jakarta ,2023-04-28,user228@mail.com
+1229,Customer_229,Male,45,Bandung,2023-10-21,user229@mail.com
+1230,Customer_230,Male,22,Surabaya,2023-06-08,user230@mail.com
+1231,Customer_231,Female,47,Surabaya,2023-10-30,user231@mail.com
+1232,Customer_232,female,22,Medan,2023-08-16,user232@mail.com
+1233,Customer_233,female,29,Bandung,2023-12-31,
+1234,Customer_234,female,33,Bandung,2023-08-04,user234@mail.com
+1235,Customer_235,female,43,Bandung,2023-07-03,user235@mail.com
+1236,Customer_236,female,43,Bandung,2023-01-15,user236@mail.com
+1237,Customer_237,Female,38,Surabaya,2023-06-06,user237@mail.com
+1238,Customer_238,Female,56,Surabaya,2023-05-16,
+1239,Customer_239,male,53,Bandung,2023-09-18,user239@mail.com
+1240,Customer_240,female,50,Medan,2023-06-06,user240@mail.com
+1241,Customer_241,Female,47,Jakarta,2023-02-16,
+1242,Customer_242,male,54,Jakarta,2023-11-20,user242@mail.com
+1243,Customer_243,female,40,Medan,2023-11-28,user243@mail.com
+1244,Customer_244,Male,27,Bandung,2023-06-22,user244@mail.com
+1245,Customer_245,male,22,Surabaya,2023-05-10,user245@mail.com
+1246,Customer_246,Female,53,Jakarta,2023-04-05,user246@mail.com
+1247,Customer_247,Male,51,Jakarta ,2023-04-25,user247@mail.com
+1248,Customer_248,Male,48,Jakarta ,2023-08-31,user248@mail.com
+1249,Customer_249,Male,27,Medan,2023-10-19,user249@mail.com
+1250,Customer_250,male,36,Bandung,2023-10-09,
+1251,Customer_251,Female,49,Jakarta,2023-10-26,user251@mail.com
+1252,Customer_252,Male,18,Bandung,2023-10-10,user252@mail.com
+1253,Customer_253,female,22,Jakarta,2023-03-10,user253@mail.com
+1254,Customer_254,Male,21,Medan,2023-05-28,user254@mail.com
+1255,Customer_255,Male,33,Medan,2023-01-11,user255@mail.com
+1256,Customer_256,male,41,Jakarta ,2023-09-11,user256@mail.com
+1257,Customer_257,male,33,Bandung,2023-11-26,user257@mail.com
+1258,Customer_258,Female,19,Jakarta ,2023-12-26,
+1259,Customer_259,female,45,Bandung,2023-02-07,user259@mail.com
+1260,Customer_260,male,49,Jakarta ,2023-05-14,user260@mail.com
+1261,Customer_261,Male,44,Surabaya,2023-07-19,user261@mail.com
+1262,Customer_262,Female,37,Surabaya,2023-01-23,user262@mail.com
+1263,Customer_263,Male,41,Surabaya,2023-10-30,user263@mail.com
+1264,Customer_264,Male,29,Surabaya,2023-12-12,user264@mail.com
+1265,Customer_265,male,52,Jakarta,2023-10-29,user265@mail.com
+1266,Customer_266,Female,50,Surabaya,2023-12-29,user266@mail.com
+1267,Customer_267,female,50,Medan,2023-08-06,user267@mail.com
+1268,Customer_268,female,54,Medan,2023-05-21,user268@mail.com
+1269,Customer_269,male,29,Jakarta,2023-04-14,user269@mail.com
+1270,Customer_270,male,20,Surabaya,2023-07-29,user270@mail.com
+1271,Customer_271,Female,18,Surabaya,2023-04-21,user271@mail.com
+1272,Customer_272,female,50,Surabaya,2023-04-14,user272@mail.com
+1273,Customer_273,female,57,Jakarta ,2023-11-12,user273@mail.com
+1274,Customer_274,female,27,Bandung,2023-06-20,user274@mail.com
+1275,Customer_275,Male,46,Jakarta ,2023-12-22,user275@mail.com
+1276,Customer_276,female,30,Bandung,2023-11-20,user276@mail.com
+1277,Customer_277,Male,29,Surabaya,2023-05-13,user277@mail.com
+1278,Customer_278,Female,48,Surabaya,2023-10-20,
+1279,Customer_279,Male,19,Jakarta ,2023-11-24,user279@mail.com
+1280,Customer_280,Female,52,Jakarta ,2023-05-07,
+1281,Customer_281,female,40,Bandung,2023-04-16,user281@mail.com
+1282,Customer_282,female,34,Medan,2023-04-02,user282@mail.com
+1283,Customer_283,Female,43,Bandung,2023-10-14,user283@mail.com
+1284,Customer_284,male,25,Jakarta ,2023-02-20,user284@mail.com
+1285,Customer_285,Female,46,Jakarta ,2023-01-29,user285@mail.com
+1286,Customer_286,male,43,Jakarta,2023-10-23,user286@mail.com
+1287,Customer_287,Male,27,Jakarta ,2023-10-24,user287@mail.com
+1288,Customer_288,Male,43,Jakarta,2023-08-02,user288@mail.com
+1289,Customer_289,Male,51,Medan,2023-09-24,user289@mail.com
+1290,Customer_290,female,58,Bandung,2023-09-14,user290@mail.com
+1291,Customer_291,Male,24,Bandung,2023-10-29,user291@mail.com
+1292,Customer_292,male,21,Jakarta,2023-04-11,user292@mail.com
+1293,Customer_293,Male,28,Bandung,2023-12-12,user293@mail.com
+1294,Customer_294,Female,46,Jakarta ,2023-04-20,user294@mail.com
+1295,Customer_295,Female,53,Surabaya,2023-07-01,user295@mail.com
+1296,Customer_296,female,42,Jakarta,2023-11-09,user296@mail.com
+1297,Customer_297,Female,38,Bandung,2023-01-01,
+1298,Customer_298,male,53,Jakarta,2023-11-15,user298@mail.com
+1299,Customer_299,Male,27,Jakarta,2023-02-24,user299@mail.com
+1300,Customer_300,female,54,Surabaya,2023-05-29,user300@mail.com
