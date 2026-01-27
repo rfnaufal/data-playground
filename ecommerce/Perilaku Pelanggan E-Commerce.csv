@@ -1,0 +1,750 @@
+Customer_ID,Name,City,Age,Gender,Income,Purchase_Amount,Product_Category,Payment_Method,Transaction_Date
+CUST1000,Gilang,Medan,49.0,Female,46476894.0,7922636.0,Groceries,Bank Transfer,2024-01-01
+CUST1001,Dewi,Yogyakarta,30.0,Female,35363575.0,3277902.0,Furniture,Credit Card,2024-01-02
+CUST1002,Eka,Bandung,47.0,Female,5061774.0,17632327.0,Fashion,Bank Transfer,2024-01-03
+CUST1003,Gilang,BSD,40.0,Female,39344790.0,19197931.0,Groceries,Credit Card,2024-01-04
+CUST1004,Citra,Surabaya,36.0,Female,23637778.0,19112021.0,Sports,Credit Card,2024-01-05
+CUST1005,Hani,Bandung,49.0,Female,9976610.0,15114061.0,Electronics,E-Wallet,2024-01-06
+CUST1006,Eka,Surabaya,47.0,Male,9210715.0,1999054.0,Groceries,Bank Transfer,2024-01-07
+CUST1007,Eka,Jakarta,46.0,Male,30488445.0,1650184.0,Groceries,Bank Transfer,2024-01-08
+CUST1008,Gilang,Bandung,62.0,Female,34335282.0,8253113.0,Sports,Credit Card,2024-01-09
+CUST1009,Budi,BSD,46.0,Male,28303302.0,3373523.0,Furniture,Credit Card,2024-01-10
+CUST1010,Citra,Bandung,,Female,,,Fashion,,2024-01-11
+CUST1011,Gilang,Bandung,33.0,Female,20686927.0,13236003.0,Sports,Cash,2024-01-12
+CUST1012,Citra,Bandung,57.0,Male,40266016.0,19647958.0,Fashion,Credit Card,2024-01-13
+CUST1013,Citra,Yogyakarta,36.0,Female,43467715.0,19647590.0,Furniture,Cash,2024-01-14
+CUST1014,Hani,Bandung,35.0,Female,38174147.0,11534523.0,Groceries,Cash,2024-01-15
+CUST1015,Eka,Surabaya,18.0,Female,46570727.0,7396405.0,Fashion,Credit Card,2024-01-16
+CUST1016,Dewi,Jakarta,31.0,Female,9314768.0,14239308.0,Electronics,Credit Card,2024-01-17
+CUST1017,Hani,Medan,64.0,Male,28101670.0,8759522.0,Electronics,Bank Transfer,2024-01-18
+CUST1018,Hani,Bandung,150.0,Female,11815995.0,16364021.0,Sports,Credit Card,2024-01-19
+CUST1019,Citra,BSD,45.0,Female,43280883.0,17911802.0,Furniture,Credit Card,2024-01-20
+CUST1020,Fajar,Bandung,47.0,Female,11064220.0,6140502.0,Sports,E-Wallet,2024-01-21
+CUST1021,Eka,BSD,55.0,Male,21321829.0,14419175.0,Sports,Bank Transfer,2024-01-22
+CUST1022,Budi,Surabaya,21.0,Female,21074854.0,5647094.0,Sports,Bank Transfer,2024-01-23
+CUST1023,Hani,BSD,18.0,Male,26912113.0,3200581.0,Electronics,Bank Transfer,2024-01-24
+CUST1024,Dewi,Medan,25.0,Male,27525886.0,2761637.0,Electronics,E-Wallet,2024-01-25
+CUST1025,Fajar,Jakarta,46.0,Female,49573028.0,3772277.0,Sports,Credit Card,2024-01-26
+CUST1026,Fajar,BSD,56.0,Female,33590972.0,18961720.0,Electronics,Bank Transfer,2024-01-27
+CUST1027,Budi,BSD,20.0,Male,48038050.0,12645745.0,Furniture,Bank Transfer,2024-01-28
+CUST1028,Hani,Jakarta,49.0,Female,39010502.0,10743344.0,Sports,Cash,2024-01-29
+CUST1029,Dewi,Medan,27.0,Male,45432666.0,3121372.0,Electronics,Bank Transfer,2024-01-30
+CUST1030,Eka,Bandung,27.0,Male,36843291.0,16177579.0,Fashion,Credit Card,2024-01-31
+CUST1031,Andi,BSD,36.0,Female,24526982.0,10876837.0,Sports,Credit Card,2024-02-01
+CUST1032,Dewi,Jakarta,63.0,Female,18805013.0,4954042.0,Sports,Cash,2024-02-02
+CUST1033,Budi,Surabaya,,Male,,,Furniture,,2024-02-03
+CUST1034,Fajar,Jakarta,50.0,Male,45537345.0,14603291.0,Groceries,Bank Transfer,2024-02-04
+CUST1035,Eka,Surabaya,40.0,Male,40811773.0,3930121.0,Groceries,Bank Transfer,2024-02-05
+CUST1036,Dewi,Medan,45.0,Male,18321333.0,12051552.0,Furniture,E-Wallet,2024-02-06
+CUST1037,Andi,Bandung,49.0,Female,42031525.0,13938428.0,Furniture,Bank Transfer,2024-02-07
+CUST1038,Andi,Jakarta,-5.0,Female,45147406.0,18230540.0,Furniture,Credit Card,2024-02-08
+CUST1039,Citra,Yogyakarta,,Female,1000000000.0,500000000.0,Groceries,,2024-02-09
+CUST1040,Citra,BSD,25.0,Female,47194441.0,4368173.0,Furniture,E-Wallet,2024-02-10
+CUST1041,Gilang,Medan,18.0,Female,42083478.0,6134722.0,Electronics,E-Wallet,2024-02-11
+CUST1042,Budi,Jakarta,20.0,Male,12426807.0,9358415.0,Sports,Bank Transfer,2024-02-12
+CUST1043,Hani,BSD,41.0,Female,20438118.0,16711127.0,Sports,Cash,2024-02-13
+CUST1044,Dewi,Jakarta,40.0,Female,44116548.0,4170028.0,Fashion,E-Wallet,2024-02-14
+CUST1045,Dewi,Surabaya,25.0,Female,29535897.0,11153104.0,Fashion,E-Wallet,2024-02-15
+CUST1046,Hani,Jakarta,64.0,Female,32319409.0,11360784.0,Sports,Bank Transfer,2024-02-16
+CUST1047,Gilang,Yogyakarta,54.0,Female,21463212.0,1469277.0,Electronics,Bank Transfer,2024-02-17
+CUST1048,Fajar,Jakarta,20.0,Male,33596308.0,849971.0,Groceries,E-Wallet,2024-02-18
+CUST1049,Fajar,Jakarta,50.0,Male,23023633.0,15811072.0,Groceries,Cash,2024-02-19
+CUST1050,Gilang,Yogyakarta,45.0,Male,12091044.0,12654841.0,Electronics,E-Wallet,2024-02-20
+CUST1051,Fajar,Medan,64.0,Female,30709612.0,8322502.0,Groceries,Bank Transfer,2024-02-21
+CUST1052,Citra,Jakarta,25.0,Male,17942371.0,4560276.0,Furniture,Bank Transfer,2024-02-22
+CUST1053,Dewi,Yogyakarta,51.0,Male,4551330.0,7556688.0,Sports,E-Wallet,2024-02-23
+CUST1054,Gilang,BSD,,Female,,,Sports,,2024-02-24
+CUST1055,Dewi,Surabaya,49.0,Female,7657851.0,8974365.0,Electronics,E-Wallet,2024-02-25
+CUST1056,Hani,Surabaya,41.0,Female,26472522.0,18931592.0,Groceries,E-Wallet,2024-02-26
+CUST1057,Andi,Jakarta,31.0,Male,8378750.0,18062327.0,Fashion,Bank Transfer,2024-02-27
+CUST1058,Citra,Medan,49.0,Male,5607411.0,5061828.0,Fashion,Cash,2024-02-28
+CUST1059,Eka,Medan,63.0,Female,4693439.0,14326224.0,Groceries,Credit Card,2024-02-29
+CUST1060,Citra,BSD,60.0,Female,21608310.0,19270135.0,Fashion,Cash,2024-03-01
+CUST1061,Gilang,Jakarta,33.0,Male,39991604.0,1600948.0,Electronics,E-Wallet,2024-03-02
+CUST1062,Eka,Surabaya,21.0,Male,19604953.0,6427090.0,Electronics,E-Wallet,2024-03-03
+CUST1063,Andi,Medan,,Female,,,Groceries,,2024-03-04
+CUST1064,Gilang,Jakarta,38.0,Female,43474307.0,5937196.0,Fashion,Cash,2024-03-05
+CUST1065,Budi,Medan,,Male,,,Electronics,,2024-03-06
+CUST1066,Dewi,Yogyakarta,,Female,,,Electronics,,2024-03-07
+CUST1067,Andi,Medan,35.0,Male,15807931.0,5657805.0,Furniture,E-Wallet,2024-03-08
+CUST1068,Dewi,Surabaya,24.0,Male,34216359.0,5002444.0,Furniture,Cash,2024-03-09
+CUST1069,Fajar,Bandung,27.0,Male,6815144.0,17069728.0,Electronics,Credit Card,2024-03-10
+CUST1070,Budi,BSD,24.0,Male,23213468.0,14263986.0,Groceries,Credit Card,2024-03-11
+CUST1071,Budi,BSD,50.0,Female,19541107.0,5945447.0,Sports,Bank Transfer,2024-03-12
+CUST1072,Andi,Surabaya,,Female,,,Sports,,2024-03-13
+CUST1073,Budi,Medan,38.0,Male,30151781.0,1649420.0,Electronics,E-Wallet,2024-03-14
+CUST1074,Eka,Jakarta,36.0,Male,10596585.0,11837532.0,Electronics,Cash,2024-03-15
+CUST1075,Budi,Medan,36.0,Male,19177172.0,15037388.0,Electronics,E-Wallet,2024-03-16
+CUST1076,Dewi,Surabaya,,Male,,,Groceries,,2024-03-17
+CUST1077,Dewi,BSD,,Male,,,Furniture,,2024-03-18
+CUST1078,Gilang,Medan,,Female,,,Electronics,,2024-03-19
+CUST1079,Dewi,BSD,19.0,Female,12490536.0,11453540.0,Electronics,Bank Transfer,2024-03-20
+CUST1080,Gilang,Jakarta,18.0,Female,39075711.0,6822055.0,Fashion,Credit Card,2024-03-21
+CUST1081,Dewi,BSD,,Female,,,Groceries,,2024-03-22
+CUST1082,Eka,BSD,22.0,Male,13488951.0,15514106.0,Electronics,Cash,2024-03-23
+CUST1083,Hani,Bandung,37.0,Male,15485000.0,9135949.0,Fashion,E-Wallet,2024-03-24
+CUST1084,Gilang,Bandung,28.0,Male,25897064.0,18398198.0,Sports,Credit Card,2024-03-25
+CUST1085,Citra,Yogyakarta,59.0,Male,5726016.0,6381646.0,Electronics,E-Wallet,2024-03-26
+CUST1086,Fajar,Bandung,19.0,Male,3442939.0,6526288.0,Electronics,Credit Card,2024-03-27
+CUST1087,Andi,BSD,20.0,Female,23060188.0,9690446.0,Fashion,Credit Card,2024-03-28
+CUST1088,Dewi,Surabaya,40.0,Male,39266225.0,19041779.0,Groceries,E-Wallet,2024-03-29
+CUST1089,Budi,BSD,29.0,Female,33822201.0,5381091.0,Electronics,Bank Transfer,2024-03-30
+CUST1090,Hani,Surabaya,37.0,Female,16135871.0,4508285.0,Sports,Credit Card,2024-03-31
+CUST1091,Dewi,Surabaya,22.0,Female,38873556.0,15045952.0,Electronics,Credit Card,2024-04-01
+CUST1092,Budi,Bandung,54.0,Female,16331233.0,13463838.0,Sports,E-Wallet,2024-04-02
+CUST1093,Fajar,Medan,55.0,Male,22296186.0,8112369.0,Furniture,Bank Transfer,2024-04-03
+CUST1094,Fajar,Jakarta,47.0,Female,38281840.0,16581938.0,Furniture,Credit Card,2024-04-04
+CUST1095,Fajar,Bandung,26.0,Female,22578958.0,11144590.0,Sports,Credit Card,2024-04-05
+CUST1096,Budi,Bandung,51.0,Female,20832891.0,11733575.0,Groceries,Bank Transfer,2024-04-06
+CUST1097,Dewi,Medan,,Male,,,Electronics,,2024-04-07
+CUST1098,Fajar,Jakarta,52.0,Male,35038060.0,8190736.0,Electronics,Bank Transfer,2024-04-08
+CUST1099,Eka,BSD,39.0,Male,43991186.0,3085696.0,Furniture,Bank Transfer,2024-04-09
+CUST1100,Gilang,Yogyakarta,61.0,Female,16137311.0,8926233.0,Sports,E-Wallet,2024-04-10
+CUST1101,Budi,Yogyakarta,,Female,,,Electronics,,2024-04-11
+CUST1102,Budi,BSD,34.0,Male,27795222.0,13881646.0,Electronics,Bank Transfer,2024-04-12
+CUST1103,Dewi,Bandung,27.0,Female,38874916.0,18249286.0,Groceries,E-Wallet,2024-04-13
+CUST1104,Budi,Jakarta,47.0,Male,7105223.0,19470942.0,Fashion,Cash,2024-04-14
+CUST1105,Budi,Bandung,63.0,Male,47766028.0,11030625.0,Furniture,Credit Card,2024-04-15
+CUST1106,Fajar,Surabaya,40.0,Female,32084871.0,10058665.0,Furniture,Cash,2024-04-16
+CUST1107,Dewi,Bandung,49.0,Female,31634616.0,9349677.0,Fashion,ewallet,2024-04-17
+CUST1108,Fajar,Bandung,34.0,Female,14963776.0,14202737.0,Electronics,Bank Transfer,2024-04-18
+CUST1109,Gilang,BSD,,Female,,,Groceries,,2024-04-19
+CUST1110,Hani,BSD,31.0,Male,25572466.0,14577978.0,Groceries,Bank Transfer,2024-04-20
+CUST1111,Gilang,BSD,26.0,Male,40609879.0,17347745.0,Furniture,Bank Transfer,2024-04-21
+CUST1112,Hani,Yogyakarta,57.0,Male,21557968.0,17038661.0,Groceries,E-Wallet,2024-04-22
+CUST1113,Fajar,Surabaya,19.0,Male,17501508.0,3934242.0,Fashion,Bank Transfer,2024-04-23
+CUST1114,Gilang,BSD,62.0,Male,39847763.0,11771439.0,Electronics,E-Wallet,2024-04-24
+CUST1115,Dewi,Jakarta,42.0,Female,16457684.0,6594503.0,Fashion,Credit Card,2024-04-25
+CUST1116,Andi,Yogyakarta,56.0,Male,43808249.0,16825072.0,Sports,Bank Transfer,2024-04-26
+CUST1117,Fajar,Medan,26.0,Male,40889950.0,784029.0,Furniture,Bank Transfer,2024-04-27
+CUST1118,Hani,Jakarta,39.0,Male,33981347.0,5437355.0,Groceries,Cash,2024-04-28
+CUST1119,Eka,Jakarta,60.0,Female,28568906.0,15306634.0,Sports,Credit Card,2024-04-29
+CUST1120,Hani,BSD,63.0,Female,11589747.0,7081440.0,Groceries,Bank Transfer,2024-04-30
+CUST1121,Eka,Medan,21.0,Female,41777230.0,4099694.0,Electronics,Bank Transfer,2024-05-01
+CUST1122,Budi,Medan,43.0,Female,23681938.0,16784388.0,Electronics,Credit Card,2024-05-02
+CUST1123,Gilang,Yogyakarta,46.0,Male,24992838.0,14424285.0,Electronics,E-Wallet,2024-05-03
+CUST1124,Eka,jakarta,62.0,Male,14135474.0,17086160.0,Groceries,Bank Transfer,2024-05-04
+CUST1125,Hani,Surabaya,51.0,Female,12596394.0,11314102.0,Sports,Cash,2024-05-05
+CUST1126,Budi,BSD,40.0,Female,28258425.0,18238519.0,Electronics,Bank Transfer,2024-05-06
+CUST1127,Andi,Medan,54.0,Male,22952900.0,16653464.0,Sports,Cash,2024-05-07
+CUST1128,Dewi,Yogyakarta,28.0,Male,14772676.0,8064443.0,Groceries,Cash,2024-05-08
+CUST1129,Dewi,Surabaya,23.0,Female,20406301.0,19771316.0,Sports,Bank Transfer,2024-05-09
+CUST1130,Dewi,Bandung,35.0,Female,13348533.0,1297162.0,Groceries,Bank Transfer,2024-05-10
+CUST1131,Eka,Bandung,38.0,Female,29683911.0,1146161.0,Groceries,Cash,2024-05-11
+CUST1132,Andi,Surabaya,59.0,Female,13401929.0,4788482.0,Furniture,Credit Card,2024-05-12
+CUST1133,Eka,Yogyakarta,53.0,Male,25849061.0,8448022.0,Groceries,Credit Card,2024-05-13
+CUST1134,Gilang,Surabaya,58.0,Male,22295854.0,15011560.0,Groceries,Bank Transfer,2024-05-14
+CUST1135,Eka,BSD,55.0,Male,20380319.0,7083604.0,Fashion,E-Wallet,2024-05-15
+CUST1136,Andi,BSD,51.0,Female,38544400.0,10268293.0,Electronics,Credit Card,2024-05-16
+CUST1137,Andi,Bandun,120.0,Female,8303943.0,18774717.0,Furniture,Bank Transfer,2024-05-17
+CUST1138,Gilang,Medan,54.0,Male,18453951.0,4854619.0,Furniture,Credit Card,2024-05-18
+CUST1139,Andi,Yogyakarta,42.0,Male,42051623.0,6565377.0,Furniture,E-Wallet,2024-05-19
+CUST1140,Hani,Bandung,55.0,Male,34099208.0,6229439.0,Fashion,Bank Transfer,2024-05-20
+CUST1141,Andi,Medan,29.0,Male,32805505.0,9161826.0,Groceries,E-Wallet,2024-05-21
+CUST1142,Dewi,Medan,40.0,Female,14004849.0,5002059.0,Electronics,Bank Transfer,2024-05-22
+CUST1143,Hani,BSD,59.0,Male,47786626.0,11149806.0,Sports,E-Wallet,2024-05-23
+CUST1144,Hani,Jakarta,39.0,Male,26250723.0,6707912.0,Groceries,Credit Card,2024-05-24
+CUST1145,Gilang,Jakarta,38.0,Male,27214909.0,5673694.0,Fashion,Credit Card,2024-05-25
+CUST1146,Citra,Surabaya,44.0,Male,49013251.0,17596623.0,Groceries,E-Wallet,2024-05-26
+CUST1147,Citra,BSD,48.0,Male,41692429.0,19415359.0,Groceries,E-Wallet,2024-05-27
+CUST1148,Andi,Medan,,Male,,,Fashion,,2024-05-28
+CUST1149,Hani,Yogyakarta,44.0,Male,17084264.0,12404378.0,Furniture,Bank Transfer,2024-05-29
+CUST1150,Citra,Jakarta,57.0,Female,31782808.0,17206037.0,Furniture,Credit Card,2024-05-30
+CUST1151,Citra,Medan,51.0,Female,43824950.0,10669315.0,Electronics,Bank Transfer,2024-05-31
+CUST1152,Andi,Jakarta,29.0,Female,48961405.0,10189851.0,Electronics,Credit Card,2024-06-01
+CUST1153,Citra,Jakarta,62.0,Female,25289150.0,3987008.0,Furniture,Cash,2024-06-02
+CUST1154,Eka,Jakarta,24.0,Male,44727753.0,10300983.0,Sports,Bank Transfer,2024-06-03
+CUST1155,Budi,Yogyakarta,,Female,,,Groceries,,2024-06-04
+CUST1156,Gilang,BSD,62.0,Female,4003171.0,12116055.0,Sports,Credit Card,2024-06-05
+CUST1157,Budi,Yogyakarta,34.0,Male,26992154.0,6825275.0,Groceries,Bank Transfer,2024-06-06
+CUST1158,Andi,Bandung,,Male,,,Furniture,,2024-06-07
+CUST1159,Dewi,Medan,38.0,Female,37924917.0,8557411.0,Electronics,Credit Card,2024-06-08
+CUST1160,Gilang,BSD,45.0,Female,10045900.0,17684960.0,Electronics,Bank Transfer,2024-06-09
+CUST1161,Andi,BSD,63.0,Male,21458292.0,9237344.0,Sports,E-Wallet,2024-06-10
+CUST1162,Hani,BSD,19.0,Female,25089615.0,5820622.0,Electronics,Bank Transfer,2024-06-11
+CUST1163,Dewi,BSD,60.0,Male,33600479.0,16555442.0,Furniture,Bank Transfer,2024-06-12
+CUST1164,Budi,Yogyakarta,18.0,Male,3981883.0,8734012.0,Sports,Bank Transfer,2024-06-13
+CUST1165,Andi,BSD,53.0,Male,4668321.0,7033705.0,Groceries,Credit Card,2024-06-14
+CUST1166,Hani,Surabaya,43.0,Male,16296138.0,16894513.0,Electronics,E-Wallet,2024-06-15
+CUST1167,Gilang,Medan,46.0,Female,46561742.0,17665659.0,Fashion,Cash,2024-06-16
+CUST1168,Gilang,BSD,38.0,Male,9154512.0,13251214.0,Electronics,Cash,2024-06-17
+CUST1169,Fajar,Medan,28.0,Male,29665895.0,6110334.0,Groceries,E-Wallet,2024-06-18
+CUST1170,Hani,Surabaya,57.0,Female,23536721.0,11515002.0,Sports,E-Wallet,2024-06-19
+CUST1171,Eka,Surabaya,28.0,Male,28192630.0,14612253.0,Groceries,E-Wallet,2024-06-20
+CUST1172,Citra,Medan,53.0,Female,8418952.0,9715754.0,Fashion,Credit Card,2024-06-21
+CUST1173,Dewi,Jakarta,56.0,Female,7264423.0,14657759.0,Furniture,Cash,2024-06-22
+CUST1174,Hani,Bandung,57.0,Female,46816762.0,18210788.0,Electronics,E-Wallet,2024-06-23
+CUST1175,Fajar,Jakarta,52.0,Male,16816653.0,9104471.0,Sports,Credit Card,2024-06-24
+CUST1176,Citra,Jakarta,51.0,Female,11181883.0,15823723.0,Furniture,Cash,2024-06-25
+CUST1177,Citra,Yogyakarta,64.0,Female,18309784.0,3865056.0,Groceries,Bank Transfer,2024-06-26
+CUST1178,Andi,Jakarta,41.0,Male,34927921.0,15977150.0,Sports,Credit Card,2024-06-27
+CUST1179,Citra,BSD,39.0,Female,26948053.0,3425315.0,Furniture,Cash,2024-06-28
+CUST1180,Eka,Yogyakarta,22.0,Female,38074035.0,14261520.0,Sports,Credit Card,2024-06-29
+CUST1181,Gilang,Yogyakarta,50.0,Female,30134365.0,14167121.0,Fashion,Cash,2024-06-30
+CUST1182,Fajar,Surabaya,53.0,Female,30670483.0,5317092.0,Fashion,Cash,2024-07-01
+CUST1183,Citra,Jakarta,64.0,Female,20640619.0,8364605.0,Electronics,Bank Transfer,2024-07-02
+CUST1184,Andi,Surabaya,37.0,Male,45822943.0,17706007.0,Electronics,Credit Card,2024-07-03
+CUST1185,Eka,Medan,36.0,Female,25272887.0,3920887.0,Fashion,E-Wallet,2024-07-04
+CUST1186,Budi,Bandung,52.0,Female,37533268.0,2946274.0,Sports,Bank Transfer,2024-07-05
+CUST1187,Gilang,Yogyakarta,60.0,Male,23000738.0,13328106.0,Fashion,Bank Transfer,2024-07-06
+CUST1188,Gilang,Medan,34.0,Male,17804511.0,12884172.0,Electronics,Cash,2024-07-07
+CUST1189,Fajar,Medan,62.0,Male,21994397.0,6088099.0,Fashion,E-Wallet,2024-07-08
+CUST1190,Gilang,BSD,60.0,Female,11568438.0,16259082.0,Fashion,Credit Card,2024-07-09
+CUST1191,Citra,Bandung,51.0,Male,21333734.0,476794.0,Sports,E-Wallet,2024-07-10
+CUST1192,Andi,Medan,,Female,,,Furniture,,2024-07-11
+CUST1193,Gilang,Medan,43.0,Female,39213515.0,3133349.0,Electronics,E-Wallet,2024-07-12
+CUST1194,Gilang,Bandung,19.0,Male,12625105.0,15030164.0,Sports,E-Wallet,2024-07-13
+CUST1195,Budi,Bandung,26.0,Male,24654924.0,882877.0,Fashion,E-Wallet,2024-07-14
+CUST1196,Budi,Medan,26.0,Female,12935869.0,7168132.0,Fashion,Cash,2024-07-15
+CUST1197,Dewi,Bandung,57.0,Male,34845012.0,13884612.0,Furniture,Cash,2024-07-16
+CUST1198,Eka,Medan,34.0,Female,44434749.0,12099401.0,Electronics,Bank Transfer,2024-07-17
+CUST1199,Citra,Medan,18.0,Male,44835879.0,6399492.0,Electronics,Cash,2024-07-18
+CUST1200,Gilang,BSD,42.0,Male,49979309.0,6028643.0,Groceries,Bank Transfer,2024-07-19
+CUST1201,Hani,Jakarta,60.0,Male,49482054.0,11569585.0,Electronics,Bank Transfer,2024-07-20
+CUST1202,Gilang,Medan,57.0,Female,40450390.0,9824700.0,Furniture,Credit Card,2024-07-21
+CUST1203,Andi,Surabaya,59.0,Male,32992671.0,950350.0,Groceries,E-Wallet,2024-07-22
+CUST1204,Dewi,Yogyakarta,42.0,Female,26853258.0,13615389.0,Groceries,Cash,2024-07-23
+CUST1205,Eka,Jakarta,56.0,Female,35469247.0,11693836.0,Fashion,Credit Card,2024-07-24
+CUST1206,Hani,Jakarta,52.0,Female,16689493.0,8656255.0,Fashion,Cash,2024-07-25
+CUST1207,Dewi,Jakarta,20.0,Female,4265898.0,19210895.0,Electronics,Bank Transfer,2024-07-26
+CUST1208,Fajar,BSD,54.0,Male,18918424.0,535477.0,Groceries,Cash,2024-07-27
+CUST1209,Eka,Medan,61.0,Female,38674971.0,10172131.0,Fashion,E-Wallet,2024-07-28
+CUST1210,Gilang,BSD,,Female,,,Furniture,,2024-07-29
+CUST1211,Gilang,Medan,,Male,,,Fashion,,2024-07-30
+CUST1212,Eka,BSD,55.0,Female,31899868.0,4427308.0,Fashion,Credit Card,2024-07-31
+CUST1213,Gilang,BSD,51.0,Male,34052238.0,11448641.0,Groceries,E-Wallet,2024-08-01
+CUST1214,Citra,Yogyakarta,29.0,Female,25700314.0,18458636.0,Groceries,Bank Transfer,2024-08-02
+CUST1215,Eka,Surabaya,36.0,Male,47609118.0,17663477.0,Sports,E-Wallet,2024-08-03
+CUST1216,Dewi,BSD,54.0,Female,20262030.0,11317238.0,Furniture,Cash,2024-08-04
+CUST1217,Eka,Yogyakarta,61.0,Male,28137138.0,12733010.0,Groceries,E-Wallet,2024-08-05
+CUST1218,Hani,Bandung,,Female,,,Electronics,,2024-08-06
+CUST1219,Gilang,Surabaya,27.0,Female,33779669.0,6638655.0,Furniture,Credit Card,2024-08-07
+CUST1220,Citra,BSD,64.0,Male,38154340.0,12813456.0,Furniture,Bank Transfer,2024-08-08
+CUST1221,Citra,Jakarta,29.0,Male,41864224.0,19954315.0,Groceries,E-Wallet,2024-08-09
+CUST1222,Fajar,Bandung,33.0,Male,38908279.0,2944180.0,Furniture,E-Wallet,2024-08-10
+CUST1223,Dewi,Bandung,41.0,Male,14018754.0,11110186.0,Groceries,Bank Transfer,2024-08-11
+CUST1224,Budi,Yogyakarta,36.0,Female,5892478.0,13076486.0,Fashion,E-Wallet,2024-08-12
+CUST1225,Budi,Bandung,25.0,Female,13831890.0,15248530.0,Sports,Cash,2024-08-13
+CUST1226,Eka,Surabaya,48.0,Male,8949852.0,5166112.0,Fashion,Bank Transfer,2024-08-14
+CUST1227,Fajar,BSD,38.0,Female,3029725.0,10161403.0,Groceries,Credit Card,2024-08-15
+CUST1228,Andi,BSD,34.0,Male,12184536.0,9050668.0,Groceries,Bank Transfer,2024-08-16
+CUST1229,Eka,Jakarta,40.0,Male,19413806.0,5401358.0,Fashion,Cash,2024-08-17
+CUST1230,Fajar,Yogyakarta,54.0,Female,22748999.0,18383361.0,Electronics,Cash,2024-08-18
+CUST1231,Dewi,Jakarta,33.0,Female,39217193.0,19525418.0,Electronics,Cash,2024-08-19
+CUST1232,Dewi,Bandung,23.0,Female,43078991.0,18070147.0,Electronics,Cash,2024-08-20
+CUST1233,Dewi,Jakarta,25.0,Female,34512427.0,14450770.0,Groceries,Cash,2024-08-21
+CUST1234,Dewi,Surabaya,42.0,Female,36121540.0,4989084.0,Furniture,Credit Card,2024-08-22
+CUST1235,Dewi,BSD,,Female,,,Groceries,,2024-08-23
+CUST1236,Fajar,Bandung,42.0,Female,34932864.0,971522.0,Furniture,Cash,2024-08-24
+CUST1237,Fajar,Jakarta,29.0,Male,26313511.0,15623665.0,Fashion,Cash,2024-08-25
+CUST1238,Citra,Yogyakarta,32.0,Male,30719138.0,14955831.0,Sports,Bank Transfer,2024-08-26
+CUST1239,Hani,Surabaya,43.0,Male,49683359.0,15016345.0,Furniture,Credit Card,2024-08-27
+CUST1240,Budi,Surabaya,58.0,Male,23686655.0,2281906.0,Electronics,Credit Card,2024-08-28
+CUST1241,Gilang,Jakarta,62.0,Male,16726569.0,18377350.0,Groceries,E-Wallet,2024-08-29
+CUST1242,Dewi,BSD,43.0,Female,8627745.0,19482100.0,Fashion,Credit Card,2024-08-30
+CUST1243,Andi,Jakarta,64.0,Male,6911146.0,1805243.0,Electronics,Bank Transfer,2024-08-31
+CUST1244,Gilang,Bandung,,Male,,,Fashion,,2024-09-01
+CUST1245,Fajar,Jakarta,27.0,Male,37243988.0,17116995.0,Sports,E-Wallet,2024-09-02
+CUST1246,Andi,Surabaya,33.0,Male,14245869.0,3075605.0,Groceries,Bank Transfer,2024-09-03
+CUST1247,Andi,Jakarta,24.0,Male,31391654.0,5199154.0,Groceries,Cash,2024-09-04
+CUST1248,Andi,BSD,,Male,,,Sports,,2024-09-05
+CUST1249,Citra,Yogyakarta,40.0,Male,5253722.0,13863700.0,Groceries,Bank Transfer,2024-09-06
+CUST1250,Fajar,Medan,,Female,,,Furniture,,2024-09-07
+CUST1251,Andi,Jakarta,38.0,Female,4116271.0,8252885.0,Fashion,Credit Card,2024-09-08
+CUST1252,Dewi,BSD,39.0,Male,13916876.0,9276748.0,Electronics,E-Wallet,2024-09-09
+CUST1253,Eka,BSD,24.0,Female,34978888.0,12047147.0,Sports,Credit Card,2024-09-10
+CUST1254,Andi,Yogyakarta,31.0,Female,34574515.0,15873429.0,Furniture,Bank Transfer,2024-09-11
+CUST1255,Citra,Surabaya,32.0,Female,39653987.0,6316074.0,Electronics,Bank Transfer,2024-09-12
+CUST1256,Gilang,BSD,24.0,Female,500000000.0,200000000.0,Electronics,Cash,2024-09-13
+CUST1257,Fajar,BSD,26.0,Male,21458857.0,13214884.0,Sports,Credit Card,2024-09-14
+CUST1258,Hani,BSD,25.0,Female,20443381.0,4688727.0,Furniture,E-Wallet,2024-09-15
+CUST1259,Citra,BSD,,Female,,,Electronics,,2024-09-16
+CUST1260,Andi,Bandung,46.0,Female,24253537.0,9078989.0,Electronics,E-Wallet,2024-09-17
+CUST1261,Fajar,JKT,35.0,Male,40264820.0,13892249.0,Furniture,Cash,2024-09-18
+CUST1262,Eka,Surabaya,48.0,Male,39789624.0,3783909.0,Groceries,Credit Card,2024-09-19
+CUST1263,Andi,Jakarta,47.0,Male,30933715.0,1639600.0,Electronics,Credit Card,2024-09-20
+CUST1264,Citra,BSD,56.0,Male,29906511.0,16419346.0,Fashion,Bank Transfer,2024-09-21
+CUST1265,Budi,Yogyakarta,-10.0,Male,38489522.0,7565106.0,Furniture,Credit Card,2024-09-22
+CUST1266,Dewi,Jakarta,,Male,,,Electronics,,2024-09-23
+CUST1267,Hani,Yogyakarta,59.0,Male,9739013.0,19947987.0,Sports,Cash,2024-09-24
+CUST1268,Gilang,Jakarta,56.0,Female,10089975.0,18020863.0,Fashion,Credit Card,2024-09-25
+CUST1269,Citra,Surabaya,34.0,Female,11805586.0,12100254.0,Electronics,Bank Transfer,2024-09-26
+CUST1270,Fajar,BSD,31.0,Female,900000000.0,600000000.0,Fashion,E-Wallet,2024-09-27
+CUST1271,Hani,BSD,48.0,Male,47564078.0,19571461.0,Fashion,Bank Transfer,2024-09-28
+CUST1272,Hani,Medan,41.0,Male,14768963.0,521280.0,Groceries,Credit Card,2024-09-29
+CUST1273,Hani,Yogyakarta,52.0,Male,17263315.0,1009245.0,Fashion,Cash,2024-09-30
+CUST1274,Andi,Jakarta,61.0,Male,6868452.0,17218423.0,Groceries,Credit Card,2024-10-01
+CUST1275,Dewi,Jakarta,62.0,Male,32171429.0,16093238.0,Furniture,Credit Card,2024-10-02
+CUST1276,Andi,Bandung,51.0,Female,30366868.0,16111662.0,Groceries,Bank Transfer,2024-10-03
+CUST1277,Fajar,Medan,20.0,Female,11074037.0,18107962.0,Sports,E-Wallet,2024-10-04
+CUST1278,Andi,Bandung,54.0,Male,37867175.0,14973290.0,Electronics,Credit Card,2024-10-05
+CUST1279,Budi,Bandung,60.0,Male,30906918.0,692632.0,Furniture,E-Wallet,2024-10-06
+CUST1280,Dewi,Bandung,57.0,Male,16822356.0,12525714.0,Furniture,Bank Transfer,2024-10-07
+CUST1281,Dewi,Yogyakarta,,Male,,,Sports,,2024-10-08
+CUST1282,Fajar,Yogyakarta,40.0,Female,48677485.0,18039405.0,Groceries,Bank Transfer,2024-10-09
+CUST1283,Gilang,Surabaya,61.0,Male,43562875.0,12359034.0,Electronics,Cash,2024-10-10
+CUST1284,Budi,Surabaya,56.0,Male,46281526.0,5830385.0,Groceries,E-Wallet,2024-10-11
+CUST1285,Citra,Bandung,32.0,Male,46420892.0,2481486.0,Fashion,E-Wallet,2024-10-12
+CUST1286,Andi,Medan,21.0,Male,10303693.0,13914531.0,Groceries,Cash,2024-10-13
+CUST1287,Eka,Jakarta,46.0,Female,22992066.0,8268326.0,Furniture,E-Wallet,2024-10-14
+CUST1288,Andi,Yogyakarta,39.0,Male,13108631.0,12650508.0,Electronics,Cash,2024-10-15
+CUST1289,Hani,Medan,42.0,Male,47613348.0,17002654.0,Groceries,Credit Card,2024-10-16
+CUST1290,Andi,BSD,,Female,,,Electronics,,2024-10-17
+CUST1291,Citra,Yogyakarta,,Female,,,Electronics,,2024-10-18
+CUST1292,Andi,Yogyakarta,50.0,Female,28464695.0,7185904.0,Fashion,E-Wallet,2024-10-19
+CUST1293,Budi,Surabaya,33.0,Male,44822973.0,13924880.0,Fashion,Cash,2024-10-20
+CUST1294,Budi,Jakarta,,Male,,,Furniture,,2024-10-21
+CUST1295,Dewi,Jakarta,59.0,Female,22726497.0,10687999.0,Sports,Credit Card,2024-10-22
+CUST1296,Fajar,BSD,61.0,Female,27133277.0,2901445.0,Electronics,Cash,2024-10-23
+CUST1297,Gilang,BSD,19.0,Female,37849361.0,13013082.0,Sports,Credit Card,2024-10-24
+CUST1298,Eka,Yogyakarta,52.0,Female,39059026.0,11352748.0,Furniture,Bank Transfer,2024-10-25
+CUST1299,Hani,Bandung,59.0,Female,21020510.0,12053070.0,Electronics,E-Wallet,2024-10-26
+CUST1300,Andi,Surabaya,51.0,Female,34386811.0,6939789.0,Electronics,E-Wallet,2024-10-27
+CUST1301,Andi,Surabaya,47.0,Male,44266066.0,8670556.0,Sports,Credit Card,2024-10-28
+CUST1302,Citra,Yogyakarta,30.0,Male,38969234.0,19460030.0,Groceries,Bank Transfer,2024-10-29
+CUST1303,Fajar,Medan,30.0,Male,36997463.0,15094127.0,Fashion,CREDIT CARD,2024-10-30
+CUST1304,Budi,Bandung,35.0,Female,29256492.0,1306751.0,Groceries,Cash,2024-10-31
+CUST1305,Eka,Yogyakarta,49.0,Female,18663645.0,1053692.0,Sports,E-Wallet,2024-11-01
+CUST1306,Dewi,Bandung,49.0,Female,22567589.0,17094986.0,Fashion,Credit Card,2024-11-02
+CUST1307,Budi,Bandung,52.0,Female,31849268.0,16372265.0,Groceries,Credit Card,2024-11-03
+CUST1308,Hani,Bandung,56.0,Female,34632286.0,7069129.0,Fashion,Cash,2024-11-04
+CUST1309,Fajar,Yogyakarta,63.0,Female,10061183.0,10925853.0,Electronics,Bank Transfer,2024-11-05
+CUST1310,Hani,Surabaya,46.0,Male,23064274.0,16615348.0,Groceries,Bank Transfer,2024-11-06
+CUST1311,Gilang,Surabaya,46.0,Male,14592111.0,18667224.0,Fashion,Cash,2024-11-07
+CUST1312,Dewi,Bandung,61.0,Female,32324003.0,18703741.0,Fashion,Cash,2024-11-08
+CUST1313,Gilang,Medan,33.0,Male,3290998.0,4613070.0,Fashion,Credit Card,2024-11-09
+CUST1314,Citra,Jakarta,,Female,,,Groceries,,2024-11-10
+CUST1315,Hani,Yogyakarta,64.0,Male,9367712.0,1578768.0,Furniture,Cash,2024-11-11
+CUST1316,Citra,Jakarta,27.0,Female,47991633.0,16741511.0,Groceries,Cash,2024-11-12
+CUST1317,Andi,Medan,47.0,Female,10997043.0,10053821.0,Sports,BankTransfer,2024-11-13
+CUST1318,Gilang,Yogyakarta,42.0,Male,3181360.0,15108832.0,Groceries,Cash,2024-11-14
+CUST1319,Fajar,Bandung,56.0,Male,22221242.0,502980.0,Fashion,Cash,2024-11-15
+CUST1320,Hani,Surabaya,37.0,Female,22292635.0,9657540.0,Electronics,Bank Transfer,2024-11-16
+CUST1321,Eka,Jakarta,22.0,Female,8532410.0,14822791.0,Groceries,Credit Card,2024-11-17
+CUST1322,Dewi,BSD,18.0,Male,7138286.0,14263844.0,Groceries,Bank Transfer,2024-11-18
+CUST1323,Budi,BSD,47.0,Male,14031669.0,7032667.0,Fashion,Credit Card,2024-11-19
+CUST1324,Fajar,Medan,20.0,Female,11333100.0,9937695.0,Electronics,E-Wallet,2024-11-20
+CUST1325,Fajar,Bandung,62.0,Male,9893728.0,19408744.0,Electronics,Cash,2024-11-21
+CUST1326,Citra,Jakarta,31.0,Female,21904815.0,2208542.0,Sports,E-Wallet,2024-11-22
+CUST1327,Gilang,Bandung,,Female,,,Groceries,,2024-11-23
+CUST1328,Hani,Jakarta,21.0,Female,41488026.0,9426243.0,Electronics,Bank Transfer,2024-11-24
+CUST1329,Hani,Medan,35.0,Female,18697605.0,18263905.0,Electronics,Bank Transfer,2024-11-25
+CUST1330,Andi,Medan,54.0,Male,31997166.0,12304734.0,Furniture,E-Wallet,2024-11-26
+CUST1331,Andi,BSD,,Male,,,Furniture,,2024-11-27
+CUST1332,Dewi,Bandung,18.0,Male,27100710.0,2946230.0,Electronics,E-Wallet,2024-11-28
+CUST1333,Citra,Yogyakarta,63.0,Male,43253576.0,14070696.0,Sports,cashh,2024-11-29
+CUST1334,Fajar,BSD,,Male,,,Electronics,,2024-11-30
+CUST1335,Hani,Bandung,26.0,Male,16099507.0,5653535.0,Fashion,E-Wallet,2024-12-01
+CUST1336,Eka,BSD,32.0,Male,15285500.0,3778621.0,Groceries,Cash,2024-12-02
+CUST1337,Citra,Yogyakarta,41.0,Female,49801033.0,4656766.0,Sports,Cash,2024-12-03
+CUST1338,Dewi,Surabaya,21.0,Male,30428913.0,15174661.0,Fashion,Bank Transfer,2024-12-04
+CUST1339,Dewi,Surabaya,29.0,Male,41844162.0,6327018.0,Sports,Cash,2024-12-05
+CUST1340,Citra,Surabaya,54.0,Female,48405132.0,9786599.0,Fashion,Cash,2024-12-06
+CUST1341,Dewi,Surabaya,54.0,Male,39793968.0,7071138.0,Groceries,Bank Transfer,2024-12-07
+CUST1342,Citra,Jakarta,60.0,Male,36007453.0,15337307.0,Groceries,E-Wallet,2024-12-08
+CUST1343,Budi,Surabaya,23.0,Female,18341821.0,10302796.0,Furniture,Credit Card,2024-12-09
+CUST1344,Citra,Yogyakarta,56.0,Male,38880565.0,10595967.0,Fashion,Credit Card,2024-12-10
+CUST1345,Gilang,Medan,63.0,Male,34979500.0,8707009.0,Furniture,Credit Card,2024-12-11
+CUST1346,Citra,Medan,,Male,,,Fashion,,2024-12-12
+CUST1347,Dewi,Jakarta,28.0,Female,13538832.0,7645189.0,Furniture,Cash,2024-12-13
+CUST1348,Hani,Surabaya,30.0,Male,36251322.0,11656367.0,Groceries,Credit Card,2024-12-14
+CUST1349,Gilang,Surabaya,51.0,Male,10948140.0,8952545.0,Sports,E-Wallet,2024-12-15
+CUST1350,Dewi,Surabaya,42.0,Female,8720626.0,15375664.0,Furniture,Cash,2024-12-16
+CUST1351,Andi,BSD,24.0,Male,16654772.0,2781206.0,Fashion,Bank Transfer,2024-12-17
+CUST1352,Andi,Bandung,21.0,Female,42776146.0,287771.0,Fashion,Credit Card,2024-12-18
+CUST1353,Hani,BSD,25.0,Female,42929257.0,17114415.0,Groceries,Cash,2024-12-19
+CUST1354,Hani,Bandung,37.0,Male,41560290.0,7390213.0,Fashion,Credit Card,2024-12-20
+CUST1355,Gilang,Surabaya,46.0,Female,36422637.0,14492507.0,Electronics,Credit Card,2024-12-21
+CUST1356,Budi,Surabaya,62.0,Female,32168537.0,19734497.0,Sports,Credit Card,2024-12-22
+CUST1357,Hani,BSD,,Male,,,Furniture,,2024-12-23
+CUST1358,Andi,BSD,27.0,Female,39970303.0,19151532.0,Sports,E-Wallet,2024-12-24
+CUST1359,Citra,Bandung,60.0,Female,27774704.0,12091223.0,Groceries,Cash,2024-12-25
+CUST1360,Dewi,Medan,51.0,Male,24740617.0,851518.0,Furniture,creditcard,2024-12-26
+CUST1361,Andi,Bandung,43.0,Male,15429667.0,17390529.0,Furniture,Cash,2024-12-27
+CUST1362,Andi,BSD,,Male,,,Electronics,,2024-12-28
+CUST1363,Budi,Yogyakarta,,Female,,,Groceries,,2024-12-29
+CUST1364,Gilang,BSD,23.0,Male,13636547.0,16816407.0,Fashion,Cash,2024-12-30
+CUST1365,Gilang,Yogyakarta,22.0,Female,15743293.0,2432214.0,Electronics,Bank Transfer,2024-12-31
+CUST1366,Fajar,Jakarta,22.0,Female,42467750.0,5181820.0,Electronics,E-Wallet,2025-01-01
+CUST1367,Budi,BSD,64.0,Female,16487010.0,9142832.0,Sports,Bank Transfer,2025-01-02
+CUST1368,Citra,sby,40.0,Female,49206264.0,2350397.0,Sports,E-Wallet,2025-01-03
+CUST1369,Gilang,Medan,26.0,Female,33190179.0,10487892.0,Sports,Cash,2025-01-04
+CUST1370,Dewi,Bandung,52.0,Female,47690216.0,10490284.0,Electronics,Bank Transfer,2025-01-05
+CUST1371,Hani,Yogyakarta,,Female,,,Fashion,,2025-01-06
+CUST1372,Budi,Bandung,59.0,Male,30804333.0,15950898.0,Furniture,Bank Transfer,2025-01-07
+CUST1373,Hani,Jakarta,52.0,Male,6651387.0,8943026.0,Sports,E-Wallet,2025-01-08
+CUST1374,Andi,Yogyakarta,35.0,Female,30270507.0,7826360.0,Fashion,Cash,2025-01-09
+CUST1375,Dewi,Bandung,34.0,Female,47470459.0,1572542.0,Groceries,E-Wallet,2025-01-10
+CUST1376,Dewi,BSD,41.0,Male,38266104.0,4573014.0,Sports,Bank Transfer,2025-01-11
+CUST1377,Andi,Surabaya,20.0,Female,8905950.0,13345462.0,Furniture,Bank Transfer,2025-01-12
+CUST1378,Budi,Jakarta,49.0,Male,6212883.0,17439837.0,Groceries,Credit Card,2025-01-13
+CUST1379,Andi,Bandung,52.0,Male,6028631.0,3629801.0,Groceries,Cash,2025-01-14
+CUST1380,Hani,Jakarta,55.0,Male,17218200.0,4908163.0,Furniture,Cash,2025-01-15
+CUST1381,Fajar,Jakarta,30.0,Female,17987811.0,6384851.0,Sports,Bank Transfer,2025-01-16
+CUST1382,Dewi,Yogyakarta,,Female,,,Electronics,,2025-01-17
+CUST1383,Eka,Yogyakarta,42.0,Male,9423959.0,12683071.0,Furniture,Credit Card,2025-01-18
+CUST1384,Eka,Surabaya,26.0,Male,46721579.0,12301841.0,Furniture,E-Wallet,2025-01-19
+CUST1385,Hani,BSD,21.0,Male,7024733.0,9700177.0,Furniture,Cash,2025-01-20
+CUST1386,Citra,Jakarta,31.0,Male,24636437.0,13049915.0,Groceries,Bank Transfer,2025-01-21
+CUST1387,Gilang,Bandung,54.0,Male,46357062.0,1295885.0,Fashion,E-Wallet,2025-01-22
+CUST1388,Andi,Medan,51.0,Female,45895286.0,9644691.0,Electronics,E-Wallet,2025-01-23
+CUST1389,Andi,Jakarta,28.0,Male,3019675.0,3998190.0,Sports,Credit Card,2025-01-24
+CUST1390,Citra,Jakarta,,Female,,,Sports,,2025-01-25
+CUST1391,Citra,Surabaya,20.0,Male,29133385.0,19620190.0,Fashion,Cash,2025-01-26
+CUST1392,Hani,BSD,45.0,Female,30164495.0,11980707.0,Furniture,Bank Transfer,2025-01-27
+CUST1393,Hani,Medan,,Female,,,Electronics,,2025-01-28
+CUST1394,Citra,Yogyakarta,26.0,Female,33115806.0,11821786.0,Sports,Bank Transfer,2025-01-29
+CUST1395,Dewi,Yogyakarta,20.0,Female,7464344.0,8297590.0,Sports,Cash,2025-01-30
+CUST1396,Hani,Bandung,42.0,Female,13797637.0,8282535.0,Furniture,Cash,2025-01-31
+CUST1397,Fajar,Medan,51.0,Female,15310059.0,13019819.0,Fashion,Credit Card,2025-02-01
+CUST1398,Hani,Yogyakarta,29.0,Male,3566088.0,19461398.0,Electronics,Cash,2025-02-02
+CUST1399,Andi,Bandung,59.0,Female,16727532.0,10296894.0,Fashion,Cash,2025-02-03
+CUST1400,Hani,BSD,26.0,Male,43113379.0,13088365.0,Fashion,Bank Transfer,2025-02-04
+CUST1401,Dewi,Bandung,32.0,Female,13151607.0,4463089.0,Electronics,Bank Transfer,2025-02-05
+CUST1402,Citra,Yogyakarta,57.0,Female,3658003.0,14984599.0,Electronics,E-Wallet,2025-02-06
+CUST1403,Andi,Surabaya,42.0,Male,47343121.0,19675137.0,Sports,Credit Card,2025-02-07
+CUST1404,Hani,Surabaya,22.0,Female,3805113.0,12862750.0,Sports,Bank Transfer,2025-02-08
+CUST1405,Dewi,meddn,28.0,Male,12322004.0,17319120.0,Electronics,Cash,2025-02-09
+CUST1406,Fajar,Yogyakarta,51.0,Male,8028035.0,5192792.0,Groceries,E-Wallet,2025-02-10
+CUST1407,Hani,Surabaya,41.0,Male,14551409.0,678526.0,Sports,Bank Transfer,2025-02-11
+CUST1408,Dewi,Medan,32.0,Male,23811680.0,6712208.0,Groceries,Credit Card,2025-02-12
+CUST1409,Fajar,BSD,55.0,Female,29769370.0,14344857.0,Electronics,Credit Card,2025-02-13
+CUST1410,Citra,Bandung,25.0,Female,18433222.0,7687676.0,Sports,E-Wallet,2025-02-14
+CUST1411,Hani,Bandung,22.0,Male,38646533.0,17714609.0,Fashion,E-Wallet,2025-02-15
+CUST1412,Fajar,Yogyakarta,43.0,Female,42549566.0,11834111.0,Electronics,E-Wallet,2025-02-16
+CUST1413,Andi,Surabaya,35.0,Female,13347918.0,16641989.0,Furniture,E-Wallet,2025-02-17
+CUST1414,Citra,Surabaya,23.0,Male,29621905.0,914422.0,Groceries,E-Wallet,2025-02-18
+CUST1415,Andi,Jakarta,54.0,Female,35382711.0,14707153.0,Electronics,Cash,2025-02-19
+CUST1416,Eka,BSD,30.0,Male,9208714.0,16506440.0,Electronics,Cash,2025-02-20
+CUST1417,Budi,Medan,45.0,Male,47106899.0,19140645.0,Sports,Bank Transfer,2025-02-21
+CUST1418,Hani,Bandung,22.0,Female,15834263.0,12763723.0,Sports,Credit Card,2025-02-22
+CUST1419,Fajar,Jakarta,30.0,Female,33647215.0,19815903.0,Sports,Cash,2025-02-23
+CUST1420,Budi,Jakarta,34.0,Female,15124052.0,16292668.0,Furniture,Cash,2025-02-24
+CUST1421,Budi,Yogyakarta,57.0,Male,26119273.0,5253435.0,Sports,Cash,2025-02-25
+CUST1422,Fajar,Bandung,62.0,Male,30758455.0,1516842.0,Electronics,Bank Transfer,2025-02-26
+CUST1423,Citra,Yogyakarta,,Female,,,Sports,,2025-02-27
+CUST1424,Hani,Medan,46.0,Female,46405476.0,10770216.0,Fashion,Bank Transfer,2025-02-28
+CUST1425,Eka,Jakarta,20.0,Female,49389268.0,3741771.0,Sports,Credit Card,2025-03-01
+CUST1426,Andi,Jakarta,57.0,Female,31046417.0,6528099.0,Furniture,Credit Card,2025-03-02
+CUST1427,Dewi,BSD,51.0,Male,21640452.0,4179441.0,Fashion,Credit Card,2025-03-03
+CUST1428,Andi,Medan,57.0,Female,30512406.0,5456430.0,Electronics,Credit Card,2025-03-04
+CUST1429,Dewi,Jakarta,44.0,Male,48516505.0,17837868.0,Electronics,Cash,2025-03-05
+CUST1430,Andi,Medan,30.0,Male,18851428.0,2288370.0,Groceries,Cash,2025-03-06
+CUST1431,Fajar,Bandung,,Female,,,Fashion,,2025-03-07
+CUST1432,Eka,Surabaya,50.0,Female,46542832.0,10037093.0,Groceries,E-Wallet,2025-03-08
+CUST1433,Hani,Jakarta,23.0,Female,49417810.0,10055951.0,Fashion,Credit Card,2025-03-09
+CUST1434,Dewi,BSD,41.0,Male,16981528.0,13590123.0,Fashion,Bank Transfer,2025-03-10
+CUST1435,Hani,Bandung,36.0,Female,43956756.0,14123346.0,Furniture,Cash,2025-03-11
+CUST1436,Hani,Medan,33.0,Female,27723448.0,14496836.0,Groceries,Cash,2025-03-12
+CUST1437,Hani,Yogyakarta,57.0,Male,23275624.0,13969526.0,Furniture,E-Wallet,2025-03-13
+CUST1438,Gilang,Bandung,45.0,Female,30531424.0,7085945.0,Fashion,E-Wallet,2025-03-14
+CUST1439,Citra,Jakarta,50.0,Male,48620401.0,9244220.0,Electronics,E-Wallet,2025-03-15
+CUST1440,Andi,Medan,58.0,Female,8403252.0,2176475.0,Fashion,Bank Transfer,2025-03-16
+CUST1441,Hani,Surabaya,30.0,Male,31204739.0,2241912.0,Furniture,Cash,2025-03-17
+CUST1442,Andi,Bandung,60.0,Female,7151785.0,3244311.0,Groceries,Cash,2025-03-18
+CUST1443,Hani,Jakarta,62.0,Female,49021624.0,17162838.0,Groceries,E-Wallet,2025-03-19
+CUST1444,Dewi,BSD,42.0,Male,32489478.0,18840105.0,Furniture,Credit Card,2025-03-20
+CUST1445,Citra,Yogyakarta,59.0,Male,36354320.0,12514998.0,Groceries,E-Wallet,2025-03-21
+CUST1446,Citra,Medan,53.0,Female,26166524.0,18273652.0,Sports,Bank Transfer,2025-03-22
+CUST1447,Fajar,Bandung,44.0,Male,40192252.0,9156148.0,Electronics,E-Wallet,2025-03-23
+CUST1448,Gilang,Bandung,55.0,Male,6284321.0,2295690.0,Electronics,E-Wallet,2025-03-24
+CUST1449,Fajar,Surabaya,24.0,Male,20456057.0,10076844.0,Electronics,Bank Transfer,2025-03-25
+CUST1450,Fajar,Surabaya,22.0,Male,25197928.0,13499140.0,Groceries,E-Wallet,2025-03-26
+CUST1451,Fajar,BSD,60.0,Female,47882342.0,13952523.0,Groceries,ewallet,2025-03-27
+CUST1452,Fajar,Yogyakarta,62.0,Female,23229717.0,19859626.0,Fashion,Credit Card,2025-03-28
+CUST1453,Fajar,BSD,48.0,Male,11433840.0,18281571.0,Fashion,E-Wallet,2025-03-29
+CUST1454,Eka,Jakarta,40.0,Male,18140449.0,5156093.0,Electronics,Bank Transfer,2025-03-30
+CUST1455,Citra,Jakarta,59.0,Male,18463365.0,14458216.0,Sports,Credit Card,2025-03-31
+CUST1456,Fajar,BSD,,Male,,,Fashion,,2025-04-01
+CUST1457,Hani,Yogyakarta,49.0,Female,25229189.0,2564722.0,Fashion,Credit Card,2025-04-02
+CUST1458,Citra,BSD,60.0,Female,16609569.0,6659442.0,Groceries,Credit Card,2025-04-03
+CUST1459,Citra,Yogyakarta,47.0,Male,4379904.0,15236395.0,Sports,E-Wallet,2025-04-04
+CUST1460,Budi,Yogyakarta,56.0,Male,32014857.0,5730761.0,Electronics,Cash,2025-04-05
+CUST1461,Eka,Medan,48.0,Male,43907604.0,14039600.0,Fashion,E-Wallet,2025-04-06
+CUST1462,Fajar,Yogyakarta,35.0,Female,4437188.0,3001092.0,Sports,Bank Transfer,2025-04-07
+CUST1463,Andi,Surabaya,53.0,Male,38210753.0,15883215.0,Sports,Bank Transfer,2025-04-08
+CUST1464,Dewi,Yogyakarta,19.0,Female,37093077.0,10011142.0,Electronics,Credit Card,2025-04-09
+CUST1465,Gilang,Yogyakarta,31.0,Male,29737775.0,1822907.0,Sports,Credit Card,2025-04-10
+CUST1466,Hani,Yogyakarta,30.0,Female,19374601.0,13163720.0,Sports,Cash,2025-04-11
+CUST1467,Andi,Jakarta,,Male,,,Sports,,2025-04-12
+CUST1468,Eka,Surabaya,,Female,,,Fashion,,2025-04-13
+CUST1469,Dewi,Surabaya,56.0,Male,26689071.0,7021983.0,Electronics,Credit Card,2025-04-14
+CUST1470,Eka,BSD,19.0,Male,33224818.0,6626925.0,Sports,Cash,2025-04-15
+CUST1471,Hani,Medan,49.0,Male,47446332.0,11377547.0,Sports,Bank Transfer,2025-04-16
+CUST1472,Citra,Yogyakarta,30.0,Female,43104523.0,12474888.0,Fashion,Credit Card,2025-04-17
+CUST1473,Dewi,Bandung,63.0,Male,27567790.0,8443528.0,Electronics,Bank Transfer,2025-04-18
+CUST1474,Citra,Medan,44.0,Female,13999077.0,10588017.0,Groceries,Cash,2025-04-19
+CUST1475,Hani,Medan,58.0,Female,43925115.0,8120364.0,Fashion,Cash,2025-04-20
+CUST1476,Andi,Surabaya,34.0,Male,29263177.0,7551747.0,Electronics,Bank Transfer,2025-04-21
+CUST1477,Hani,Medan,,Male,,,Sports,,2025-04-22
+CUST1478,Andi,Yogyakarta,48.0,Male,24825215.0,4637871.0,Electronics,Bank Transfer,2025-04-23
+CUST1479,Dewi,Yogyakarta,51.0,Female,24595966.0,17168680.0,Electronics,Credit Card,2025-04-24
+CUST1480,Dewi,Jakarta,,Male,,,Electronics,,2025-04-25
+CUST1481,Fajar,Yogyakarta,,Female,,,Groceries,,2025-04-26
+CUST1482,Eka,Yogyakarta,,Female,,,Electronics,,2025-04-27
+CUST1483,Fajar,Surabaya,23.0,Male,39185155.0,16995797.0,Groceries,E-Wallet,2025-04-28
+CUST1484,Eka,Yogyakarta,36.0,Male,31997485.0,17378806.0,Sports,Credit Card,2025-04-29
+CUST1485,Fajar,Jakarta,47.0,Male,20642355.0,17749544.0,Groceries,Bank Transfer,2025-04-30
+CUST1486,Citra,Bandung,24.0,Male,19152789.0,16371063.0,Sports,Bank Transfer,2025-05-01
+CUST1487,Dewi,Surabaya,27.0,Male,12967246.0,4909479.0,Sports,E-Wallet,2025-05-02
+CUST1488,Andi,Bandung,58.0,Male,10543159.0,13853606.0,Groceries,Bank Transfer,2025-05-03
+CUST1489,Eka,Surabaya,49.0,Female,8384935.0,3210691.0,Fashion,Cash,2025-05-04
+CUST1490,Hani,BSD,51.0,Female,15155092.0,18235313.0,Furniture,Credit Card,2025-05-05
+CUST1491,Eka,Medan,45.0,Female,17514254.0,11788962.0,Electronics,Credit Card,2025-05-06
+CUST1492,Andi,BSD,32.0,Male,22678933.0,13531835.0,Furniture,Bank Transfer,2025-05-07
+CUST1493,Fajar,Yogyakarta,47.0,Female,26063155.0,18171531.0,Electronics,Bank Transfer,2025-05-08
+CUST1494,Eka,JKT,54.0,Female,26593741.0,19452724.0,Electronics,Cash,2025-05-09
+CUST1495,Gilang,Yogyakarta,46.0,Female,21988954.0,10864827.0,Sports,E-Wallet,2025-05-10
+CUST1496,Citra,Medan,39.0,Female,42247228.0,9846919.0,Electronics,Bank Transfer,2025-05-11
+CUST1497,Dewi,Surabaya,21.0,Female,5639929.0,16862293.0,Electronics,Bank Transfer,2025-05-12
+CUST1498,Andi,Medan,37.0,Male,6133211.0,4610784.0,Groceries,Bank Transfer,2025-05-13
+CUST1499,Dewi,Jakarta,49.0,Male,30434009.0,17041290.0,Furniture,Bank Transfer,2025-05-14
+CUST1500,Gilang,Medan,53.0,Female,27217665.0,2670466.0,Groceries,Credit Card,2025-05-15
+CUST1501,Eka,Jakarta,21.0,Female,14616152.0,12143788.0,Electronics,Bank Transfer,2025-05-16
+CUST1502,Eka,Medan,44.0,Female,4726199.0,14722008.0,Sports,Credit Card,2025-05-17
+CUST1503,Hani,Jakarta,34.0,Male,49413053.0,12971728.0,Groceries,Bank Transfer,2025-05-18
+CUST1504,Gilang,Bandung,29.0,Male,15756935.0,9279253.0,Groceries,E-Wallet,2025-05-19
+CUST1505,Andi,Yogyakarta,39.0,Female,8071915.0,3387093.0,Fashion,Cash,2025-05-20
+CUST1506,Hani,Yogyakarta,34.0,Male,35005216.0,1117481.0,Electronics,E-Wallet,2025-05-21
+CUST1507,Citra,BSD,27.0,Male,3443945.0,8551115.0,Sports,Bank Transfer,2025-05-22
+CUST1508,Hani,Yogyakarta,18.0,Female,9310114.0,2438377.0,Groceries,Bank Transfer,2025-05-23
+CUST1509,Budi,Surabaya,39.0,Male,5276787.0,17683780.0,Groceries,Bank Transfer,2025-05-24
+CUST1510,Andi,Medan,43.0,Male,44245272.0,6147511.0,Sports,E-Wallet,2025-05-25
+CUST1511,Budi,BSD,35.0,Female,32018490.0,10098081.0,Electronics,Bank Transfer,2025-05-26
+CUST1512,Gilang,Surabaya,31.0,Male,26278769.0,16002677.0,Fashion,E-Wallet,2025-05-27
+CUST1513,Fajar,Surabaya,64.0,Male,45893202.0,15276077.0,Groceries,Credit Card,2025-05-28
+CUST1514,Budi,Jakarta,46.0,Female,18342276.0,837954.0,Fashion,Cash,2025-05-29
+CUST1515,Citra,Yogyakarta,29.0,Male,37829066.0,3008056.0,Furniture,Cash,2025-05-30
+CUST1516,Hani,Bandung,53.0,Male,5755063.0,7940130.0,Electronics,E-Wallet,2025-05-31
+CUST1517,Fajar,Bandung,52.0,Female,36091145.0,9195781.0,Furniture,Credit Card,2025-06-01
+CUST1518,Hani,BSD,29.0,Female,4228807.0,6034261.0,Furniture,E-Wallet,2025-06-02
+CUST1519,Budi,Bandung,,Female,,,Furniture,,2025-06-03
+CUST1520,Hani,Medan,46.0,Male,35134440.0,9168055.0,Electronics,Bank Transfer,2025-06-04
+CUST1521,Gilang,Bandung,28.0,Female,49457316.0,13662026.0,Electronics,Credit Card,2025-06-05
+CUST1522,Fajar,BSD,50.0,Male,44156180.0,11468856.0,Sports,Credit Card,2025-06-06
+CUST1523,Gilang,Bandung,23.0,Female,7463158.0,11102595.0,Fashion,Credit Card,2025-06-07
+CUST1524,Budi,Medan,64.0,Male,11803208.0,11242521.0,Fashion,Cash,2025-06-08
+CUST1525,Gilang,Jakarta,32.0,Female,25958638.0,14734171.0,Sports,Credit Card,2025-06-09
+CUST1526,Citra,BSD,49.0,Female,38823502.0,19412448.0,Sports,Bank Transfer,2025-06-10
+CUST1527,Budi,Jakarta,28.0,Female,40967791.0,7804694.0,Furniture,Bank Transfer,2025-06-11
+CUST1528,Budi,Jakarta,40.0,Female,30199725.0,2478907.0,Sports,Bank Transfer,2025-06-12
+CUST1529,Budi,Jakarta,,Male,,,Groceries,,2025-06-13
+CUST1530,Andi,Surabaya,51.0,Female,22608785.0,4632688.0,Fashion,E-Wallet,2025-06-14
+CUST1531,Hani,Yogyakarta,63.0,Female,10322153.0,2463162.0,Sports,E-Wallet,2025-06-15
+CUST1532,Andi,Surabaya,51.0,Male,46391803.0,5780820.0,Groceries,Bank Transfer,2025-06-16
+CUST1533,Andi,Yogyakarta,46.0,Female,39073939.0,19570010.0,Groceries,Cash,2025-06-17
+CUST1534,Citra,Jakarta,21.0,Male,45023297.0,10700157.0,Groceries,E-Wallet,2025-06-18
+CUST1535,Fajar,BSD,34.0,Female,21303750.0,2445704.0,Groceries,Credit Card,2025-06-19
+CUST1536,Hani,Yogyakarta,52.0,Female,20601359.0,13069633.0,Furniture,E-Wallet,2025-06-20
+CUST1537,Gilang,Medan,30.0,Female,19001900.0,8911940.0,Groceries,Bank Transfer,2025-06-21
+CUST1538,Eka,Medan,58.0,Male,31180762.0,8377983.0,Furniture,Cash,2025-06-22
+CUST1539,Budi,Bandun,56.0,Female,33284261.0,17169791.0,Furniture,E-Wallet,2025-06-23
+CUST1540,Gilang,Yogyakarta,32.0,Female,3371616.0,18336916.0,Groceries,E-Wallet,2025-06-24
+CUST1541,Budi,BSD,46.0,Female,21737371.0,10131033.0,Fashion,Bank Transfer,2025-06-25
+CUST1542,Citra,Surabaya,46.0,Male,12163766.0,19484838.0,Groceries,Cash,2025-06-26
+CUST1543,Budi,Jakarta,28.0,Male,21546183.0,18764179.0,Groceries,Cash,2025-06-27
+CUST1544,Andi,Bandung,49.0,Female,17451300.0,5404120.0,Groceries,Bank Transfer,2025-06-28
+CUST1545,Hani,Medan,19.0,Male,36833647.0,19649821.0,Fashion,Credit Card,2025-06-29
+CUST1546,Eka,Surabaya,64.0,Female,750000000.0,350000000.0,Electronics,E-Wallet,2025-06-30
+CUST1547,Dewi,Surabaya,31.0,Female,15126467.0,5913775.0,Electronics,Credit Card,2025-07-01
+CUST1548,Budi,Jakarta,,Female,,,Furniture,,2025-07-02
+CUST1549,Gilang,Yogyakarta,39.0,Female,28439173.0,6572652.0,Furniture,E-Wallet,2025-07-03
+CUST1550,Andi,Medan,28.0,Female,25931189.0,18375555.0,Fashion,Credit Card,2025-07-04
+CUST1551,Dewi,BSD,,Female,,,Sports,,2025-07-05
+CUST1552,Eka,Surabaya,20.0,Female,38515016.0,16013266.0,Electronics,Bank Transfer,2025-07-06
+CUST1553,Dewi,Jakarta,34.0,Male,31898827.0,776296.0,Furniture,E-Wallet,2025-07-07
+CUST1554,Andi,BSD,61.0,Male,26000970.0,479039.0,Electronics,Bank Transfer,2025-07-08
+CUST1555,Hani,Yogyakarta,45.0,Male,25362925.0,628714.0,Fashion,E-Wallet,2025-07-09
+CUST1556,Hani,Medan,46.0,Male,33781302.0,7135655.0,Fashion,Bank Transfer,2025-07-10
+CUST1557,Fajar,Yogyakarta,38.0,Male,20355904.0,8468352.0,Sports,E-Wallet,2025-07-11
+CUST1558,Hani,Surabaya,64.0,Male,7226156.0,19788406.0,Sports,Bank Transfer,2025-07-12
+CUST1559,Fajar,BSD,33.0,Male,30640477.0,9041047.0,Fashion,Cash,2025-07-13
+CUST1560,Dewi,BSD,54.0,Female,44537804.0,17150668.0,Furniture,Credit Card,2025-07-14
+CUST1561,Citra,BSD,37.0,Female,48145249.0,16808666.0,Electronics,Cash,2025-07-15
+CUST1562,Gilang,Surabaya,23.0,Female,44682179.0,4471047.0,Groceries,Credit Card,2025-07-16
+CUST1563,Gilang,Surabaya,36.0,Female,32754469.0,13821794.0,Sports,Credit Card,2025-07-17
+CUST1564,Dewi,Yogyakarta,22.0,Male,27114910.0,7284872.0,Groceries,E-Wallet,2025-07-18
+CUST1565,Budi,Bandung,20.0,Male,28698550.0,19067137.0,Furniture,Credit Card,2025-07-19
+CUST1566,Budi,Yogyakarta,18.0,Female,23729471.0,7527297.0,Sports,Cash,2025-07-20
+CUST1567,Hani,Medan,55.0,Female,5592536.0,13659001.0,Groceries,Cash,2025-07-21
+CUST1568,Gilang,Jakarta,32.0,Male,47918675.0,17639587.0,Furniture,Bank Transfer,2025-07-22
+CUST1569,Gilang,BSD,51.0,Female,31466841.0,17020196.0,Electronics,Cash,2025-07-23
+CUST1570,Fajar,Bandung,52.0,Female,8504381.0,10922611.0,Furniture,Bank Transfer,2025-07-24
+CUST1571,Citra,jakarta,42.0,Female,20296381.0,17134570.0,Sports,Credit Card,2025-07-25
+CUST1572,Andi,jakarta,41.0,Female,23218082.0,7963438.0,Fashion,Cash,2025-07-26
+CUST1573,Budi,Yogyakarta,29.0,Male,40432795.0,15091637.0,Electronics,Credit Card,2025-07-27
+CUST1574,Gilang,Surabaya,35.0,Female,31190067.0,8072368.0,Groceries,BankTransfer,2025-07-28
+CUST1575,Fajar,BSD,32.0,Female,43990129.0,2335883.0,Sports,Cash,2025-07-29
+CUST1576,Eka,Yogyakarta,,Male,,,Fashion,,2025-07-30
+CUST1577,Fajar,Jakarta,33.0,Male,33570706.0,864265.0,Furniture,Credit Card,2025-07-31
+CUST1578,Budi,Jakarta,,Female,,,Fashion,,2025-08-01
+CUST1579,Budi,Jakarta,25.0,Male,10946155.0,408617.0,Sports,E-Wallet,2025-08-02
+CUST1580,Fajar,Jakarta,63.0,Female,18850872.0,11468954.0,Sports,Credit Card,2025-08-03
+CUST1581,Andi,Jakarta,42.0,Female,13384778.0,844748.0,Fashion,Credit Card,2025-08-04
+CUST1582,Dewi,Bandung,34.0,Male,48831617.0,12125170.0,Furniture,Credit Card,2025-08-05
+CUST1583,Budi,Yogyakarta,46.0,Female,42242670.0,16539751.0,Fashion,Bank Transfer,2025-08-06
+CUST1584,Fajar,BSD,25.0,Female,29371947.0,13595655.0,Sports,E-Wallet,2025-08-07
+CUST1585,Gilang,Surabaya,32.0,Female,9703560.0,834275.0,Sports,Credit Card,2025-08-08
+CUST1586,Fajar,Surabaya,44.0,Female,21562775.0,9786427.0,Groceries,Cash,2025-08-09
+CUST1587,Citra,Yogyakarta,63.0,Male,45251489.0,9522794.0,Groceries,Cash,2025-08-10
+CUST1588,Dewi,Yogyakarta,24.0,Male,32012949.0,9087114.0,Electronics,Bank Transfer,2025-08-11
+CUST1589,Eka,Surabaya,20.0,Female,3533634.0,6294224.0,Sports,Cash,2025-08-12
+CUST1590,Andi,Surabaya,46.0,Male,23709963.0,9045326.0,Groceries,Credit Card,2025-08-13
+CUST1591,Hani,Bandung,61.0,Female,33421467.0,14803155.0,Fashion,Cash,2025-08-14
+CUST1592,Eka,Medan,41.0,Female,45133277.0,6124293.0,Furniture,Credit Card,2025-08-15
+CUST1593,Dewi,BSD,,Female,,,Fashion,,2025-08-16
+CUST1594,Dewi,Jakarta,37.0,Female,45799087.0,5418331.0,Furniture,E-Wallet,2025-08-17
+CUST1595,Dewi,Medan,63.0,Female,41178068.0,19841160.0,Groceries,Bank Transfer,2025-08-18
+CUST1596,Eka,Yogyakarta,32.0,Male,18325339.0,10836301.0,Electronics,Bank Transfer,2025-08-19
+CUST1597,Gilang,Surabaya,42.0,Female,41888665.0,11252153.0,Fashion,E-Wallet,2025-08-20
+CUST1598,Dewi,Medan,47.0,Male,32581501.0,4048401.0,Fashion,E-Wallet,2025-08-21
+CUST1599,Fajar,BSD,,Male,,,Fashion,,2025-08-22
+CUST1600,Eka,Yogyakarta,24.0,Female,26618516.0,15941640.0,Furniture,E-Wallet,2025-08-23
+CUST1601,Hani,Jakarta,34.0,Female,8785267.0,10240106.0,Groceries,Credit Card,2025-08-24
+CUST1602,Dewi,Jakarta,,Female,,,Fashion,,2025-08-25
+CUST1603,Fajar,BSD,37.0,Female,25747442.0,6884672.0,Fashion,Bank Transfer,2025-08-26
+CUST1604,Gilang,BSD,,Female,,,Electronics,,2025-08-27
+CUST1605,Citra,Surabaya,26.0,Male,21908234.0,11719039.0,Electronics,Credit Card,2025-08-28
+CUST1606,Gilang,Jakarta,55.0,Female,48194168.0,2692316.0,Groceries,Bank Transfer,2025-08-29
+CUST1607,Hani,Yogyakarta,39.0,Female,40043861.0,16243481.0,Groceries,CREDIT CARD,2025-08-30
+CUST1608,Dewi,Medan,19.0,Male,18866128.0,5995725.0,Sports,Bank Transfer,2025-08-31
+CUST1609,Hani,Yogyakarta,41.0,Male,43032875.0,16081957.0,Electronics,E-Wallet,2025-09-01
+CUST1610,Eka,Bandung,,Female,,,Sports,,2025-09-02
+CUST1611,Budi,Bandung,28.0,Male,47474126.0,9883893.0,Furniture,Credit Card,2025-09-03
+CUST1612,Dewi,BSD,30.0,Female,20071962.0,13164637.0,Sports,Credit Card,2025-09-04
+CUST1613,Budi,Surabaya,,Male,,,Fashion,,2025-09-05
+CUST1614,Fajar,Bandung,25.0,Male,8432019.0,13536812.0,Sports,Bank Transfer,2025-09-06
+CUST1615,Citra,Jakarta,38.0,Female,24130108.0,7346813.0,Groceries,Cash,2025-09-07
+CUST1616,Andi,Yogyakarta,35.0,Male,21479375.0,19799205.0,Furniture,Bank Transfer,2025-09-08
+CUST1617,Hani,Yogyakarta,47.0,Male,13392034.0,1084156.0,Fashion,E-Wallet,2025-09-09
+CUST1618,Gilang,BSD,35.0,Male,19394487.0,13431690.0,Sports,E-Wallet,2025-09-10
+CUST1619,Citra,Medan,63.0,Male,33671003.0,10725643.0,Furniture,Cash,2025-09-11
+CUST1620,Dewi,BSD,64.0,Male,200000000.0,100000000.0,Furniture,Bank Transfer,2025-09-12
+CUST1621,Budi,Medan,48.0,Male,15912550.0,19985807.0,Fashion,Cash,2025-09-13
+CUST1622,Gilang,BSD,55.0,Female,49737861.0,12099562.0,Sports,Credit Card,2025-09-14
+CUST1623,Budi,BSD,49.0,Female,39204667.0,17625068.0,Furniture,BankTransfer,2025-09-15
+CUST1624,Eka,BSD,28.0,Male,34643648.0,16400081.0,Furniture,Cash,2025-09-16
+CUST1625,Budi,Medan,62.0,Female,41294471.0,9645226.0,Electronics,E-Wallet,2025-09-17
+CUST1626,Eka,Medan,42.0,Female,46683574.0,5396990.0,Furniture,Cash,2025-09-18
+CUST1627,Fajar,BSD,50.0,Female,12693374.0,12399755.0,Electronics,Bank Transfer,2025-09-19
+CUST1628,Gilang,Bandung,55.0,Male,31563971.0,7028655.0,Sports,E-Wallet,2025-09-20
+CUST1629,Gilang,Surabaya,58.0,Female,33114233.0,16103651.0,Sports,Cash,2025-09-21
+CUST1630,Andi,Surabaya,25.0,Male,39230949.0,11403471.0,Sports,Credit Card,2025-09-22
+CUST1631,Dewi,Surabaya,,Female,,,Groceries,,2025-09-23
+CUST1632,Eka,Medan,39.0,Male,43885438.0,3472863.0,Sports,Cash,2025-09-24
+CUST1633,Andi,Medan,41.0,Male,28793044.0,19776249.0,Furniture,Cash,2025-09-25
+CUST1634,Budi,Bandung,58.0,Female,11329442.0,1678315.0,Fashion,E-Wallet,2025-09-26
+CUST1635,Budi,Surabaya,34.0,Female,33371444.0,7527210.0,Electronics,Bank Transfer,2025-09-27
+CUST1636,Andi,Surabaya,29.0,Male,11831924.0,18226806.0,Groceries,Credit Card,2025-09-28
+CUST1637,Gilang,BSD,63.0,Female,42722995.0,11993046.0,Sports,Cash,2025-09-29
+CUST1638,Budi,Medan,49.0,Female,6456653.0,13068805.0,Sports,Bank Transfer,2025-09-30
+CUST1639,Hani,Surabaya,32.0,Female,4888806.0,19922745.0,Fashion,Bank Transfer,2025-10-01
+CUST1640,Fajar,Yogyakarta,,Male,,,Fashion,,2025-10-02
+CUST1641,Fajar,Bandung,39.0,Male,33912354.0,5540107.0,Groceries,Credit Card,2025-10-03
+CUST1642,Hani,Yogyakarta,45.0,Female,40516108.0,15272466.0,Electronics,E-Wallet,2025-10-04
+CUST1643,Andi,Yogyakarta,37.0,Female,38314894.0,7181530.0,Sports,Bank Transfer,2025-10-05
+CUST1644,Hani,Bandung,50.0,Female,47181713.0,15040284.0,Groceries,Bank Transfer,2025-10-06
+CUST1645,Eka,Yogyakarta,27.0,Male,46566194.0,12979120.0,Furniture,Bank Transfer,2025-10-07
+CUST1646,Eka,Surabaya,57.0,Male,7058848.0,19774922.0,Furniture,E-Wallet,2025-10-08
+CUST1647,Andi,Medan,49.0,Female,3809178.0,3301473.0,Groceries,Credit Card,2025-10-09
+CUST1648,Hani,Bandung,50.0,Female,9934106.0,9414823.0,Sports,Cash,2025-10-10
+CUST1649,Eka,BSD,19.0,Female,44040759.0,11522057.0,Groceries,E-Wallet,2025-10-11
+CUST1650,Gilang,Yogyakarta,50.0,Female,22339821.0,1549991.0,Sports,Bank Transfer,2025-10-12
+CUST1651,Hani,Bandung,50.0,Female,34066661.0,11000518.0,Fashion,E-Wallet,2025-10-13
+CUST1652,Gilang,Jakarta,58.0,Female,37275469.0,524528.0,Groceries,Bank Transfer,2025-10-14
+CUST1653,Eka,Jakarta,30.0,Male,25284899.0,11203831.0,Sports,Cash,2025-10-15
+CUST1654,Fajar,Medan,47.0,Female,31398068.0,15752956.0,Groceries,Cash,2025-10-16
+CUST1655,Eka,Surabaya,50.0,Male,19530109.0,6550219.0,Groceries,Credit Card,2025-10-17
+CUST1656,Gilang,Medan,30.0,Female,26195170.0,18528040.0,Sports,Bank Transfer,2025-10-18
+CUST1657,Citra,Medan,43.0,Female,30965074.0,5365481.0,Sports,Credit Card,2025-10-19
+CUST1658,Dewi,Medan,39.0,Male,37575901.0,13718723.0,Electronics,Credit Card,2025-10-20
+CUST1659,Budi,Medan,56.0,Male,26533566.0,8627835.0,Groceries,Cash,2025-10-21
+CUST1660,Hani,BSD,19.0,Male,8779277.0,18650271.0,Furniture,E-Wallet,2025-10-22
+CUST1661,Citra,BSD,55.0,Male,47324346.0,9180745.0,Groceries,E-Wallet,2025-10-23
+CUST1662,Eka,Bandung,56.0,Female,5892371.0,381854.0,Groceries,Credit Card,2025-10-24
+CUST1663,Fajar,Jakarta,43.0,Male,13200944.0,6762314.0,Sports,Cash,2025-10-25
+CUST1664,Andi,Medan,63.0,Female,49276888.0,14384503.0,Groceries,Bank Transfer,2025-10-26
+CUST1665,Eka,Bandung,32.0,Male,26747415.0,14667593.0,Groceries,E-Wallet,2025-10-27
+CUST1666,Fajar,Jakarta,51.0,Female,13539669.0,5930395.0,Furniture,Credit Card,2025-10-28
+CUST1667,Dewi,Yogyakarta,59.0,Female,22599352.0,18534369.0,Sports,E-Wallet,2025-10-29
+CUST1668,Eka,Surabaya,61.0,Female,20292909.0,9973863.0,Groceries,E-Wallet,2025-10-30
+CUST1669,Gilang,BSD,57.0,Female,22413938.0,15510095.0,Fashion,Bank Transfer,2025-10-31
+CUST1670,Andi,Yogyakarta,28.0,Female,20016233.0,7183610.0,Electronics,Cash,2025-11-01
+CUST1671,Fajar,Jakarta,20.0,Female,37496200.0,16511413.0,Furniture,Bank Transfer,2025-11-02
+CUST1672,Fajar,Yogyakarta,23.0,Male,13228691.0,15647546.0,Groceries,Cash,2025-11-03
+CUST1673,Fajar,Surabaya,26.0,Female,44598278.0,18683900.0,Fashion,E-Wallet,2025-11-04
+CUST1674,Dewi,Jakarta,,Male,,,Groceries,,2025-11-05
+CUST1675,Eka,Yogyakarta,26.0,Male,36827578.0,17356299.0,Groceries,Bank Transfer,2025-11-06
+CUST1676,Dewi,BSD,300.0,Female,16907579.0,2001740.0,Sports,Cash,2025-11-07
+CUST1677,Hani,BSD,48.0,Male,8453174.0,5748393.0,Sports,E-Wallet,2025-11-08
+CUST1678,Budi,Bandung,49.0,Female,9124152.0,12751235.0,Sports,Cash,2025-11-09
+CUST1679,Budi,Yogyakarta,58.0,Male,4164795.0,7495873.0,Fashion,Cash,2025-11-10
+CUST1680,Hani,Medan,29.0,Female,46332370.0,4684946.0,Groceries,Cash,2025-11-11
+CUST1681,Eka,Yogyakarta,25.0,Male,16767053.0,10784544.0,Electronics,E-Wallet,2025-11-12
+CUST1682,Gilang,Jakarta,25.0,Female,5409381.0,13824252.0,Furniture,Credit Card,2025-11-13
+CUST1683,Dewi,Jakarta,45.0,Female,49695860.0,19584400.0,Sports,Credit Card,2025-11-14
+CUST1684,Andi,Yogyakarta,37.0,Female,43580924.0,11400674.0,Sports,Credit Card,2025-11-15
+CUST1685,Fajar,Surabaya,64.0,Female,28086627.0,7973491.0,Groceries,Cash,2025-11-16
+CUST1686,Fajar,BSD,24.0,Male,14959207.0,18417940.0,Groceries,E-Wallet,2025-11-17
+CUST1687,Eka,Jakarta,28.0,Female,35293149.0,5975293.0,Fashion,Cash,2025-11-18
+CUST1688,Gilang,BSD,37.0,Male,23060832.0,18842946.0,Fashion,creditcard,2025-11-19
+CUST1689,Budi,Jakarta,,Male,,,Sports,,2025-11-20
+CUST1690,Budi,Bandung,21.0,Male,14074355.0,9164281.0,Groceries,E-Wallet,2025-11-21
+CUST1691,Fajar,Medan,23.0,Female,21856024.0,1194316.0,Electronics,Cash,2025-11-22
+CUST1692,Eka,Jakarta,39.0,Male,22789002.0,4400915.0,Furniture,Bank Transfer,2025-11-23
+CUST1693,Dewi,BSD,43.0,Male,4558242.0,15178236.0,Groceries,Bank Transfer,2025-11-24
+CUST1694,Budi,Bandung,20.0,Male,35648168.0,6860403.0,Groceries,Credit Card,2025-11-25
+CUST1695,Dewi,Jakarta,58.0,Female,16074362.0,15255892.0,Fashion,E-Wallet,2025-11-26
+CUST1696,Gilang,Surabaya,,Female,,,Furniture,,2025-11-27
+CUST1697,Budi,Medan,31.0,Male,24725224.0,1736675.0,Sports,Cash,2025-11-28
+CUST1698,Budi,Jakarta,28.0,Female,8445315.0,15225440.0,Groceries,Credit Card,2025-11-29
+CUST1699,Citra,Bandung,35.0,Female,11552442.0,16416160.0,Sports,Credit Card,2025-11-30
+CUST1700,Budi,Surabaya,29.0,Male,12618395.0,17679065.0,Groceries,Cash,2025-12-01
+CUST1701,Hani,Yogyakarta,40.0,Male,39566791.0,10217273.0,Sports,Cash,2025-12-02
+CUST1702,Andi,Bandung,29.0,Female,12714177.0,18038284.0,Furniture,Credit Card,2025-12-03
+CUST1703,Hani,Bandung,30.0,Male,12805436.0,1135891.0,Fashion,Cash,2025-12-04
+CUST1704,Eka,Surabaya,42.0,Female,10204776.0,17630710.0,Furniture,Bank Transfer,2025-12-05
+CUST1705,Eka,Bandung,,Female,,,Electronics,,2025-12-06
+CUST1706,Dewi,Surabaya,,Female,,,Fashion,,2025-12-07
+CUST1707,Hani,Jakarta,63.0,Female,6625654.0,7711432.0,Furniture,Credit Card,2025-12-08
+CUST1708,Hani,Surabaya,53.0,Female,3285711.0,9256484.0,Electronics,E-Wallet,2025-12-09
+CUST1709,Hani,Surabaya,62.0,Female,25055388.0,13822816.0,Groceries,Credit Card,2025-12-10
+CUST1710,Gilang,Medan,25.0,Male,46066429.0,14474288.0,Groceries,Credit Card,2025-12-11
+CUST1711,Budi,Surabaya,46.0,Male,20353135.0,5377420.0,Sports,E-Wallet,2025-12-12
+CUST1712,Andi,Surabaya,49.0,Female,17689949.0,7372003.0,Fashion,Bank Transfer,2025-12-13
+CUST1713,Dewi,Yogyakarta,61.0,Female,34385867.0,15120740.0,Groceries,Cash,2025-12-14
+CUST1714,Hani,Jakarta,35.0,Female,23108322.0,1860511.0,Fashion,E-Wallet,2025-12-15
+CUST1715,Hani,Medan,23.0,Male,12241354.0,3641815.0,Groceries,Credit Card,2025-12-16
+CUST1716,Citra,Yogyakarta,35.0,Female,36976813.0,8534610.0,Sports,Cash,2025-12-17
+CUST1717,Dewi,BSD,36.0,Male,49597588.0,4710146.0,Furniture,E-Wallet,2025-12-18
+CUST1718,Hani,Jakarta,39.0,Female,27999678.0,4239289.0,Sports,Cash,2025-12-19
+CUST1719,Dewi,Jakarta,,Female,,,Electronics,,2025-12-20
+CUST1720,Budi,BSD,49.0,Male,7900164.0,5451826.0,Groceries,E-Wallet,2025-12-21
+CUST1721,Citra,Surabaya,58.0,Male,12909551.0,13798156.0,Electronics,Cash,2025-12-22
+CUST1722,Dewi,Yogyakarta,20.0,Female,16952275.0,6490459.0,Electronics,Bank Transfer,2025-12-23
+CUST1723,Andi,Bandung,45.0,Female,9336356.0,1884006.0,Fashion,E-Wallet,2025-12-24
+CUST1724,Andi,Medan,27.0,Female,25456258.0,15000526.0,Groceries,Bank Transfer,2025-12-25
+CUST1725,Eka,Bandung,,Male,,,Electronics,,2025-12-26
+CUST1726,Citra,BSD,46.0,Male,26871392.0,9117497.0,Furniture,Cash,2025-12-27
+CUST1727,Citra,Jakarta,32.0,Male,16704180.0,8403143.0,Electronics,Credit Card,2025-12-28
+CUST1728,Eka,Jakarta,50.0,Male,3460796.0,10855716.0,Furniture,Credit Card,2025-12-29
+CUST1729,Dewi,Medan,24.0,Male,44295048.0,12333494.0,Fashion,Cash,2025-12-30
+CUST1730,Citra,Jakarta,29.0,Male,17503356.0,6779155.0,Electronics,E-Wallet,2025-12-31
+CUST1731,Andi,Jakarta,47.0,Female,8994376.0,5837580.0,Sports,Cash,2026-01-01
+CUST1732,Andi,Medan,38.0,Female,42412770.0,14873394.0,Fashion,Credit Card,2026-01-02
+CUST1733,Hani,Yogyakarta,48.0,Male,7989904.0,325391.0,Furniture,Credit Card,2026-01-03
+CUST1734,Budi,Yogyakarta,41.0,Female,12392609.0,14993670.0,Fashion,E-Wallet,2026-01-04
+CUST1735,Citra,Medan,37.0,Female,20089239.0,6798541.0,Electronics,Cash,2026-01-05
+CUST1736,Dewi,BSD,54.0,Male,14594207.0,17068603.0,Groceries,Credit Card,2026-01-06
+CUST1737,Eka,sby,21.0,Female,42824448.0,13972621.0,Groceries,Bank Transfer,2026-01-07
+CUST1738,Eka,Jakarta,45.0,Male,43875015.0,3732632.0,Furniture,Credit Card,2026-01-08
+CUST1081,Dewi,BSD,,Female,,,Groceries,,2024-03-22
+CUST1158,Andi,Bandung,,Male,,,Furniture,,2024-06-07
+CUST1066,Dewi,Yogyakarta,,Female,,,Electronics,,2024-03-07
+CUST1599,Fajar,BSD,,Male,,,Fashion,,2025-08-22
+CUST1334,Fajar,BSD,,Male,,,Electronics,,2024-11-30
+CUST1640,Fajar,Yogyakarta,,Male,,,Fashion,,2025-10-02
+CUST1155,Budi,Yogyakarta,,Female,,,Groceries,,2024-06-04
+CUST1101,Budi,Yogyakarta,,Female,,,Electronics,,2024-04-11
+CUST1077,Dewi,BSD,,Male,,,Furniture,,2024-03-18
+CUST1357,Hani,BSD,,Male,,,Furniture,,2024-12-23
