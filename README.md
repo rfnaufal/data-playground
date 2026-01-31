@@ -33,7 +33,8 @@ _(This collection will continue to grow over time.)_
 ## 🛠️ Tech Stack
 
 - **Language:** Python  
-- **Core Libraries:** pandas, numpy, matplotlib, seaborn  
+- **Core Libraries:** pandas, numpy, matplotlib, seaborn
+- **Cloud & Data Platform:** Google Cloud Platform (BigQuery)  
 - **Environment:** Jupyter Notebook, VS Code  
 - **Focus Areas:**  
   - Data cleaning & validation  
