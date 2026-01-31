@@ -11,12 +11,12 @@ _(This collection will continue to grow over time.)_
 
 ## 🚀 Projects
 
-| Project | Description |
-|--------|-------------|
-| `bank-customer` | Customer demographic and banking behavior dataset for practicing data cleaning, segmentation, and basic analytics. |
-| `customer-order` | Order and transaction dataset for exploring joins, aggregations, and business metrics analysis. |
-| `nyc-dataset` | New York City public dataset for real-world data exploration and visualization exercises. |
-| `seaborn-titanic` | Classic Titanic dataset used for EDA, statistics, and beginner machine learning experiments. |
+| Project | Technology | Learning Goals | Description | Guide |
+|--------|------------|---------------|-------------|-------|
+| `bank-customer` | Python, Pandas | Clean messy data, segment users, run basic analytics | Customer data for simple analysis practice | [Open guide](https://github.com/rfnaufal/data-playground/tree/main/bank-customer/guide) |
+| `customer-order` | SQL, Python | Use joins, aggregations, and business-style metrics | Orders and transactions for query practice | [Open guide](https://github.com/rfnaufal/data-playground/tree/main/customer-order/guide) |
+| `nyc-dataset` | BigQuery, SQL, Python | Load large datasets, query in BigQuery, explore real data | NYC public data for uploads and cloud loading | [BigQuery load data](https://github.com/rfnaufal/data-playground/blob/main/nyc-dataset/guide/01-Bigquery-load-data.md) |
+| `seaborn-titanic` | Python, Pandas, Seaborn | Visual EDA, understand distributions, try simple ML | Titanic dataset for exploration and modeling | [Open guide](https://github.com/rfnaufal/data-playground/tree/main/seaborn-titanic/guide) |
 
 ---
 
