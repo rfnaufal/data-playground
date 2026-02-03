@@ -2,7 +2,7 @@
 
 This guide walks through setting up real-time replication from Cloud SQL for PostgreSQL to BigQuery using Datastream.
 
-<img src="ss/datastream/00.png" width=50%>
+<img src="ss/datastream/00-hl.png" width=50%>
 
 **Preparation :**
 
