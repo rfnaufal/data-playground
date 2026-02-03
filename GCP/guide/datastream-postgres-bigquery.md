@@ -21,17 +21,11 @@ This guide walks through setting up real-time replication from Cloud SQL for Pos
     - Cloud SQL API
     - Datastream API
 
-    Enable the Cloud SQL API `gcloud services enable sqladmin.googleapis.com`
+    Enable the Cloud SQL API : `gcloud services enable sqladmin.googleapis.com`
 
-    Output:
-
-   > Operation "operations/acat.p2-842668110513-467ae38c-0f42-42a9-84ab-c4b4b7d04741" finished successfully.`
-
-    Enable the Datastream API `gcloud services enable datastream.googleapis.com`
+    Enable the Datastream API : `gcloud services enable datastream.googleapis.com`
     
-    Output:
-
-   > Operation "operations/acat.p2-842668110513-467ae38c-0f42-42a9-84ab-c4b4b7d04741" finished successfully.`
+   
 
 ### Task 1. Create a database for replication
 
@@ -53,6 +47,8 @@ Create a Cloud SQL for PostgreSQL database instance:
 <img src="ss/datastream/02.png" width=75%>
 
 #### 2. Populate the database with sample data
+
+Connect to the PostgreSQL database :
 
 `gcloud sql connect postgres-db --user=postgres`
 
