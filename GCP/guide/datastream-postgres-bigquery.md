@@ -1,30 +1,44 @@
 ## Datastream: PostgreSQL Replication to BigQuery
 
-as preparation :
-Activate Cloud Shell
+This guide walks through setting up real-time replication from Cloud SQL for PostgreSQL to BigQuery using Datastream.
 
-List the active account name `gcloud auth list`
+<img src="ss/datastream/00.png" width=50%>
 
-List the project ID : `gcloud config list project`
+**Preparation :**
 
-<img src="ss/datastream/01.png" width=75%>
+1. Activate Cloud Shell
 
-in this steps we will enable two API:
-1. Cloud SQL API 
-2. Datastream API
+    List the active account name `gcloud auth list`
 
-### Task 1. Create a database for replication
+    List the project ID : `gcloud config list project`
 
-#### Create the Cloud SQL database
+    <img src="ss/datastream/01.png" width=75%>
 
-1. Enable the Cloud SQL API `gcloud services enable sqladmin.googleapis.com`
+2. Enable Required APIs
 
-   Output:
+    In this step, we’ll enable the following APIs:
+
+    - Cloud SQL API
+    - Datastream API
+
+    Enable the Cloud SQL API `gcloud services enable sqladmin.googleapis.com`
+
+    Output:
 
    > Operation "operations/acat.p2-842668110513-467ae38c-0f42-42a9-84ab-c4b4b7d04741" finished successfully.`
 
-2. Create a Cloud SQL for PostgreSQL database instance:
-    ```
+    Enable the Datastream API `gcloud services enable datastream.googleapis.com`
+    
+    Output:
+
+   > Operation "operations/acat.p2-842668110513-467ae38c-0f42-42a9-84ab-c4b4b7d04741" finished successfully.`
+
+### Task 1. Create a database for replication
+
+#### 1. Create the Cloud SQL database
+
+Create a Cloud SQL for PostgreSQL database instance:
+
     POSTGRES_INSTANCE=postgres-db
     DATASTREAM_IPS=34.72.28.29,34.67.234.134,34.67.6.157,34.72.239.218,34.71.242.81
     gcloud sql instances create \
@@ -35,11 +49,10 @@ in this steps we will enable two API:
         --region=us-central1 \
         --root-password pwd \
         --database-flags=cloudsql.logical_decoding=on
-    ```
 
 <img src="ss/datastream/02.png" width=75%>
 
-#### Populate the database with sample data
+#### 2. Populate the database with sample data
 
 `gcloud sql connect postgres-db --user=postgres`
 
@@ -68,7 +81,7 @@ INSERT INTO test.example_table (text_col, int_col, date_col) VALUES
 
 <img src="ss/datastream/03.png" width=75%>
 
-#### Configure the database for replication
+#### 3. Configure the database for replication
 
 Run the following SQL command to create a publication and a replication slot:
 
@@ -82,15 +95,9 @@ SELECT PG_CREATE_LOGICAL_REPLICATION_SLOT('test_replication', 'pgoutput');
 
 ### Task 2. Create the Datastream resources and start replication
 
-#### Enable the Datastream API.
+Ensure datastream API has been enabled.
 
-Now that the database is ready, create the Datastream connection profiles and stream to begin replication.
-
-From the Navigation menu, click on View All Products under Analytics select Datastream
-
-Click Enable to enable the Datastream API.
-
-#### Create connection profiles
+#### 1. Create connection profiles
 
 Create two connection profiles, one for the PostgreSQL source, and another for the BigQuery destination.
 
@@ -101,11 +108,11 @@ In the Cloud console, navigate to the Connection Profiles tab and click Create P
 
 <img src="ss/datastream/05.png" width=75%>
 
-#### BigQuery connection profile
+**BigQuery connection profile**
 
 <img src="ss/datastream/06.png" width=75%>
 
-#### Create stream
+#### 2. Create stream
 
 <img src="ss/datastream/08.png" width=75%>
 
@@ -114,6 +121,9 @@ then start the "test-stream" stream.
 <img src="ss/datastream/09.png" width=75%>
 
 ### Task 3. View the data in BigQuery
+
+In the BigQuery Studio explorer, expand the project node to see the list of datasets. Expand the test dataset node.
+verify the data : `SELECT * FROM test.example_table ORDER BY id;`
 
 ### Task 4. Check that changes in the source are replicated to BigQuery
 
