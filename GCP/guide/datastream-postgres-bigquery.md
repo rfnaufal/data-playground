@@ -121,6 +121,8 @@ then start the "test-stream" stream.
 In the BigQuery Studio explorer, expand the project node to see the list of datasets. Expand the test dataset node.
 verify the data : `SELECT * FROM test.example_table ORDER BY id;`
 
+<img src="ss/datastream/10.png" width=75%>
+
 ### Task 4. Check that changes in the source are replicated to BigQuery
 
 connect to the Cloud SQL database (the password is pwd): `gcloud sql connect postgres-db --user=postgres`
@@ -138,8 +140,12 @@ DELETE FROM test.example_table WHERE text_col = 'abc';
 
 ```
 
+<img src="ss/datastream/11.png" width=75%>
+
 Open the BigQuery SQL workspace and run the following query to see the changes in BigQuery:
 
 ```sql
 SELECT * FROM test.example_table ORDER BY id;
 ```
+
+<img src="ss/datastream/12.png" width=75%>
