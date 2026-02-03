@@ -1,5 +1,6 @@
 ## Datastream: PostgreSQL Replication to BigQuery
 
+as preparation :
 Activate Cloud Shell
 
 List the active account name `gcloud auth list`
@@ -7,6 +8,10 @@ List the active account name `gcloud auth list`
 List the project ID : `gcloud config list project`
 
 <img src="ss/datastream/01.png" width=75%>
+
+in this steps we will enable two API:
+1. Cloud SQL API 
+2. Datastream API
 
 ### Task 1. Create a database for replication
 
@@ -40,8 +45,6 @@ List the project ID : `gcloud config list project`
 
 When prompted for the password, enter pwd.
 
-<img src="ss/datastream/02.png" width=75%>
-
 Once connected to the database, run the following SQL command to create a sample schema and table:
 
 ```sql
@@ -63,6 +66,8 @@ INSERT INTO test.example_table (text_col, int_col, date_col) VALUES
 ('other', 2786, '2021-01-01 00:00:00');
 ```
 
+<img src="ss/datastream/03.png" width=75%>
+
 #### Configure the database for replication
 
 Run the following SQL command to create a publication and a replication slot:
@@ -72,6 +77,8 @@ CREATE PUBLICATION test_publication FOR ALL TABLES;
 ALTER USER POSTGRES WITH REPLICATION;
 SELECT PG_CREATE_LOGICAL_REPLICATION_SLOT('test_replication', 'pgoutput');
 ```
+
+<img src="ss/datastream/04.png" width=75%>
 
 ### Task 2. Create the Datastream resources and start replication
 
@@ -92,77 +99,41 @@ Create two connection profiles, one for the PostgreSQL source, and another for t
 PostgreSQL connection profile
 In the Cloud console, navigate to the Connection Profiles tab and click Create Profile.
 
-Select the PostgreSQL connection profile type.
-
-PostgreSQL tile one of the choices shown
-For connection profile name type postgres-cp.
-
-Enter the database connection details:
-
-Region: us-central1
-The IP and port of the Cloud SQL instance created earlier (Task 1)
-To find the IP address of your Cloud SQL instance:
-From the Navigation menu, click on Cloud SQL.
-On the Cloud SQL page, locate your PostgreSQL instance named postgres-db.
-Copy the public IP address of the instance.
-Username: postgres
-For password select Enter password manually and type pwd
-Database: postgres
-Click Continue.
-
-For Encryption type, select None.
-
-Select the IP allowlisting connectivity method, and click Continue.
-
-Click RUN TEST to make sure that Datastream can reach the database.
-
-Click Create.
-
-BigQuery connection profile
-In the Cloud console, navigate to the Connection Profiles tab and click Create Profile.
-Connection profiles page with the Create Profile link in the upper right corner
-Select the BigQuery connection profile type.
-BigQuery tile one of the choices shown
-For connection profile name type bigquery-cp.
-
-Region us-central1
-
-Click Create.
-
-Create stream
-Create the stream which connects the connection profiles created above and defines the configuration for the data to stream from source to destination.
-
-In the Cloud console, navigate to the Streams tab and click Create stream.
-Streams tab with create stream link in upper right corner
-Define the stream details
-For connection stream name type test-stream.
-Region us-central1
-Select PostgreSQL as the source type
-Select BigQuery as destination type
-Click Continue.
-Define and test the source
-Select the postgres-cp connection profile created in the previous step.
-[Optional] Test connectivity by clicking Run Test
-Click Continue.
-Configure the source
-Specify the replication slot name as test_replication.
-Specify the publication name as test_publication.
-Select the test schema for replication.
-Click Continue.
-Define the destination
-Select the bigquery-cp connection profile created in the previous step, then click Continue.
-Configure the destination
-Choose Region and select us-central1 as the BigQuery dataset location.
-Set the staleness limit to 0 seconds.
-Click Continue.
-Review and create the stream
-Finally, validate the stream details by clicking Run Validation. Once validation completes successfully, click Create & Start then confirm Create & Start.
-Wait approximately 1-2 minutes until the stream status is shown as running.
-
-06
+<img src="ss/datastream/05.png" width=75%>
 
 #### BigQuery connection profile
 
+<img src="ss/datastream/06.png" width=75%>
+
 #### Create stream
 
+<img src="ss/datastream/08.png" width=75%>
+
+then start the "test-stream" stream.
+
+<img src="ss/datastream/09.png" width=75%>
+
 ### Task 3. View the data in BigQuery
+
+### Task 4. Check that changes in the source are replicated to BigQuery
+
+connect to the Cloud SQL database (the password is pwd): `gcloud sql connect postgres-db --user=postgres`
+
+Run the following SQL commands to make some changes to the data:
+```sql
+INSERT INTO test.example_table (text_col, int_col, date_col) VALUES
+('abc', 0, '2022-10-01 00:00:00'),
+('def', 1, NULL),
+('ghi', -987, NOW());
+
+UPDATE test.example_table SET int_col=int_col*2; 
+
+DELETE FROM test.example_table WHERE text_col = 'abc';
+
+```
+
+Open the BigQuery SQL workspace and run the following query to see the changes in BigQuery:
+
+```sql
+SELECT * FROM test.example_table ORDER BY id;
+```
