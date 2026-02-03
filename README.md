@@ -17,6 +17,8 @@ _(This collection will continue to grow over time.)_
 | `customer-order` | SQL, Python | Use joins, aggregations, and business-style metrics | Orders and transactions for query practice | [Open guide](https://github.com/rfnaufal/data-playground/tree/main/customer-order/guide) |
 | `nyc-dataset` | BigQuery, SQL | Practice loading data into BigQuery and cloud querying | NYC public data for uploads and cloud loading | [BigQuery load data](https://github.com/rfnaufal/data-playground/blob/main/nyc-dataset/guide/01-Bigquery-load-data.md) |
 | `seaborn-titanic` | Python, Pandas, Seaborn | Visual EDA, understand distributions, try simple ML | Titanic dataset for exploration and modeling | [Open guide](https://github.com/rfnaufal/data-playground/tree/main/seaborn-titanic/guide) |
+| `gcp-labs` | GCP, BigQuery, Datastream, SQL | Cloud data engineering, streaming, analytics | Hands-on GCP data pipelines and analytics experiments | [Open guide](https://github.com/rfnaufal/data-playground/tree/main/GCP) |
+
 
 ---
 
