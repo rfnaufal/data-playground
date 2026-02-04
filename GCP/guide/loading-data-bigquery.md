@@ -1,4 +1,4 @@
-### Loading Data to BigQuery (Upload)
+### Loading Data to BigQuery
 
 Preparation:
 
