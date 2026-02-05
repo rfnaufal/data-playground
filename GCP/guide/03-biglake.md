@@ -1,8 +1,12 @@
 ## Biglake
 
+This section walks through how I explored BigLake using BigQuery and Cloud Storage — from setting up connections to upgrading external tables.
+
 **Preparation :**
 
-1. Activate Cloud Shell
+Before getting started, make sure Cloud Shell is active and your project is correctly set.
+
+Run the following commands to verify:
 
    List the active account name `gcloud auth list`
 
@@ -26,7 +30,7 @@ copy service account for next step.
 
 #### Task 2. Set up access to a Cloud Storage data lake
 
-The new connection resource read-only access to the Cloud Storage data lake so that BigQuery can access Cloud Storage files on behalf of users.
+Allow the connection resource read-only access so BigQuery can read files on your behalf.
 
 <img src="ss/biglake/03-iam.png" width=60%>
 
@@ -34,13 +38,13 @@ The new connection resource read-only access to the Cloud Storage data lake so t
 
 **Create Dataset**
 
-Switch to Classic Explorer and click the three dots next to your project name, then select Create dataset.
+In Classic Explorer, click the three dots next to your project and choose Create dataset.
 
 <img src="ss/biglake/04-create-ds.png" width=60%>
 
 **Create the table**
 
-Click on three dots next to demo_dataset, then choose Create table.
+Click the three dots next to demo_dataset → Create table.
 
 <img src="ss/biglake/05-create-table-01.png" width=60%> <br>
 
@@ -128,7 +132,7 @@ SELECT * FROM `Project ID.demo_dataset.biglake_table`
 
 <img src="ss/biglake/06-schema-01.png" width=60%>
 
-#### Task 5. Set up access control policies
+#### Task 5. Set up access control policies (Set up column-level security)
 
 Add policy tags to columns
 
@@ -215,7 +219,7 @@ For Schema, enable Edit as text and copy and paste the following schema into the
 
 <img src="ss/biglake/08-create-table-03.png" width=60%> <br>
 
-##### Update external table to Biglake table
+##### Update(convert) external table to Biglake table 
 
 1. Open a new Cloud Shell window and run the following command to generate a new external table definition that specifies the connection to use:
     ```sql
@@ -231,7 +235,7 @@ For Schema, enable Edit as text and copy and paste the following schema into the
 
     `cat /tmp/tabledef.json`
 
-3. Get the schema from your table:
+3. Get the schema from your table(Export schema):
 
     ```sql bq show --schema --format=prettyjson  demo_dataset.external_table > /tmp/schema```
 
@@ -243,12 +247,8 @@ For Schema, enable Edit as text and copy and paste the following schema into the
 
 ##### Verify the updated table
 
-From the Navigation Menu, go to BigQuery > Studio.
+Open BigQuery → Studio, select demo_dataset.external_table, and check Details.
 
-Navigate to demo-dataset > and click external_table.
-
-Open the Details tab.
-
-Verify under External Data Configuration that the table is now using the proper Connection ID.
+Confirm the correct Connection ID is in use.
 
 <img src="ss/biglake/08-create-table-04.png" width=60%> <br>
