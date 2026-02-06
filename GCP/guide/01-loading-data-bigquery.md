@@ -1,4 +1,4 @@
-### Loading Data to BigQuery
+## Loading Data to BigQuery (Upload)
 
 Preparation:
 
@@ -12,7 +12,7 @@ Create dataset and name nyctaxi other setting leave as default.
 
 Create Table
 
-```
+```md
 Specify the below table options:
 
 Source:
@@ -45,9 +45,9 @@ LIMIT  5
 
 #### Task 3. Ingest a new dataset from Google Cloud Storage
 
-In your Cloud Shell: 
+In your Cloud Shell:
 
-```
+```sh
 bq load \
 --source_format=CSV \
 --autodetect \
