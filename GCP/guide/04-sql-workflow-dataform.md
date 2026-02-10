@@ -4,9 +4,9 @@ In this lab, I created and executed a SQL workflow in Dataform to load data into
 
 #### Task 1. Create a Dataform repository
 
-1. From the Navigation Menu, go to BigQuery > Dataform
-2. In the Repository ID field, enter quickstart-repository.
-3. In the Region list, select us-east1, click Create 
+1. From the Navigation Menu, go to **BigQuery > Dataform**.
+2. In the **Repository ID** field, enter `quickstart-repository`.
+3. In the **Region** list, select `us-east1`, then click **Create**.
 
 <img src="ss/dataform/01.png" width=60%> <br>
 
@@ -14,21 +14,19 @@ In this lab, I created and executed a SQL workflow in Dataform to load data into
 
 #### Task 2. Create and initialize a Dataform development workspace.
 
-On the Dataform page, click on the quickstart-repository repository you just created.
+On the Dataform page, click the `quickstart-repository` repository that was just created.
 
-Click CREATE DEVELOPMENT WORKSPACE.
+Click **Create Development Workspace**.
 
-In the Create development workspace window, do the following:
+In the **Create development workspace** window:
 
-In the Workspace ID field, enter quickstart-workspace.
+- In the **Workspace ID** field, enter `quickstart-workspace`.
 
-<img src="ss/dataform/03.png" width=60%><br>
+<img src="ss/dataform/03.png" width="60%"><br>
 
-Once created, click on the quickstart-workspace development workspace.
+Once the workspace was created, click the `quickstart-workspace` development workspace and then click **Initialize Workspace**.
 
-Click INITIALIZE WORKSPACE.
-
-<img src="ss/dataform/04.png" width=60%>
+<img src="ss/dataform/04.png" width="60%">
 
 #### Task 3. Create and execute a SQL workflow.
 
@@ -76,7 +74,7 @@ Grant the required permissions so Dataform can create and manage objects in BigQ
 
 #### Task 5. Execute the workflow
 
-Once everything is configured, execute the workflow.
+Once everything was configured, I executed the workflow.
 
 <img src="ss/dataform/08.png" width=60%> <br>
 
@@ -90,6 +88,6 @@ When the workspace is not initialized:
 - The **Execute** button is greyed out
 - The workflow cannot be run
 
-After clicking **Initialize workspace**, the execution option becomes available and the workflow runs successfully.
+After recreate workspace and click **Initialize workspace**, the execution option becomes available and the workflow runs successfully.
 
 **Takeaway:** Initializing the Dataform workspace is required before executing any workflows.
