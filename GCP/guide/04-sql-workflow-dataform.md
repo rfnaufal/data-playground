@@ -1,6 +1,6 @@
 ## SQL Workflow in Dataform
 
-Create and execute a SQL workflow in Dataform to load data in BigQuery.
+In this lab, I created and executed a SQL workflow in Dataform to load data into BigQuery.
 
 #### Task 1. Create a Dataform repository
 
@@ -63,15 +63,33 @@ SELECT
 
 **Create a SQLX file for table definition**
 
+Create another SQLX file to define a table based on the view.
+
 <img src="ss/dataform/06.png" width=60%>
 
 #### Task 4. Grant Dataform access to BigQuery
+
+Grant the required permissions so Dataform can create and manage objects in BigQuery.
 
 
 <img src="ss/dataform/07.png" width=60%>
 
 #### Task 5. Execute the workflow
 
+Once everything is configured, execute the workflow.
+
 <img src="ss/dataform/08.png" width=60%> <br>
 
 <img src="ss/dataform/09.png" width=60%>
+
+## Lesson Learned
+
+One important thing I missed during this lab was **initializing the development workspace**.
+
+When the workspace is not initialized:
+- The **Execute** button is greyed out
+- The workflow cannot be run
+
+After clicking **Initialize workspace**, the execution option becomes available and the workflow runs successfully.
+
+**Takeaway:** Initializing the Dataform workspace is required before executing any workflows.
