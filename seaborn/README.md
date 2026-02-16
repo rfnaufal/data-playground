@@ -5,11 +5,9 @@ Seaborn is a high-level visualization library for Python that helps you explore 
 
 Use Seaborn when you want to:
 
-Explore a dataset (EDA)
-
-Visualize relationships between variables
-
-Create quick, clean charts for analysis or reports
+- Explore a dataset (EDA)
+- Visualize relationships between variables
+- Create quick, clean charts for analysis or reports
 
 ### Common plots you can make
 
