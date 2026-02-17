@@ -10,7 +10,7 @@ Activate Cloud Shell
 
    List the project ID : `gcloud config list project`
 
-    <img src="ss/datastream/01.png" width=75%>
+<img src="ss/serverless/01.png" width=60%>
 
 ### Task 1. Complete environment configuration tasks
 
@@ -18,9 +18,11 @@ Activate Cloud Shell
 
    `gcloud compute networks subnets update default --region=REGION --enable-private-ip-google-access`
 
+
 2. Create a new Cloud Storage bucket as a staging location:
 
     `gsutil mb -p  PROJECT_ID gs://PROJECT_ID`
+
 
 3. Create a new Cloud Storage bucket as temporary location for BigQuery while it creates and loads a table
 
@@ -28,9 +30,13 @@ Activate Cloud Shell
 
 4. Create a BQ dataset to store the data `bq mk -d  loadavro`
 
+<img src="ss/serverless/02.png" width=60%>
+
 ### Task 2. Download lab assets
 
 You will perform the rest of the steps in the lab inside the Compute Engine VM. SSH to the VM:
+
+<img src="ss/serverless/03.png" width=60%>
 
 1. Download the Avro file that will be processed for storage in BigQuery
 
@@ -60,6 +66,7 @@ Set a few environment variables into VM instance terminal and execute a Spark te
     export GCS_STAGING_LOCATION=gs://PROJECT_ID
     export JARS=gs://cloud-training/dataengineering/lab_assets/idegc/spark-bigquery_2.12-20221021-2134.jar
     ```
+<img src="ss/serverless/04.png" width=60%>
 
 2. Run the following code to execute the Spark Cloud Storage to BigQuery template to load the Avro file in to BigQuery
 
@@ -74,6 +81,7 @@ Set a few environment variables into VM instance terminal and execute a Spark te
         --gcs.bigquery.output.mode=overwrite\
         --gcs.bigquery.temp.bucket.name="PROJECT_ID-bqtemp"
     ```
+<img src="ss/serverless/05.png" width=60%>
 
 ### Task 4. Confirm that the data was loaded into BigQuery
 
@@ -83,4 +91,6 @@ View the data in the new table in BigQuery
    bq query \
     --use_legacy_sql=false \
     'SELECT * FROM `loadavro.campaigns`;'
-    ```
+   ```
+
+<img src="ss/serverless/06.png" width=60%>
