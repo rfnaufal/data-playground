@@ -1,96 +1,124 @@
-## Use Serverless for Apache Spark to Load BigQuery
+## Creating a Streaming Data Pipeline for a Real-Time Dashboard with Dataflow
 
-Executed a Batch workload using Serverless for Apache Spark for Spark to load an Avro file into a BigQuery table.
+Build a streaming data pipeline to capture taxi revenue, passenger count, ride status, and much more, and then visualize the results in a management dashboard.
 
 Preparation:
 
 Activate Cloud Shell
 
-   List the active account name `gcloud auth list`
+List the active account name `gcloud auth list`
 
-   List the project ID : `gcloud config list project`
+List the project ID : `gcloud config list project`
 
-<img src="ss/serverless/01.png" width=60%>
+<img src="ss/dataflow/01.png" width=60%>
 
-### Task 1. Complete environment configuration tasks
+### Task 1. Create a BigQuery dataset
 
-1. Enable Private IP Access:
+1. Create the taxirides dataset.
 
-   `gcloud compute networks subnets update default --region=REGION --enable-private-ip-google-access`
+   `bq --location=Region mk taxirides`
 
+2. Create the taxirides.realtime table (empty schema that you will stream into later).
 
-2. Create a new Cloud Storage bucket as a staging location:
+   `bq --location=Region mk \
+--time_partitioning_field timestamp \
+--schema ride_id:string,point_idx:integer,latitude:float,longitude:float,\
+timestamp:timestamp,meter_reading:float,meter_increment:float,ride_status:string,\
+passenger_count:integer -t taxirides.realtime`
 
-    `gsutil mb -p  PROJECT_ID gs://PROJECT_ID`
+<img src="ss/dataflow/01.png" width=60%>
 
+### Task 2. Copy required lab artifacts
 
-3. Create a new Cloud Storage bucket as temporary location for BigQuery while it creates and loads a table
+A Cloud Storage bucket was created for you during lab start up.
 
-    `gsutil mb -p  PROJECT_ID gs://PROJECT_ID-bqtemp`
-
-4. Create a BQ dataset to store the data `bq mk -d  loadavro`
-
-<img src="ss/serverless/02.png" width=60%>
-
-### Task 2. Download lab assets
-
-You will perform the rest of the steps in the lab inside the Compute Engine VM. SSH to the VM:
-
-<img src="ss/serverless/03.png" width=60%>
-
-1. Download the Avro file that will be processed for storage in BigQuery
-
-   `wget https://storage.googleapis.com/cloud-training/dataengineering/lab_assets/idegc/campaigns.avro`
-
-2. Move the Avro file to the staging Cloud Storage bucket you created earlier
-
-    `gcloud storage cp campaigns.avro gs://PROJECT_ID`
-
-3. Download an archive containing the Spark code to be executed against the Serverless environment.
-
-    `wget https://storage.googleapis.com/cloud-training/dataengineering/lab_assets/idegc/dataproc-templates.zip`
-
-4. Extract the archive `unzip dataproc-templates.zip`
-
-5. Change to the Python directory `cd dataproc-templates/python`
-
-### Task 3. Configure and execute the Spark code
-
-Set a few environment variables into VM instance terminal and execute a Spark template to load data into BigQuery.
-
-1. Set the following environment variables for the Serverless for Apache Spark environment
-
-   ```
-   export GCP_PROJECT=PROJECT_ID
-    export REGION=REGION
-    export GCS_STAGING_LOCATION=gs://PROJECT_ID
-    export JARS=gs://cloud-training/dataengineering/lab_assets/idegc/spark-bigquery_2.12-20221021-2134.jar
-    ```
-<img src="ss/serverless/04.png" width=60%>
-
-2. Run the following code to execute the Spark Cloud Storage to BigQuery template to load the Avro file in to BigQuery
+1. Move files needed for the Dataflow job
 
     ```
-    ./bin/start.sh \
-    -- --template=GCSTOBIGQUERY \
-        --gcs.bigquery.input.format="avro" \
-        --gcs.bigquery.input.location="gs://PROJECT_ID" \
-        --gcs.bigquery.input.inferschema="true" \
-        --gcs.bigquery.output.dataset="loadavro" \
-        --gcs.bigquery.output.table="campaigns" \
-        --gcs.bigquery.output.mode=overwrite\
-        --gcs.bigquery.temp.bucket.name="PROJECT_ID-bqtemp"
+    gcloud storage cp gs://cloud-training/bdml/taxisrcdata/schema.json  gs://Project_ID-bucket/tmp/schema.json
+    gcloud storage cp gs://cloud-training/bdml/taxisrcdata/transform.js  gs://Project_ID-bucket/tmp/transform.js
+    gcloud storage cp gs://cloud-training/bdml/taxisrcdata/rt_taxidata.csv  gs://Project_ID-bucket/tmp/rt_taxidata.csv
     ```
-<img src="ss/serverless/05.png" width=60%>
 
-### Task 4. Confirm that the data was loaded into BigQuery
+<img src="ss/dataflow/03.png" width=60%>
 
-View the data in the new table in BigQuery
+### Task 3. Set up a Dataflow Pipeline
 
-   ```
-   bq query \
-    --use_legacy_sql=false \
-    'SELECT * FROM `loadavro.campaigns`;'
-   ```
+In this task, you set up a streaming data pipeline to read files from your Cloud Storage bucket and write data to BigQuery.
 
-<img src="ss/serverless/06.png" width=60%>
+Dataflow is a serverless way to carry out data analysis.
+
+1. Restart the connection to the Dataflow API
+
+```sh
+gcloud services disable dataflow.googleapis.com
+gcloud services enable dataflow.googleapis.com
+```
+
+<img src="ss/dataflow/04.png" width=60%>
+
+2. Create a new streaming pipeline
+
+```sh
+./bin/start.sh \
+-- --template=GCSTOBIGQUERY \
+    --gcs.bigquery.input.format="avro" \
+    --gcs.bigquery.input.location="gs://PROJECT_ID" \
+    --gcs.bigquery.input.inferschema="true" \
+    --gcs.bigquery.output.dataset="loadavro" \
+    --gcs.bigquery.output.table="campaigns" \
+    --gcs.bigquery.output.mode=overwrite\
+    --gcs.bigquery.temp.bucket.name="PROJECT_ID-bqtemp"
+```
+
+<img src="ss/dataflow/05.png" width=60%>
+
+### Task 4. Analyze the taxi data using BigQuery
+
+1.  analyze the data as it is streaming
+
+    `SELECT * FROM taxirides.realtime LIMIT 10`
+
+<img src="ss/dataflow/06.png" width=60%>
+
+### Task 5. Perform aggregations on the stream for reporting
+
+1. calculate aggregations on the stream for reporting.
+
+```sql
+WITH streaming_data AS (
+
+SELECT
+  timestamp,
+  TIMESTAMP_TRUNC(timestamp, HOUR, 'UTC') AS hour,
+  TIMESTAMP_TRUNC(timestamp, MINUTE, 'UTC') AS minute,
+  TIMESTAMP_TRUNC(timestamp, SECOND, 'UTC') AS second,
+  ride_id,
+  latitude,
+  longitude,
+  meter_reading,
+  ride_status,
+  passenger_count
+FROM
+  taxirides.realtime
+ORDER BY timestamp DESC
+LIMIT 1000
+
+)
+
+# calculate aggregations on stream for reporting:
+SELECT
+ ROW_NUMBER() OVER() AS dashboard_sort,
+ minute,
+ COUNT(DISTINCT ride_id) AS total_rides,
+ SUM(meter_reading) AS total_revenue,
+ SUM(passenger_count) AS total_passengers
+FROM streaming_data
+GROUP BY minute, timestamp
+```
+
+### Task 6. Stop the Dataflow Job
+
+### Task 7. Create a real-time dashboard
+
+### Task 8. Create a time series dashboard
