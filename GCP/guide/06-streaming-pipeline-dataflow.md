@@ -2,6 +2,16 @@
 
 Build a streaming data pipeline to capture taxi revenue, passenger count, ride status, and much more, and then visualize the results in a management dashboard.
 
+Create a Dataflow job from a template
+
+Stream a Dataflow pipeline into BigQuery
+
+Monitor a Dataflow pipeline in BigQuery
+
+Analyze results with SQL
+
+Visualize key metrics in Looker Studio
+
 Preparation:
 
 Activate Cloud Shell
@@ -26,7 +36,7 @@ List the project ID : `gcloud config list project`
 timestamp:timestamp,meter_reading:float,meter_increment:float,ride_status:string,\
 passenger_count:integer -t taxirides.realtime`
 
-<img src="ss/dataflow/01.png" width=60%>
+<img src="ss/dataflow/02.png" width=60%>
 
 ### Task 2. Copy required lab artifacts
 
