@@ -131,6 +131,8 @@ In this task, create a simple function named loadBigQueryFromAvro. This function
 
    `bq mk -d  loadavro`
 
+<img src="ss/cloudrun/04.png" width=60%>
+
 ### Task 5. Deploy your function
 
 1. Install the two javascript libraries to read from Cloud Storage and store the output in BigQuery:
@@ -164,6 +166,8 @@ In this task, create a simple function named loadBigQueryFromAvro. This function
     
     `gcloud storage cp campaigns.avro gs://PROJECT_ID`
 
+<img src="ss/cloudrun/06.png" width=60%>
+
 ### Task 6. Confirm that the data was loaded into BigQuery
 
 In this task, you confirm that the data processed by the Cloud Run function has been successfully loaded into BigQuery by querying the loadavro.campaigns table using the bq command.
@@ -174,6 +178,10 @@ In this task, you confirm that the data processed by the Cloud Run function has 
     'SELECT * FROM `loadavro.campaigns`;'
  ```
 
+ <img src="ss/cloudrun/07.png" width=60%>
+
 ### Task 7. View logs
 
 Examine the logs for your Cloud Run function : `gcloud logging read "resource.labels.service_name=loadBigQueryFromAvro"`
+
+ <img src="ss/cloudrun/08.png" width=60%>
