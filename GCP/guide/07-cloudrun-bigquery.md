@@ -8,8 +8,6 @@ List the active account name `gcloud auth list`
 
 List the project ID : `gcloud config list project`
 
-<img src="ss/dataflow/01.png" width=60%>
-
 ### Task 1. Enable APIs
 
 1. Set Project ID
@@ -42,6 +40,8 @@ List the project ID : `gcloud config list project`
    pubsub.googleapis.com
 ```
 
+<img src="ss/cloudrun/01.png" width=60%>
+
 ### Task 2. Set required permissions
 
 1. Set the PROJECT_NUMBER variable
@@ -51,19 +51,23 @@ List the project ID : `gcloud config list project`
 2. Grant the default Compute Engine service account within my project the necessary permissions to receive events from Eventarc:
 
 ```bash
-   gcloud projects add-iam-policy-binding $PROJECT_ID \
-    --member="serviceAccount:$PROJECT_NUMBER-compute@developer.gserviceaccount.com" \
-    --role="roles/eventarc.eventReceiver"
+    gcloud projects add-iam-policy-binding $PROJECT_ID \
+        --member="serviceAccount:$PROJECT_NUMBER-compute@developer.gserviceaccount.com" \
+        --role="roles/eventarc.eventReceiver"
 ```
+<img src="ss/cloudrun/02.png" width=60%>
+
 3. Retrieve the Cloud Storage service agent for my project, and grant it the permission to publish messages to Pub/Sub topics:
 
 ```bash
-SERVICE_ACCOUNT="$(gcloud storage service-agent --project=$PROJECT_ID)"
+    SERVICE_ACCOUNT="$(gcloud storage service-agent --project=$PROJECT_ID)"
 
-gcloud projects add-iam-policy-binding $PROJECT_ID \
-    --member="serviceAccount:${SERVICE_ACCOUNT}" \
-    --role='roles/pubsub.publisher'
+    gcloud projects add-iam-policy-binding $PROJECT_ID \
+        --member="serviceAccount:${SERVICE_ACCOUNT}" \
+        --role='roles/pubsub.publisher'
 ```
+
+<img src="ss/cloudrun/03.png" width=60%>
 
 ### Task 3. Create the function
 
