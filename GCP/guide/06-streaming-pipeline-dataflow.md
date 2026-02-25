@@ -81,6 +81,28 @@ gcloud services enable dataflow.googleapis.com
     --gcs.bigquery.temp.bucket.name="PROJECT_ID-bqtemp"
 ```
 
+Equivalent REST response:
+
+```
+{
+    "id": "2026-02-19_21_08_53-10362018338394705846",
+    "projectId": "qwiklabs-gcp-03-f320bd10fb88",
+    "name": "streaming-taxi-pipeline",
+    "environment": {},
+    "currentState": "JOB_STATE_QUEUED",
+    "currentStateTime": "2026-02-20T05:08:55.713808Z",
+    "createTime": "2026-02-20T05:08:55.713808Z",
+    "labels": {
+        "goog-dataflow-provided-template-name": "stream_gcs_text_to_bigquery_flex",
+        "goog-dataflow-provided-template-version": "2026-02-10-00_rc02",
+        "goog-dataflow-provided-template-type": "flex"
+    },
+    "location": "europe-west1",
+    "pipelineDescription": {},
+    "startTime": "2026-02-20T05:08:55.713808Z"
+}
+```
+
 <img src="ss/dataflow/05.png" width=60%>
 
 ### Task 4. Analyze the taxi data using BigQuery
