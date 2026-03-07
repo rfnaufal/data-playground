@@ -20,6 +20,7 @@ List the project ID : `gcloud config list project`
    export REGION="REGION"
    gcloud config set compute/region $REGION
 ```
+
 3. Set Configuration Variables
 
 ```bash
@@ -27,6 +28,7 @@ List the project ID : `gcloud config list project`
    gcloud config set run/platform managed
    gcloud config set eventarc/location $REGION
 ```
+
 4. Enable APIs
 
 ```bash
@@ -55,6 +57,7 @@ List the project ID : `gcloud config list project`
         --member="serviceAccount:$PROJECT_NUMBER-compute@developer.gserviceaccount.com" \
         --role="roles/eventarc.eventReceiver"
 ```
+
 <img src="ss/cloudrun/02.png" width=60%>
 
 3. Retrieve the Cloud Storage service agent for my project, and grant it the permission to publish messages to Pub/Sub topics:
@@ -74,6 +77,7 @@ List the project ID : `gcloud config list project`
 In this task, create a simple function named loadBigQueryFromAvro. This function reads an Avro file that is uploaded to Cloud Storage and then creates and loads a table in BigQuery.
 
 1. Create Function named loadBigQueryFromAvro
+
 ```javascript
     /**
     * index.js Cloud Function - Avro on GCS to BQ
@@ -137,7 +141,7 @@ In this task, create a simple function named loadBigQueryFromAvro. This function
 
 1. Install the two javascript libraries to read from Cloud Storage and store the output in BigQuery:
 
-    `npm install @google-cloud/storage @google-cloud/bigquery`
+   `npm install @google-cloud/storage @google-cloud/bigquery`
 
 2. Run the following command to deploy the function:
 
@@ -160,11 +164,11 @@ In this task, create a simple function named loadBigQueryFromAvro. This function
 
 4. Download the Avro file that will be processed by the Cloud Run function for storage in BigQuery
 
-    `wget https://storage.googleapis.com/cloud-training/dataengineering/lab_assets/idegc/campaigns.avro`
+   `wget https://storage.googleapis.com/cloud-training/dataengineering/lab_assets/idegc/campaigns.avro`
 
 5. Move the Avro file to the staging Cloud Storage bucket you created earlier. This action will trigger the Cloud Run function
-    
-    `gcloud storage cp campaigns.avro gs://PROJECT_ID`
+
+   `gcloud storage cp campaigns.avro gs://PROJECT_ID`
 
 <img src="ss/cloudrun/06.png" width=60%>
 
@@ -176,7 +180,7 @@ In this task, you confirm that the data processed by the Cloud Run function has 
     bq query \
     --use_legacy_sql=false \
     'SELECT * FROM `loadavro.campaigns`;'
- ```
+```
 
  <img src="ss/cloudrun/07.png" width=60%>
 
