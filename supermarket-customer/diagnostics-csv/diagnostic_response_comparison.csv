@@ -1,0 +1,3 @@
+Response,CustomerCount,AvgIncome,AvgTotalSpend,AvgTotalPurchases,AvgRecency,AvgChildren,AvgPreviousCampaignAccepted
+Non-Responders,1872,50094.5,539.43,14.39,51.45,1.0,0.18
+Responders,333,60209.68,985.66,17.69,35.26,0.65,0.99

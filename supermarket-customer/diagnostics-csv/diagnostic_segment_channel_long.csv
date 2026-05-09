@@ -1,0 +1,13 @@
+CustomerValueSegment,PurchaseChannel,TotalPurchases
+High Value,NumStorePurchases,3699
+Low Value,NumStorePurchases,3722
+Mid Value,NumStorePurchases,5420
+High Value,NumWebPurchases,2471
+Low Value,NumWebPurchases,2568
+Mid Value,NumWebPurchases,4003
+High Value,NumCatalogPurchases,2625
+Low Value,NumCatalogPurchases,670
+Mid Value,NumCatalogPurchases,2538
+High Value,NumDealsPurchases,742
+Low Value,NumDealsPurchases,2388
+Mid Value,NumDealsPurchases,1982

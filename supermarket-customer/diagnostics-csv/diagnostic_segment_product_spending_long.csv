@@ -1,0 +1,19 @@
+CustomerValueSegment,ProductCategory,TotalSpend
+High Value,MntWines,350641
+Low Value,MntWines,56655
+Mid Value,MntWines,267797
+High Value,MntFruits,27992
+Low Value,MntFruits,6017
+Mid Value,MntFruits,24210
+High Value,MntMeatProducts,212085
+Low Value,MntMeatProducts,28454
+Mid Value,MntMeatProducts,123974
+High Value,MntFishProducts,41055
+Low Value,MntFishProducts,8640
+Mid Value,MntFishProducts,33558
+High Value,MntSweetProducts,28772
+Low Value,MntSweetProducts,6233
+Mid Value,MntSweetProducts,24813
+High Value,MntGoldProds,35397
+Low Value,MntGoldProds,17927
+Mid Value,MntGoldProds,43822

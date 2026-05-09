@@ -1,0 +1,7 @@
+TargetingRule,DatasetVariable,BusinessLogic,RecommendedAction
+High-value customers,"CustomerValueSegment, TotalSpend",High spenders contribute more to total spending,Send loyalty rewards and premium offers
+Frequent buyers,TotalPurchases,Frequent buyers show stronger customer engagement,Send personalized promotions
+Recent customers,Recency,Lower recency means more recent purchase activity,Send timely follow-up campaigns
+Previous campaign responders,PreviousCampaignAcceptedTotal,Past campaign acceptance indicates future response potential,Give early access or exclusive offers
+Product preference match,Product spending columns,Campaign offers should match customer category preference,Send category-specific offers
+At-risk high-value customers,RetentionSegment,High-value customers with high recency may become inactive,Send win-back vouchers or loyalty benefits
